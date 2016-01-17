@@ -1,0 +1,142 @@
+---
+title: Summary of ANOVAdata.RData
+inMenu: false
+--- content, html
+
+	<a href=" ANOVAdata.RData ">Download the data file.</a> (You may need to right click and select 'save as'.) <br><br> 
+
+ This data set contains the following tables: <br> <br> 
+
+ 1. <a href="#car.crash"> car.crash </a>  2. <a href="#hostility"> hostility </a>  3. <a href="#skulls"> skulls </a>  4. <a href="#stress"> stress </a>  <h2  id="car.crash"> car.crash </h2>
+Access column data using:<code>car.crash$head.injury</code>  |   <code>car.crash$chest.deceleration</code>  |   <code>car.crash$car.type</code>  |   <br><br>This data set contains  3 columns with  20 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH> head.injury </TH> <TH> chest.deceleration </TH> <TH> car.type </TH>  </TR>
+  <TR> <TD align="right"> 681.00 </TD> <TD align="right"> 55.00 </TD> <TD> subcompact </TD> </TR>
+  <TR> <TD align="right"> 428.00 </TD> <TD align="right"> 47.00 </TD> <TD> subcompact </TD> </TR>
+  <TR> <TD align="right"> 917.00 </TD> <TD align="right"> 59.00 </TD> <TD> subcompact </TD> </TR>
+  <TR> <TD align="right"> 898.00 </TD> <TD align="right"> 49.00 </TD> <TD> subcompact </TD> </TR>
+  <TR> <TD align="right"> 420.00 </TD> <TD align="right"> 42.00 </TD> <TD> subcompact </TD> </TR>
+  <TR> <TD align="right"> 643.00 </TD> <TD align="right"> 57.00 </TD> <TD> compact </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH>  head.injury </TH> <TH> chest.deceleration </TH> <TH>       car.type </TH>  </TR>
+  <TR> <TD> Min.   :259.0   </TD> <TD> Min.   :39.00   </TD> <TD> compact   :5   </TD> </TR>
+  <TR> <TD> 1st Qu.:438.5   </TD> <TD> 1st Qu.:45.00   </TD> <TD> full-size :5   </TD> </TR>
+  <TR> <TD> Median :525.0   </TD> <TD> Median :49.00   </TD> <TD> midsize   :5   </TD> </TR>
+  <TR> <TD> Mean   :562.3   </TD> <TD> Mean   :49.55   </TD> <TD> subcompact:5   </TD> </TR>
+  <TR> <TD> 3rd Qu.:662.2   </TD> <TD> 3rd Qu.:54.25   </TD> <TD>  </TD> </TR>
+  <TR> <TD> Max.   :917.0   </TD> <TD> Max.   :59.00   </TD> <TD>  </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="hostility"> hostility </h2>
+Access column data using:<code>hostility$score</code>  |   <code>hostility$method</code>  |   <code>hostility$gender</code>  |   <br><br>This data set contains  3 columns with  11 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH> score </TH> <TH> method </TH> <TH> gender </TH>  </TR>
+  <TR> <TD align="right"> 75.00 </TD> <TD> A </TD> <TD> MALE </TD> </TR>
+  <TR> <TD align="right"> 83.00 </TD> <TD> A </TD> <TD> FEMALE </TD> </TR>
+  <TR> <TD align="right"> 78.00 </TD> <TD> A </TD> <TD> MALE </TD> </TR>
+  <TR> <TD align="right"> 68.00 </TD> <TD> A </TD> <TD> FEMALE </TD> </TR>
+  <TR> <TD align="right"> 83.00 </TD> <TD> A </TD> <TD> MALE </TD> </TR>
+  <TR> <TD align="right"> 54.00 </TD> <TD> B </TD> <TD> FEMALE </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH>     score </TH> <TH> method </TH> <TH>    gender </TH>  </TR>
+  <TR> <TD> Min.   :54.00   </TD> <TD> A:5   </TD> <TD> FEMALE:5   </TD> </TR>
+  <TR> <TD> 1st Qu.:73.00   </TD> <TD> B:3   </TD> <TD> MALE  :6   </TD> </TR>
+  <TR> <TD> Median :78.00   </TD> <TD> C:3   </TD> <TD>  </TD> </TR>
+  <TR> <TD> Mean   :77.73   </TD> <TD>  </TD> <TD>  </TD> </TR>
+  <TR> <TD> 3rd Qu.:83.00   </TD> <TD>  </TD> <TD>  </TD> </TR>
+  <TR> <TD> Max.   :95.00   </TD> <TD>  </TD> <TD>  </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="skulls"> skulls </h2>
+Access column data using:<code>skulls$breadth</code>  |   <code>skulls$epoch</code>  |   <br><br>This data set contains  2 columns with  27 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH> breadth </TH> <TH> epoch </TH>  </TR>
+  <TR> <TD align="right"> 131.00 </TD> <TD> 4000 BC </TD> </TR>
+  <TR> <TD align="right"> 138.00 </TD> <TD> 4000 BC </TD> </TR>
+  <TR> <TD align="right"> 125.00 </TD> <TD> 4000 BC </TD> </TR>
+  <TR> <TD align="right"> 129.00 </TD> <TD> 4000 BC </TD> </TR>
+  <TR> <TD align="right"> 132.00 </TD> <TD> 4000 BC </TD> </TR>
+  <TR> <TD align="right"> 135.00 </TD> <TD> 4000 BC </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH>    breadth </TH> <TH>     epoch </TH>  </TR>
+  <TR> <TD> Min.   :125.0   </TD> <TD> 150 AD :9   </TD> </TR>
+  <TR> <TD> 1st Qu.:132.0   </TD> <TD> 1850 BC:9   </TD> </TR>
+  <TR> <TD> Median :136.0   </TD> <TD> 4000 BC:9   </TD> </TR>
+  <TR> <TD> Mean   :135.1   </TD> <TD>  </TD> </TR>
+  <TR> <TD> 3rd Qu.:138.0   </TD> <TD>  </TD> </TR>
+  <TR> <TD> Max.   :145.0   </TD> <TD>  </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="stress"> stress </h2>
+Access column data using:<code>stress$blood.pressure</code>  |   <code>stress$group</code>  |   <br><br>This data set contains  2 columns with  24 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH> blood.pressure </TH> <TH> group </TH>  </TR>
+  <TR> <TD align="right"> 117.00 </TD> <TD> female/black </TD> </TR>
+  <TR> <TD align="right"> 130.67 </TD> <TD> female/black </TD> </TR>
+  <TR> <TD align="right"> 102.67 </TD> <TD> female/black </TD> </TR>
+  <TR> <TD align="right"> 93.67 </TD> <TD> female/black </TD> </TR>
+  <TR> <TD align="right"> 96.33 </TD> <TD> female/black </TD> </TR>
+  <TR> <TD align="right"> 92.00 </TD> <TD> female/black </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH> blood.pressure </TH> <TH>          group </TH>  </TR>
+  <TR> <TD> Min.   : 92.0   </TD> <TD> female/black:6   </TD> </TR>
+  <TR> <TD> 1st Qu.:105.2   </TD> <TD> female/white:6   </TD> </TR>
+  <TR> <TD> Median :116.3   </TD> <TD> male/black  :6   </TD> </TR>
+  <TR> <TD> Mean   :113.7   </TD> <TD> male/white  :6   </TD> </TR>
+  <TR> <TD> 3rd Qu.:121.6   </TD> <TD>  </TD> </TR>
+  <TR> <TD> Max.   :133.0   </TD> <TD>  </TD> </TR>
+   </TABLE>
+ 
+
+ 

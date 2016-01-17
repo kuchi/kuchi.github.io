@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<head>
+<meta charset="utf-8">
+<base href="https://tanbakuchi.com/stories/teaching/mat167/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Statistics MAT167 | Anthony Tanbakuchi</title>
+<link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta content="#5670d4" name="theme-color">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../../rss.xml">
+<link rel="canonical" href="https://tanbakuchi.com/stories/teaching/mat167/">
+<!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Anthony Tanbakuchi">
+<meta property="og:site_name" content="Anthony Tanbakuchi">
+<meta property="og:title" content="Statistics MAT167">
+<meta property="og:url" content="https://tanbakuchi.com/stories/teaching/mat167/">
+<meta property="og:description" content="image
+
+An introduction to statistics. Includes sampling, data display, measures
+of central tendency, variability, and position; random variables,
+probability, probability distributions; sampling distr">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2016-01-17T08:39:35-07:00">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://tanbakuchi.com/">
+
+                <span id="blog-title">Anthony Tanbakuchi</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../../../CV/TanbakuchiCV.pdf">CV</a>
+                </li>
+<li>
+<a href="../../publications/">Publications</a>
+                </li>
+<li>
+<a href="../">Teaching</a>
+                </li>
+<li>
+<a href="../../research/">Research</a>
+
+                
+            </li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+    <a href="index.rst" id="sourcelink">Source</a>
+    </li>
+
+                
+            </ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Statistics MAT167</a></h1>
+
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<div class="figure">
+<img alt="image" src="courseImage.png"><p class="caption">image</p>
+</div>
+<p>An introduction to statistics. Includes sampling, data display, measures
+of central tendency, variability, and position; random variables,
+probability, probability distributions; sampling distributions,
+assessing normality, confidence intervals, hypothesis testing, ANOVA,
+and regression. Use of the statistics software R is taught throughout
+the course.</p>
+<!-- <div class="box" markdown="1">
+<h2><font color="green">HELPFUL TIPS</font></h2>
+
+At this point in the semester some of you may be struggling a little. Don't be intimidated by the fact that the HW is not easy, I don't think it is easy for anyone. Statistics is a difficult class that requires a significant amount of studying outside of the lectures. Here are some tips to help you successfully approach this course.
+
+
+Here are a few thoughts that might help you out (you may already be doing some of them).
+1. Before you start the HW, re-read the lecture and make your own summary sheet of the most important points adding any explanations necessary so that it makes sense when you refer to it later. Don't rely on using my summary at the end of the lectures, making your own will help reinforce what is important. Make sure you can do the example problems, try them out as you go.
+1.  Next, read over the book chapter. For the example problems, the book sometimes presents them in 3 ways (1) using tables, (2) using the TI calculators, (3) and using the authors free software. For those problems, just read over the method that uses the tables, but use R instead of the tables. If it's not clear how to use R, refer back to the lecture, I typically have a similar example.
+1.  Now start the HW. If you are stuck on a HW problem and don't know where to start, scan through the lecture notes and the book chapter to find a similar example problem. There is almost always an example problem similar to the HW problem that you can use to help guide you. (This is a really useful tip for all math classes).
+1.  After completing the HW, go back over it and add anything else to your summary sheet that you have discovered is important.
+1.  If you still don't feel like you have mastered the material, do more problems from the book. I typically don't assign all the odd problems, so do more of them and always check your answers against the solutions in the back of the book.
+1. If you are stuck on a problem, you can always email me for help. Tell me what you have done, show me your work, and explain where you are stuck.
+
+When it comes time to study for an exam it shouldn't be too overwhelming since you have made summary sheets.
+* When studying for midterm exams,  don't forget the old final exams are cumulative so look at them for more practice problems.
+* It also helps to meet up with other people to study for exams. You can discuss problems that you are having trouble with and find out what others think will be on the test.
+
+
+</div> --><div class="box" markdown="1">
+<p class="rubric" id="announcements">Announcements</p>
+<p>Final grades have been posted. The solutions to the final exam are now
+on the website. Have a good summer and thanks for all your hard work
+this semester. --Anthony</p>
+</div>
+<div class="section" id="course-info">
+<h2>Course Info</h2>
+<ul class="simple">
+<li>Spring 2009: section 22684, 3 credit hours.</li>
+<li>9:10 am - 10:25 am Tuesday &amp; Thursday, Santa Rita A102, Jan 20
+through May 19 2009, West Campus, Pima Community College.</li>
+<li><a class="reference external" href="LH_LEC.0100.Intro.MAT167Syllabus.pdf">Syllabus</a></li>
+</ul>
+<div class="section" id="instructor-info">
+<h3>Instructor Info</h3>
+<ul class="simple">
+<li>Instructor: Anthony Tanbakuchi</li>
+<li>Office: Radiology Research Labs, U of A, (520) 626-4500 (<a class="reference external" href="DirectionsToRadiologyLabs.pdf">Map To
+Office</a>)</li>
+<li>Easiest to contact me via email: <a class="reference external" href="mailto:mat167@tanbakuchi.com">mat167@tanbakuchi.com</a>
+</li>
+</ul>
+</div>
+<div class="section" id="exam-dates">
+<h3>Exam Dates</h3>
+<ul class="simple">
+<li>Feb 24: MIDTERM I</li>
+<li>April 16: MIDTERM II</li>
+<li>May 19: Final Exam Ch 1-12 (2 hours)</li>
+</ul>
+</div>
+</div>
+<div class="section" id="resources">
+<h2>Resources</h2>
+<div class="section" id="quick-reference-sheet">
+<h3>Quick Reference Sheet:</h3>
+<ul class="simple">
+<li><a class="reference external" href="EquationSheet.pdf">Equation Sheet &amp; R Commands</a></li>
+</ul>
+</div>
+<div class="section" id="r-statistics-software">
+<h3>R Statistics Software</h3>
+<dl class="docutils">
+<dt>Using R on Campus:</dt>
+<dd>
+<strong>R is on a few computers in the Academic Commons Computer Lab</strong>
+(2nd floor Santa Catalina building). Just go into the computer lab
+and ask Jody or Dennis (one of the lab managers) where the computers
+are. Printers are also available in this lab.</dd>
+<dt>To install R:</dt>
+<dd>Visit the <a class="reference external" href="../../Resources/R_Statistics/">R Resources page</a>.</dd>
+<dt>Basic R usage and examples:</dt>
+<dd><a class="reference external" href="../../Resources/R_Statistics/RBasics.html">R Basics page</a></dd>
+<dt>R Data Sets:</dt>
+<dd><ul class="first last simple">
+<li><a class="reference external" href="bookData.html">Triola Book Data Page</a></li>
+<li><a class="reference external" href="ClassData.html">Class Survey Data Page</a></li>
+<li>See quick reference sheet or R intro lecture for info on how to
+use the data sets.</li>
+</ul></dd>
+<dt>Technical Notes On R:</dt>
+<dd>When you start a new problem, it's best to delete all the variables
+to ensure you don't accidentally use old data, just type
+<tt class="docutils literal"><span class="pre">rm(list=ls())</span></tt>. Note that you will need to reload the book data
+if you need it.
+When you close R, you do not need to save the workspace if it asks.
+Saving the workspace just saves the variables you have defined.</dd>
+</dl>
+</div>
+<div class="section" id="solutions-exams">
+<h3>Solutions / Exams</h3>
+<ul class="simple">
+<li>Spring 2009<ul>
+<li>R HW <a class="reference external" href="HW_RIntro.pdf">Questions</a>,
+<a class="reference external" href="HW_RIntro.sol.pdf">Solutions</a>
+</li>
+<li>Summation HW <a class="reference external" href="HW.Summation.pdf">Questions</a>,
+<a class="reference external" href="HW.Summation.sol.pdf">Solutions</a>
+</li>
+<li>Test 1 <a class="reference external" href="EXQ_EX.1.2009.Spring.pdf">Exam</a>,
+<a class="reference external" href="EXS_EX.1.2009.Spring.pdf">Solutions</a>
+</li>
+<li>Test 2 <a class="reference external" href="EXQ_EX.2.2009.Spring.pdf">Exam</a>,
+<a class="reference external" href="EXS_EX.2.2009.Spring.pdf">Solutions</a>
+</li>
+<li>Final <a class="reference external" href="EXQ_EX.3.2009.Spring.pdf">Exam</a>,
+<a class="reference external" href="EXS_EX.3.2009.Spring.pdf">Solutions</a>
+</li>
+</ul>
+</li>
+<li>Fall 2008<ul>
+<li>Test 1 <a class="reference external" href="EXQ_EX.1.2008.Fall.pdf">Exam</a>,
+<a class="reference external" href="EXS_EX.1.2008.Fall.pdf">Solutions</a>
+</li>
+<li>Test 2 <a class="reference external" href="EXQ_EX.2.2008.Fall.pdf">Exam</a>,
+<a class="reference external" href="EXS_EX.2.2008.Fall.pdf">Solutions</a>
+</li>
+<li>Final <a class="reference external" href="EXQ_EX.3.2008.Fall.pdf">Exam</a>,
+<a class="reference external" href="EXS_EX.3.2008.Fall.pdf">Solutions</a>
+</li>
+</ul>
+</li>
+<li>Summer 2008<ul>
+<li>Midterm <a class="reference external" href="EXQ_EX.1.2008Summer.pdf">Exam</a>,
+<a class="reference external" href="EXS_EX.1.2008Summer.pdf">Solutions</a>
+</li>
+<li>Final <a class="reference external" href="EXQ_EX.2.2008Summer.pdf">Exam</a>,
+<a class="reference external" href="EXS_EX.2.2008Summer.pdf">Solutions</a>
+</li>
+</ul>
+</li>
+<li>Spring 2008<ul>
+<li>Test 1 <a class="reference external" href="EXQ_EX.1.2008Spring.pdf">Exam</a>,
+<a class="reference external" href="EXS_EX.1.2008Spring.pdf">Solutions</a>
+</li>
+<li>Test 2 <a class="reference external" href="EXQ_EX.2.2008Spring.pdf">Exam</a>,
+<a class="reference external" href="EXS_EX.2.2008Spring.pdf">Solutions</a>
+</li>
+<li>Final <a class="reference external" href="EXQ_EX.3.2008Spring.pdf">Exam</a>,
+<a class="reference external" href="EXS_EX.3.2008Spring.pdf">Solutions</a>
+</li>
+</ul>
+</li>
+<li>Fall 2007<ul>
+<li>Test 1 <a class="reference external" href="EXQ_EX.1.2007Fall.pdf">Exam</a>,
+<a class="reference external" href="EXS_EX.1.2007Fall.pdf">Solutions</a>
+</li>
+<li>Test 2 <a class="reference external" href="EXQ_EX.2.2007Fall.pdf">Exam</a>,
+<a class="reference external" href="EXS_EX.2.2007Fall.pdf">Solutions</a>
+</li>
+<li>Final <a class="reference external" href="EXQ_EX.3.2007Fall.pdf">Exam</a>,
+<a class="reference external" href="EXS_EX.3.2007Fall.pdf">Solutions</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="lectures-and-homework">
+<h2>Lectures and Homework</h2>
+<p><strong>All homework is due at the beginning of class on Tuesday.</strong> Thus,
+homework assigned on Tuesday and Thursday is due at the beginning of
+class on the following Tuesday.</p>
+<ol class="arabic">
+<li>
+<p class="first">Tue, Jan 20</p>
+<p><strong>FOUNDATIONS</strong></p>
+<!-- As always, don't waste time during this lecture. Just enough time to cover all of it. --><p><strong>Introductory Material.</strong> (Sections 1.1-1.4)</p>
+<ul class="simple">
+<li>In Class Survey: <a class="reference external" href="https://secure.bluehost.com/~tanbakuc/Main/Courses/MAT167/surveySexPartners.html">Sexual Partners Survey (encrypted
+connection)</a>
+(Do not submit this until instructed to do so.)</li>
+<li>Lecture:
+<a class="reference external" href="LH_LEC.0110.Intro.BasicMaterial.pdf">Handout</a>
+</li>
+<li>Special Home Work <strong>Complete within 24 hours</strong>:<ol class="arabic">
+<li>CRITICAL A: <a class="reference external" href="https://secure.bluehost.com/~tanbakuc/Main/Courses/MAT167/surveyStudentInfo.html">Student Information (encrypted
+connection)</a>
+</li>
+<li>CRITICAL B: <a class="reference external" href="https://secure.bluehost.com/~tanbakuc/Main/Courses/MAT167/surveyStudentStats.html">Student Survey (encrypted
+connection)</a>
+</li>
+</ol>
+</li>
+<li>Home Work (Due next Tuesday)<ol class="arabic">
+<li>CRITICAL C: Return syllabus student contract signed (last
+page).</li>
+<li>Sec 1.2: odds 1-25, 26</li>
+<li>Sec 1.3: every other odd 1-17, odds 21-27</li>
+<li>Sec 1.4: odds 1-29</li>
+<li>If you plan on using your own computer for homework, try to
+install R on it using these <a class="reference external" href="../../Resources/R_Statistics/">installation
+instructions</a>. If you have
+problems getting it to install, email me. If you don't have a
+home computer, you can use R in the academic computer commons
+on campus.</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Thur, Jan 22</p>
+<p><strong>Introduction to R.</strong></p>
+<ul class="simple">
+<li>Lecture: <a class="reference external" href="LH_LEC.0120.Intro.RBasics.pdf">Handout</a>
+</li>
+<li>Homework:<ol class="arabic">
+<li><a class="reference external" href="HW_RIntro.pdf">R Worksheet</a></li>
+<li>
+<a class="reference external" href="http://www.nytimes.com/2009/01/07/technology/business-computing/07program.html?_r=1&amp;em=&amp;pagewanted=all#">R New York Times
+Article</a>
+Read the New York Times article on R. (<a class="reference external" href="RNewYorkTimesArticle.pdf">PDF of
+article</a> if link does not
+work.)</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Tue, Jan 27</p>
+<p><strong>DESCRIPTIVE STATISTICS</strong></p>
+<p><strong>Summarizing &amp; graphing data.</strong> (Sections 2.1-2.4)</p>
+<ul>
+<li>
+<p class="first">Lecture:<a class="reference external" href="LH_LEC.0210.DescStats.Graphs.pdf">Handout</a></p>
+</li>
+<li>
+<p class="first">Homework:</p>
+<ul class="simple">
+<li><strong>From this point forward if the book has the TI symbol next
+to a problem, use R to do it.</strong></li>
+<li><strong>As always, make sure to include your plots made with R in
+the HW.</strong></li>
+<li>If you get stuck using R take a look at <a class="reference external" href="../../../Resources/R_Statistics/RBasics.html">these R
+examples.</a>
+</li>
+</ul>
+<ol class="arabic">
+<li>
+<p class="first">Sec 2.2: 1-17 odds (do 17 by hand)</p>
+</li>
+<li>
+<p class="first">Sec 2.3: 1, 3.</p>
+</li>
+<li>
+<p class="first">Additional Problem for 2.3: Use R to make two histograms: one
+of the male heights and of the female heights in the Appendix
+B Data Set 1 (<tt class="docutils literal">Mhealth</tt> and <tt class="docutils literal">Fhealth</tt> tables in R).
+Include both of the histograms in your HW. Then write a
+paragraph discussing the differences between the male and
+female heights that you can see from the histograms (ie.
+center, variation, shape, outliers, min, max). Do either of
+the histograms have a distribution that is approximately
+normal?</p>
+<p>HINTS: If you are having trouble getting the book data, see
+the R intro lecture or look at the back of the quick reference
+sheet. See the top part of this page to download the data
+sets.</p>
+</li>
+<li>
+<p class="first">Sec 2.4: 1-4, 9 (use R), 13 (just sketch by hand), 17 (use R),
+19 (use R)</p>
+<p>Hint for 19: to make a plot with Both lines and points rather
+than a scatter plot use the optional argument <tt class="docutils literal"><span class="pre">type="b"</span></tt> for
+the plot function. ex. <tt class="docutils literal">plot(t, y, <span class="pre">type="b")</span></tt>. The time
+vector <tt class="docutils literal">t</tt> goes from 1990 to 2000. A quick way to make <tt class="docutils literal">t</tt>
+is to use this shortcut: <tt class="docutils literal">t=1990:2000</tt>.</p>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Thur, Jan 29</p>
+<!-- Use this as a catchup day if needed. This is a short lecture. Can get ahead too. (Spring 09, this worked perfect as catchup day from last lecture) --><p><strong>Summation Notation.</strong></p>
+<ul class="simple">
+<li>Lecture:
+<a class="reference external" href="LH_LEC.0130.Intro.SummationNotation.pdf">Handout</a>
+</li>
+<li>Homework: (If you need more explanation and practice with
+summation notation: <a class="reference external" href="http://www.columbia.edu/itc/sipa/math/summation.html">see this
+page</a> )<ol class="arabic">
+<li><a class="reference external" href="HW.Summation.pdf">Summation HW</a></li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Tue, Feb 3</p>
+<p><strong>Measures of center.</strong> (Sections 3.1-3.2)</p>
+<ul>
+<li>
+<p class="first">Lecture: <a class="reference external" href="LH_LEC.0220.DescStats.Center.pdf">Handout</a></p>
+</li>
+<li>
+<p class="first">Homework:</p>
+<ol class="arabic">
+<li>
+<p class="first">Sec 3.2: 1-9 odds, 13, 15, 21, 23, 25, 29 (Use R if the
+problem has TI by it from now on.)</p>
+<p>Hint for 21: to get the first set of differences use:</p>
+<pre class="literal-block">
+x=WEATHER$HIGH-WEATHER$PREDICTE
+</pre>
+<p>You can find the second set of differences in the same way
+once you figure out the correct column name. (I admit the
+author’s column names are not that good).</p>
+<p>Hint for 23: to get the pennies for before 1983:</p>
+<pre class="literal-block">
+x=Coins$WEIGHT[Coins$TYPE=="Pre-1983 Pennies"]
+</pre>
+<p>To find the post 1983 pennies use the same method but take a
+look at the <tt class="docutils literal">Coins</tt> table to see what they are called and
+then modify the above statement.</p>
+<p>Hint on 29 b: <tt class="docutils literal">mean(x, trim=0.10)</tt></p>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Thur, Feb 5</p>
+<p><strong>Measures of variation.</strong> (Sections 3.3)</p>
+<ul class="simple">
+<li>Lecture:
+<a class="reference external" href="LH_LEC.0230.DescStats.Variation.pdf">Handout</a>
+</li>
+<li>Homework:<ol class="arabic">
+<li>Sec 3.3: 1-9 odds, 15, 21</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Tue, Feb 10</p>
+<p><strong>Relative standing and exploratory data analysis.</strong> (Sections
+3.4-3.5)</p>
+<ul>
+<li>
+<p class="first">Lecture:
+<a class="reference external" href="LH_LEC.0240.DescStats.RelativeStanding.pdf">Handout</a></p>
+</li>
+<li>
+<p class="first">Homework</p>
+<ol class="arabic">
+<li>
+<p class="first">Sec 3.4: 1, 5, 7, 9, 11, 13-27 odds</p>
+</li>
+<li>
+<p class="first">Sec 3.5: 1, 3, 5, 9</p>
+</li>
+<li>
+<p class="first">Additional problem: Use the following code to make two
+boxplots for comparing gender against bear weight and length.
+Then use the boxplots to discuss and compare the distribution
+of lengths and weights of bears in terms of their gender.
+(Make sure the book data is loaded into R first)</p>
+<pre class="literal-block">
+boxplot(Bears$LENGTH ~ Bears$SEX, main="Comparison of bear length")
+boxplot(Bears$WEIGHT ~ Bears$SEX, main="Comparison of bear weight")
+</pre>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Thur, Feb 12</p>
+<p><strong>Descriptive Statistics: Case Study.</strong></p>
+<ul class="simple">
+<li>Lecture:
+<a class="reference external" href="LH_LEC.0290.CaseStudy.DescStats.pdf">Handout</a>
+</li>
+</ul>
+<p><strong>PROBABILITY</strong></p>
+<p><strong>Probability I: Addition rule.</strong> (Sections 4.1-4.3)</p>
+<ul class="simple">
+<li>Lecture: <a class="reference external" href="LH_LEC.0300.Prob.IntroAdd.pdf">Handout</a>
+</li>
+<li>Homework:<ol class="arabic">
+<li>Sec 4.2: 1-25 odds, 29</li>
+<li>Sec 4.3: 1-23 odds</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Tue, Feb 17</p>
+<p><strong>Probability II: Multiplication rule.</strong> (Sections 4.4-4.5)</p>
+<ul class="simple">
+<li>Lecture: <a class="reference external" href="LH_LEC.0310.Prob.Mult.pdf">Handout</a>
+</li>
+<li>Homework:<ol class="arabic">
+<li>Sec 4.4: 1-21 odds</li>
+<li>Sec 4.5: 1-25 odds</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Thur, Feb 19</p>
+<p><strong>Random variables</strong> (Sections 5.1-5.2)</p>
+<ul class="simple">
+<li>Lecture: <a class="reference external" href="LH_LEC.0400.RandVars.Intro.pdf">Handout</a>
+(Printout next lecture on counting, we may cover part of that if
+we have time.)</li>
+<li>Homework:<ol class="arabic">
+<li>Sec 5.2: 1-19 odds</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Tue, Feb 24</p>
+<p><strong>MIDTERM I (Chapters 1-4)</strong></p>
+</li>
+<li>
+<p class="first">Thur, Feb 26</p>
+<p><strong>Rodeo Holiday</strong> (No Classes)</p>
+</li>
+<li>
+<p class="first">Tue, Mar 3</p>
+<p><strong>Counting &amp; Binomial distribution.</strong> (Sections 4.7, 5.3-5.4)</p>
+<ul class="simple">
+<li>Lecture: <a class="reference external" href="LH_LEC.0320.Prob.Perms.pdf">Handout A</a>,
+<a class="reference external" href="LH_LEC.0410.RandVars.Binomial.pdf">Handout B</a>
+</li>
+<li>Homework:<ol class="arabic">
+<li>Sec 4.7: 1, 5, 7, 9, 13</li>
+<li>Sec 5.3: 1, 3, every other odd 5-33, 35 (If the book says to
+use a table in the appendix, use <tt class="docutils literal">dbinom</tt> in R instead.)</li>
+<li>Sec 5.4: 1, 3, every other odd 5-17, 19</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Thur, Mar 5</p>
+<p><strong>Intro to the normal distribution.</strong> (Sections 6.1-6.2)</p>
+<ul>
+<li>
+<p class="first">Lecture: <a class="reference external" href="LH_LEC.0420.RandVars.Normal.pdf">Handout</a></p>
+</li>
+<li>
+<p class="first">Homework</p>
+<ol class="arabic">
+<li>
+<p class="first">Sec 6.2: 1-4, 5-39 odds (most of these are easy if you use
+<tt class="docutils literal">pnorm</tt> and <tt class="docutils literal">qnorm</tt> R function.). <strong>You must make sketches
+to show the area.</strong></p>
+<p>NOTE: From this point onward, if the book says to use a lookup
+table in Appendix A, use R instead. (You won't be given tables
+on the tests.)</p>
+<p>HINT: If you use the technique I used in class, you don’t need
+to find z scores OR use the table in the back of the book. If
+the question refers to data that has a standard normal
+distribution, then it has a normal distribution with a mean=0
+and a standard deviation=1.</p>
+<p>For example, to do 6.2 #10, it says to find the probability a
+thermometer has a reading less than -2.50 if the readings have
+a standard normal distribution. Thus we want to find
+P(x&lt;-2.50) where x has a standard normal distribution. In R
+you would type:</p>
+<pre class="literal-block">
+&gt; pnorm(-2.50, mean=0, sd=1)
+0.006209665
+</pre>
+<p>So the probability is only 0.00621!</p>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Tue, Mar 10</p>
+<p><strong>Normal distribution cont.</strong> (Section 6.3)</p>
+<ul class="simple">
+<li>Lecture: Continuation of previous lecture.</li>
+<li>Homework<ol class="arabic">
+<li>Sec 6.3: 1, 2, 4, 5-23 odds <em>Make sketches to show the area.</em>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Thur, Mar 12</p>
+<p><strong>INFERENTIAL STATISTICS</strong></p>
+<p><strong>Sampling distributions, estimators, and the Central limit theorem
+(CLT).</strong> (Section 6.4-6.5)</p>
+<ul class="simple">
+<li>Lecture:
+<a class="reference external" href="LH_LEC.0430.RandVars.SamplingDistsCLT.pdf">Handout</a>
+</li>
+<li>Homework:<ol class="arabic">
+<li>Sec 6.4: 1-7 odds, 11</li>
+<li>Sec 6.5: 1-17 odds <em>Make sketches</em>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Tue, Mar 17 &amp; Thur, Mar 19</p>
+<p><strong>Spring Break</strong> (No class)</p>
+</li>
+<li>
+<p class="first">Tue, Mar 24</p>
+<p><strong>Normal as approx. to the binomial and assessing normality.</strong>
+(Sections 6.6-6.7)</p>
+<ul class="simple">
+<li>Lecture: <a class="reference external" href="LH_LEC.0440.RandVars.NormalAproxBinom.pdf">Handout
+A</a>,
+<a class="reference external" href="LH_LEC.0450.RandVars.AssesNorm.pdf">Handout B</a>
+</li>
+<li>Homework:<ol class="arabic">
+<li>Sec 6.6: 1-23 odds (Use R not the appendix tables!) <em>Make
+sketches</em>
+</li>
+<li>Sec 6.7: 1, 3, 9 &amp; 13, 11 &amp; 15</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Thur, Mar 26</p>
+<p><strong>Estimating a population proportion</strong> (Sections 7.1-7.2)</p>
+<ul class="simple">
+<li>Lecture: <a class="reference external" href="LH_LEC.0500.InfrStats.EstProp.pdf">Handout</a>
+</li>
+<li>Homework: (Yes, there are many problems for this HW, but these
+problems require practice.)<ol class="arabic">
+<li>Sec. 7.2: 1-35 odds</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Tue, Mar 31</p>
+<p><strong>Estimating a population mean.</strong> (Sections 7.3-7.4)</p>
+<ul class="simple">
+<li>Lecture: <a class="reference external" href="LH_LEC.0510.InfrStats.EstMean.pdf">Handout</a>
+</li>
+<li>Homework: (Yes, there are many problems for this HW, but these
+problems require practice.)<ol class="arabic">
+<li>Sec. 7.3: 1-23 odds, 27, 29, 33</li>
+<li>Sec. 7.4: 1-13 odds, 19, 21, 23</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Thur, April 2</p>
+<p><strong>HYPOTHESIS TESTING</strong></p>
+<p><strong>Intro to hypothesis testing</strong> (Sections 8.1-8.2)</p>
+<ul>
+<li>
+<p class="first">Lecture: <a class="reference external" href="LH_LEC.0600.HypTest.IntroProp.pdf">Handout</a></p>
+</li>
+<li>
+<p class="first">Homework:</p>
+<ol class="arabic">
+<li>
+<p class="first">Sec. 8.2: 1-43 odds (skip 17-23). You don't need to find
+critical values. However, if the book asks you to find the
+test statistic, find that using the equation.</p>
+<p>Hint for 29-36. If you have the test statistic and it's a
+z-score, then use the cumulative probability distribution for
+the standard normal <tt class="docutils literal">pnorm</tt> and find the tail area. See the
+section on <strong>p-value</strong> in the notes, it also discusses what to
+do.</p>
+</li>
+</ol>
+</li>
+</ul>
+<!-- **<font color="red">SUMMER MIDTERM EXAM (Chapters 1-7)</font>** -->
+</li>
+<li>
+<p class="first">Tue, April 7</p>
+<p><strong>Testing a claim about a proportion</strong> (Section 8.3)</p>
+<ul>
+<li>
+<p class="first">Lecture: Continuation of last lecture handout.</p>
+</li>
+<li>
+<p class="first">Homework:</p>
+<ol class="arabic">
+<li>
+<p class="first">Sec. 8.3: 1-3 odds, 5(c,d,e), 9, 15, 19, 23</p>
+<p>Note 1: You <strong>do not</strong> need to find the test statistic or
+critical values. We are using the p-values.</p>
+<p>Note 2: R uses the continuity correction for more accurate
+p-values. Your p-values and test statistics will differ from
+the book's answers by a few percent. The following are a few
+of the p-values you will get with R to help you verify your
+work: Q5: p-value = 0.9114, Q9: p-value &lt; 2.2e-16, Q15:
+p-value = 0.5395.</p>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Thur, April 9</p>
+<p><strong>Testing a claim about a mean</strong> (Section 8.4-8.5)</p>
+<ul class="simple">
+<li>Lecture: <a class="reference external" href="LH_LEC.0610.HypTest.Mean.pdf">Handout</a>
+</li>
+<li>Homework:<ol class="arabic">
+<li>Sec. 8.4: 1-7 odds, 13, 15</li>
+<li>Sec. 8.5: 3-13 odds, 21, 25, 27, 31</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Tue, April 14</p>
+<p><strong>Understanding tests and estimates</strong></p>
+<ul class="simple">
+<li>Lecture: <a class="reference external" href="LH_LEC.0910.Review.2.pdf">Handout</a>
+</li>
+<li>Homework: Study for the exam. I won't accept any email questions
+after 5 pm the night before the exam. Don't start studying the
+night before the test.</li>
+</ul>
+</li>
+<li>
+<p class="first">Thur, April 16</p>
+<p><strong>MIDTERM II (Chapters 5-8 and 4.7)</strong></p>
+</li>
+<li>
+<p class="first">Tue, April 21</p>
+<p><strong>Inferences about two proportions</strong> (Sections 9.1-9.2)</p>
+<ul>
+<li>
+<p class="first">Lecture: <a class="reference external" href="LH_LEC.0620.HypTest.2Prop.pdf">Handout</a></p>
+</li>
+<li>
+<p class="first">Homework:</p>
+<ol class="arabic">
+<li>
+<p class="first">Sec. 9.2: 1-7 odds, 15, 17, 19, 21, 25</p>
+<p>Note that R uses the continuity correction so the p-values
+will differ by a few percent from the book's.</p>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Thur, April 23</p>
+<p><strong>Inferences about two means &amp; matched pairs</strong> (Section 9.3-9.4)</p>
+<ul>
+<li>
+<p class="first">Lecture: <a class="reference external" href="LH_LEC.0630.HypTest.2Means.pdf">Handout</a></p>
+</li>
+<li>
+<p class="first">Homework:</p>
+<ol class="arabic">
+<li>
+<p class="first">Sec. 9.3: 1-7 odds, 23, 25, 27, 28</p>
+<p>Hint for 27: Use the <tt class="docutils literal">Coins</tt> table, to get the quarters for
+before 1964:</p>
+<pre class="literal-block">
+pre=Coins$WEIGHT[Coins$TYPE=="Pre-1964 Quarters"]
+</pre>
+<p>To find the post 1964 quarters use the same method but take a
+look at the <tt class="docutils literal">Coins</tt> table to see what they are called and
+then modify the above statement. The command
+<tt class="docutils literal">summary(Coins)</tt> is helpful to find the categories.</p>
+<p>Hint for 28: Use the <tt class="docutils literal">Cola</tt> table. Just figure out which two
+columns you need.</p>
+</li>
+<li>
+<p class="first">Sec. 9.4: 1, 3, 5 (manually find the test statistic &amp; p-value
+only), 13, 15, 17 (b-c), 19</p>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Tue, April 28</p>
+<p><strong>MODELING AND TESTING RELATIONSHIPS</strong></p>
+<p><strong>Correlation</strong> (Section 10.1-10.2)</p>
+<ul class="simple">
+<li>Lecture: <a class="reference external" href="LH_LEC.0700.Models.LinCor.pdf">Handout</a>
+</li>
+<li>Homework: <strong>Include scatter plots for each set of data that you
+find r</strong><ol class="arabic">
+<li>Sec. 10.2: 1-11 odds, 21, 23, 27, 29, 31, 33, 35</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Thur, April 30</p>
+<p><strong>Regression</strong> (Section 10.3)</p>
+<ul>
+<li>
+<p class="first">Lecture: <a class="reference external" href="LH_LEC.0710.Models.Regression.pdf">Handout</a></p>
+</li>
+<li>
+<p class="first">Homework: <strong>Make sure to determine if r is significant first (via
+hypothesis test) SHOW WORK. Include scatter plots with regression
+line and residual plots.</strong></p>
+<ol class="arabic">
+<li>
+<p class="first">Sec. 10.3: 1-11 odds, 21, 23, 27, 29, 31, 33</p>
+<p>Hint for 5 and 7: you will need to determine if the linear
+correlation coefficient is significant. Since r and n are
+already given just use the test statistic equation to manually
+find the p-value.</p>
+</li>
+</ol>
+</li>
+</ul>
+<p><strong>Variation and prediction intervals, multiple regression</strong> (Section
+10.4-10.5)</p>
+<ul class="simple">
+<li>Lecture: Continuation of regression lecture.</li>
+<li>Homework: No HW. These sections are optional course material.
+However, I highly recommend you read them.</li>
+</ul>
+</li>
+<li>
+<p class="first">Tue, May 5</p>
+<p><strong>Contingency tables</strong> (Section 11.3)</p>
+<ul class="simple">
+<li>Lecture: <a class="reference external" href="LH_LEC.0640.HypTest.IndepHomog.pdf">Handout</a>
+</li>
+<li>Homework: Note that R uses the Yate's continuity correction, so
+your P-values may differ slightly from the book's.<ol class="arabic">
+<li>Sec. 11.3: 1-5, 7, 11, 13, 17, 21</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Thur, May 7</p>
+<p><strong>ANOVA I</strong> (Section 12.1)</p>
+<ul class="simple">
+<li>Lecture: <a class="reference external" href="LH_LEC.0800.Models.ANOVA.pdf">Handout</a>
+</li>
+<li>Homework:<ol class="arabic">
+<li>Sec. 12.2: 1-4, 5 (skip d), 9</li>
+</ol>
+</li>
+</ul>
+<p><strong>ANOVA II</strong> (Section 12.2)</p>
+<ul class="simple">
+<li>Lecture: Continuation of last lecture handout.</li>
+<li>Homework: Don't type in the data for 11-14 manually, download
+<a class="reference external" href="ANOVAdata.html">Chapter 12 Data File</a> and load it
+into R (just like the book data), it has data for each problem.
+The table name is listed next to each problem. Also, don't forget
+to <strong>include the boxplots</strong>.<ol class="arabic">
+<li>Sec. 12.2: 11 <tt class="docutils literal">car.crash</tt> (p-val=0.421), 12 <tt class="docutils literal">car.crash</tt>
+(p-val=0.296), 13 <tt class="docutils literal">stress</tt> (p=val=0.091), 14 <tt class="docutils literal">skulls</tt>
+(p-val=0.0305), 16 (p-val=0.0369)</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p class="first">Tue, May 12</p>
+<p><strong>Review / Questions</strong></p>
+<ul class="simple">
+<li>Lecture: <a class="reference external" href="LH_LEC.0920.Review.Final.pdf">Handout</a>
+</li>
+<li>Homework: Study for the final exam.</li>
+</ul>
+</li>
+<li>
+<p class="first">Thur, May 14</p>
+<p><strong>Review / Questions</strong></p>
+</li>
+<li>
+<p class="first">Tue, May 19</p>
+<p><strong>FINAL EXAM Chapters 1-12</strong> (2 hours - early class start time)</p>
+<p><strong>8:10 am to 10:10 am</strong></p>
+<p>If you would like your final exam back, turn in a self addressed
+stamped envelope with 2 first class stamps affixed with your final
+exam. Once the exams are graded I will mail back those I have
+envelopes for. If you don't provide an envelope your exam will be
+shredded for your privacy.</p>
+</li>
+</ol>
+</div>
+</div>
+    </div>
+    
+
+</article>
+</div>
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2016         <a href="mailto:webmaster@tanbakuchi.com">Anthony Tanbakuchi</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+</div>
+</div>
+
+
+            <script src="../../../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates -->
+</body>
+</html>

@@ -1,0 +1,644 @@
+---
+title: Summary of bookData.RData
+inMenu: false
+--- content, html
+
+	<a href=" bookData.RData ">Download the data file.</a> (You may need to right click and select 'save as'.) <br><br> 
+
+ This data set contains the following tables: <br> <br> 
+
+ 1. <a href="#BODYTEMP"> BODYTEMP </a>  2. <a href="#Bears"> Bears </a>  3. <a href="#Bostrain"> Bostrain </a>  4. <a href="#Cans"> Cans </a>  5. <a href="#Chmovie"> Chmovie </a>  6. <a href="#Cigaret"> Cigaret </a>  7. <a href="#Coins"> Coins </a>  8. <a href="#Cola"> Cola </a>  9. <a href="#Cotinine"> Cotinine </a>  10. <a href="#ELECTRIC"> ELECTRIC </a>  11. <a href="#Fhealth"> Fhealth </a>  12. <a href="#Garbage"> Garbage </a>  13. <a href="#Homeruns"> Homeruns </a>  14. <a href="#Homes"> Homes </a>  15. <a href="#MM"> MM </a>  16. <a href="#Mhealth"> Mhealth </a>  17. <a href="#OldFAITH"> OldFAITH </a>  18. <a href="#POPLAR"> POPLAR </a>  19. <a href="#WEATHER"> WEATHER </a>  <h2  id="BODYTEMP"> BODYTEMP </h2>
+Access column data using:<code>BODYTEMP$BODYTEMP</code>  |   <br><br>This data set contains  1 columns with  105 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH> BODYTEMP </TH>  </TR>
+  <TR> <TD align="right"> 98.60 </TD> </TR>
+  <TR> <TD align="right"> 98.00 </TD> </TR>
+  <TR> <TD align="right"> 98.00 </TD> </TR>
+  <TR> <TD align="right"> 99.00 </TD> </TR>
+  <TR> <TD align="right"> 98.40 </TD> </TR>
+  <TR> <TD align="right"> 98.40 </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH>    BODYTEMP </TH>  </TR>
+  <TR> <TD> Min.   :96.5   </TD> </TR>
+  <TR> <TD> 1st Qu.:97.8   </TD> </TR>
+  <TR> <TD> Median :98.4   </TD> </TR>
+  <TR> <TD> Mean   :98.2   </TD> </TR>
+  <TR> <TD> 3rd Qu.:98.6   </TD> </TR>
+  <TR> <TD> Max.   :99.6   </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="Bears"> Bears </h2>
+Access column data using:<code>Bears$AGE</code>  |   <code>Bears$MONTH</code>  |   <code>Bears$SEX</code>  |   <code>Bears$HEADLEN</code>  |   <code>Bears$HEADWTH</code>  |   <code>Bears$NECK</code>  |   <code>Bears$LENGTH</code>  |   <code>Bears$CHEST</code>  |   <code>Bears$WEIGHT</code>  |   <br><br>This data set contains  9 columns with  54 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH> AGE </TH> <TH> MONTH </TH> <TH> SEX </TH> <TH> HEADLEN </TH> <TH> HEADWTH </TH> <TH> NECK </TH> <TH> LENGTH </TH> <TH> CHEST </TH> <TH> WEIGHT </TH>  </TR>
+  <TR> <TD align="right"> 19.00 </TD> <TD> July </TD> <TD> Male </TD> <TD align="right"> 11.00 </TD> <TD align="right"> 5.50 </TD> <TD align="right"> 16.00 </TD> <TD align="right"> 53.00 </TD> <TD align="right"> 26.00 </TD> <TD align="right"> 80.00 </TD> </TR>
+  <TR> <TD align="right"> 55.00 </TD> <TD> July </TD> <TD> Male </TD> <TD align="right"> 16.50 </TD> <TD align="right"> 9.00 </TD> <TD align="right"> 28.00 </TD> <TD align="right"> 67.50 </TD> <TD align="right"> 45.00 </TD> <TD align="right"> 344.00 </TD> </TR>
+  <TR> <TD align="right"> 81.00 </TD> <TD> September </TD> <TD> Male </TD> <TD align="right"> 15.50 </TD> <TD align="right"> 8.00 </TD> <TD align="right"> 31.00 </TD> <TD align="right"> 72.00 </TD> <TD align="right"> 54.00 </TD> <TD align="right"> 416.00 </TD> </TR>
+  <TR> <TD align="right"> 115.00 </TD> <TD> July </TD> <TD> Male </TD> <TD align="right"> 17.00 </TD> <TD align="right"> 10.00 </TD> <TD align="right"> 31.50 </TD> <TD align="right"> 72.00 </TD> <TD align="right"> 49.00 </TD> <TD align="right"> 348.00 </TD> </TR>
+  <TR> <TD align="right"> 104.00 </TD> <TD> August </TD> <TD> Female </TD> <TD align="right"> 15.50 </TD> <TD align="right"> 6.50 </TD> <TD align="right"> 22.00 </TD> <TD align="right"> 62.00 </TD> <TD align="right"> 35.00 </TD> <TD align="right"> 166.00 </TD> </TR>
+  <TR> <TD align="right"> 100.00 </TD> <TD> April </TD> <TD> Female </TD> <TD align="right"> 13.00 </TD> <TD align="right"> 7.00 </TD> <TD align="right"> 21.00 </TD> <TD align="right"> 70.00 </TD> <TD align="right"> 41.00 </TD> <TD align="right"> 220.00 </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH>      AGE </TH> <TH>       MONTH </TH> <TH>     SEX </TH> <TH>    HEADLEN </TH> <TH>    HEADWTH </TH> <TH>      NECK </TH> <TH>     LENGTH </TH> <TH>     CHEST </TH> <TH>     WEIGHT </TH>  </TR>
+  <TR> <TD> Min.   :  8.00   </TD> <TD> September:16   </TD> <TD> Male  :35   </TD> <TD> Min.   : 9.00   </TD> <TD> Min.   : 4.000   </TD> <TD> Min.   :10.00   </TD> <TD> Min.   :36.00   </TD> <TD> Min.   :19.00   </TD> <TD> Min.   : 26.0   </TD> </TR>
+  <TR> <TD> 1st Qu.: 17.00   </TD> <TD> October  :11   </TD> <TD> Female:19   </TD> <TD> 1st Qu.:11.50   </TD> <TD> 1st Qu.: 5.000   </TD> <TD> 1st Qu.:16.62   </TD> <TD> 1st Qu.:50.50   </TD> <TD> 1st Qu.:29.00   </TD> <TD> 1st Qu.: 87.0   </TD> </TR>
+  <TR> <TD> Median : 34.00   </TD> <TD> August   : 8   </TD> <TD>  </TD> <TD> Median :13.00   </TD> <TD> Median : 6.000   </TD> <TD> Median :20.00   </TD> <TD> Median :60.75   </TD> <TD> Median :34.00   </TD> <TD> Median :150.0   </TD> </TR>
+  <TR> <TD> Mean   : 43.52   </TD> <TD> November : 6   </TD> <TD>  </TD> <TD> Mean   :12.95   </TD> <TD> Mean   : 6.194   </TD> <TD> Mean   :20.56   </TD> <TD> Mean   :58.62   </TD> <TD> Mean   :35.66   </TD> <TD> Mean   :182.9   </TD> </TR>
+  <TR> <TD> 3rd Qu.: 57.75   </TD> <TD> April    : 4   </TD> <TD>  </TD> <TD> 3rd Qu.:14.50   </TD> <TD> 3rd Qu.: 7.000   </TD> <TD> 3rd Qu.:24.00   </TD> <TD> 3rd Qu.:66.12   </TD> <TD> 3rd Qu.:43.50   </TD> <TD> 3rd Qu.:232.0   </TD> </TR>
+  <TR> <TD> Max.   :177.00   </TD> <TD> May      : 4   </TD> <TD>  </TD> <TD> Max.   :17.00   </TD> <TD> Max.   :10.000   </TD> <TD> Max.   :31.50   </TD> <TD> Max.   :76.50   </TD> <TD> Max.   :55.00   </TD> <TD> Max.   :514.0   </TD> </TR>
+  <TR> <TD>  </TD> <TD> (Other)  : 5   </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="Bostrain"> Bostrain </h2>
+Access column data using:<code>Bostrain$RAIN</code>  |   <code>Bostrain$DAY</code>  |   <br><br>This data set contains  2 columns with  365 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH> RAIN </TH> <TH> DAY </TH>  </TR>
+  <TR> <TD align="right"> 0.00 </TD> <TD> Monday </TD> </TR>
+  <TR> <TD align="right"> 0.00 </TD> <TD> Monday </TD> </TR>
+  <TR> <TD align="right"> 0.00 </TD> <TD> Monday </TD> </TR>
+  <TR> <TD align="right"> 0.00 </TD> <TD> Monday </TD> </TR>
+  <TR> <TD align="right"> 0.05 </TD> <TD> Monday </TD> </TR>
+  <TR> <TD align="right"> 0.00 </TD> <TD> Monday </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH>      RAIN </TH> <TH>        DAY </TH>  </TR>
+  <TR> <TD> Min.   :0.00000   </TD> <TD> Monday   :52   </TD> </TR>
+  <TR> <TD> 1st Qu.:0.00000   </TD> <TD> Tuesday  :52   </TD> </TR>
+  <TR> <TD> Median :0.00000   </TD> <TD> Wednesday:53   </TD> </TR>
+  <TR> <TD> Mean   :0.08326   </TD> <TD> Thursday :52   </TD> </TR>
+  <TR> <TD> 3rd Qu.:0.04000   </TD> <TD> Friday   :52   </TD> </TR>
+  <TR> <TD> Max.   :1.48000   </TD> <TD> Saturday :52   </TD> </TR>
+  <TR> <TD>  </TD> <TD> Sunday   :52   </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="Cans"> Cans </h2>
+Access column data using:<code>Cans$LOAD</code>  |   <code>Cans$SAMPLE</code>  |   <br><br>This data set contains  2 columns with  350 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH> LOAD </TH> <TH> SAMPLE </TH>  </TR>
+  <TR> <TD align="right"> 270.00 </TD> <TD> 0.0109 in </TD> </TR>
+  <TR> <TD align="right"> 273.00 </TD> <TD> 0.0109 in </TD> </TR>
+  <TR> <TD align="right"> 258.00 </TD> <TD> 0.0109 in </TD> </TR>
+  <TR> <TD align="right"> 204.00 </TD> <TD> 0.0109 in </TD> </TR>
+  <TR> <TD align="right"> 254.00 </TD> <TD> 0.0109 in </TD> </TR>
+  <TR> <TD align="right"> 228.00 </TD> <TD> 0.0109 in </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH>      LOAD </TH> <TH>       SAMPLE </TH>  </TR>
+  <TR> <TD> Min.   :200.0   </TD> <TD> 0.0109 in:175   </TD> </TR>
+  <TR> <TD> 1st Qu.:267.0   </TD> <TD> 0.0111 in:175   </TD> </TR>
+  <TR> <TD> Median :279.0   </TD> <TD>  </TD> </TR>
+  <TR> <TD> Mean   :274.5   </TD> <TD>  </TD> </TR>
+  <TR> <TD> 3rd Qu.:288.0   </TD> <TD>  </TD> </TR>
+  <TR> <TD> Max.   :504.0   </TD> <TD>  </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="Chmovie"> Chmovie </h2>
+Access column data using:<code>Chmovie$MOVIE</code>  |   <code>Chmovie$COMPANY</code>  |   <code>Chmovie$LENGTH</code>  |   <code>Chmovie$TOBACCO</code>  |   <code>Chmovie$ALCOHOL</code>  |   <br><br>This data set contains  5 columns with  50 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH> MOVIE </TH> <TH> COMPANY </TH> <TH> LENGTH </TH> <TH> TOBACCO </TH> <TH> ALCOHOL </TH>  </TR>
+  <TR> <TD> Snow White                 </TD> <TD> Disney           </TD> <TD align="right"> 83.00 </TD> <TD align="right"> 0.00 </TD> <TD align="right"> 0.00 </TD> </TR>
+  <TR> <TD> Pinnocchio                 </TD> <TD> Disney           </TD> <TD align="right"> 88.00 </TD> <TD align="right"> 223.00 </TD> <TD align="right"> 80.00 </TD> </TR>
+  <TR> <TD> Fantasia                   </TD> <TD> Disney           </TD> <TD align="right"> 120.00 </TD> <TD align="right"> 0.00 </TD> <TD align="right"> 0.00 </TD> </TR>
+  <TR> <TD> Dumbo                      </TD> <TD> Disney           </TD> <TD align="right"> 64.00 </TD> <TD align="right"> 176.00 </TD> <TD align="right"> 88.00 </TD> </TR>
+  <TR> <TD> Bambi                      </TD> <TD> Disney           </TD> <TD align="right"> 69.00 </TD> <TD align="right"> 0.00 </TD> <TD align="right"> 0.00 </TD> </TR>
+  <TR> <TD> Three Caballeros           </TD> <TD> Disney           </TD> <TD align="right"> 71.00 </TD> <TD align="right"> 548.00 </TD> <TD align="right"> 8.00 </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH>                        MOVIE </TH> <TH>             COMPANY </TH> <TH>     LENGTH </TH> <TH>    TOBACCO </TH> <TH>    ALCOHOL </TH>  </TR>
+  <TR> <TD> 101 Dalmations            : 1   </TD> <TD> 20th Century Fox: 2   </TD> <TD> Min.   : 64.00   </TD> <TD> Min.   :  0.00   </TD> <TD> Min.   :  0.00   </TD> </TR>
+  <TR> <TD> Aladdin                   : 1   </TD> <TD> Disney          :33   </TD> <TD> 1st Qu.: 74.00   </TD> <TD> 1st Qu.:  0.00   </TD> <TD> 1st Qu.:  0.00   </TD> </TR>
+  <TR> <TD> Alice in Wonderland       : 1   </TD> <TD> MGM             : 4   </TD> <TD> Median : 77.50   </TD> <TD> Median :  5.50   </TD> <TD> Median :  1.50   </TD> </TR>
+  <TR> <TD> All Dogs Go to Heaven     : 1   </TD> <TD> Universal       : 6   </TD> <TD> Mean   : 79.20   </TD> <TD> Mean   : 57.44   </TD> <TD> Mean   : 32.46   </TD> </TR>
+  <TR> <TD> All Dogs Go to Heaven 2   : 1   </TD> <TD> Warner Bros     : 5   </TD> <TD> 3rd Qu.: 82.75   </TD> <TD> 3rd Qu.: 69.25   </TD> <TD> 3rd Qu.: 39.00   </TD> </TR>
+  <TR> <TD> An American Tail          : 1   </TD> <TD>  </TD> <TD> Max.   :120.00   </TD> <TD> Max.   :548.00   </TD> <TD> Max.   :414.00   </TD> </TR>
+  <TR> <TD> (Other)                   :44   </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="Cigaret"> Cigaret </h2>
+Access column data using:<code>Cigaret$BRAND</code>  |   <code>Cigaret$TAR</code>  |   <code>Cigaret$NICOTINE</code>  |   <code>Cigaret$CO</code>  |   <br><br>This data set contains  4 columns with  29 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH> BRAND </TH> <TH> TAR </TH> <TH> NICOTINE </TH> <TH> CO </TH>  </TR>
+  <TR> <TD> American Filt   </TD> <TD align="right"> 16.00 </TD> <TD align="right"> 1.20 </TD> <TD align="right"> 15.00 </TD> </TR>
+  <TR> <TD> Benson &amp  Hedges </TD> <TD align="right"> 16.00 </TD> <TD align="right"> 1.20 </TD> <TD align="right"> 15.00 </TD> </TR>
+  <TR> <TD> Camel           </TD> <TD align="right"> 16.00 </TD> <TD align="right"> 1.00 </TD> <TD align="right"> 17.00 </TD> </TR>
+  <TR> <TD> Capri           </TD> <TD align="right"> 9.00 </TD> <TD align="right"> 0.80 </TD> <TD align="right"> 6.00 </TD> </TR>
+  <TR> <TD> Carlton         </TD> <TD align="right"> 1.00 </TD> <TD align="right"> 0.10 </TD> <TD align="right"> 1.00 </TD> </TR>
+  <TR> <TD> Cartier Vendo   </TD> <TD align="right"> 8.00 </TD> <TD align="right"> 0.80 </TD> <TD align="right"> 8.00 </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH>             BRAND </TH> <TH>      TAR </TH> <TH>    NICOTINE </TH> <TH>       CO </TH>  </TR>
+  <TR> <TD> American Filt  : 1   </TD> <TD> Min.   : 1.00   </TD> <TD> Min.   :0.1000   </TD> <TD> Min.   : 1.00   </TD> </TR>
+  <TR> <TD> Benson &amp  Hedges: 1   </TD> <TD> 1st Qu.: 9.00   </TD> <TD> 1st Qu.:0.8000   </TD> <TD> 1st Qu.:10.00   </TD> </TR>
+  <TR> <TD> Camel          : 1   </TD> <TD> Median :13.00   </TD> <TD> Median :1.0000   </TD> <TD> Median :13.00   </TD> </TR>
+  <TR> <TD> Capri          : 1   </TD> <TD> Mean   :12.10   </TD> <TD> Mean   :0.9414   </TD> <TD> Mean   :12.38   </TD> </TR>
+  <TR> <TD> Carlton        : 1   </TD> <TD> 3rd Qu.:16.00   </TD> <TD> 3rd Qu.:1.2000   </TD> <TD> 3rd Qu.:15.00   </TD> </TR>
+  <TR> <TD> Cartier Vendo  : 1   </TD> <TD> Max.   :18.00   </TD> <TD> Max.   :1.4000   </TD> <TD> Max.   :18.00   </TD> </TR>
+  <TR> <TD> (Other)        :23   </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="Coins"> Coins </h2>
+Access column data using:<code>Coins$WEIGHTS</code>  |   <code>Coins$TYPE</code>  |   <br><br>This data set contains  2 columns with  222 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH> WEIGHTS </TH> <TH> TYPE </TH>  </TR>
+  <TR> <TD align="right"> 3.06 </TD> <TD> Indian Pennies </TD> </TR>
+  <TR> <TD align="right"> 3.05 </TD> <TD> Indian Pennies </TD> </TR>
+  <TR> <TD align="right"> 2.91 </TD> <TD> Indian Pennies </TD> </TR>
+  <TR> <TD align="right"> 3.14 </TD> <TD> Indian Pennies </TD> </TR>
+  <TR> <TD align="right"> 2.98 </TD> <TD> Indian Pennies </TD> </TR>
+  <TR> <TD align="right"> 3.14 </TD> <TD> Wheat Pennies </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH>    WEIGHTS </TH> <TH>                 TYPE </TH>  </TR>
+  <TR> <TD> Min.   :2.453   </TD> <TD> Pre-1964 Quarters :40   </TD> </TR>
+  <TR> <TD> 1st Qu.:3.040   </TD> <TD> Post-1964 Quarters:40   </TD> </TR>
+  <TR> <TD> Median :3.141   </TD> <TD> Post-1983 Pennies :37   </TD> </TR>
+  <TR> <TD> Mean   :4.446   </TD> <TD> Wheat Pennies     :35   </TD> </TR>
+  <TR> <TD> 3rd Qu.:6.082   </TD> <TD> Pre-1983 Pennies  :35   </TD> </TR>
+  <TR> <TD> Max.   :8.138   </TD> <TD> Dollar Coins      :20   </TD> </TR>
+  <TR> <TD>  </TD> <TD> (Other)           :15   </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="Cola"> Cola </h2>
+Access column data using:<code>Cola$CKREGWT</code>  |   <code>Cola$CKREGVOL</code>  |   <code>Cola$CKDIETWT</code>  |   <code>Cola$CKDTVOL</code>  |   <code>Cola$PPREGWT</code>  |   <code>Cola$PPREGVOL</code>  |   <code>Cola$PPDIETWT</code>  |   <code>Cola$PPDTVOL</code>  |   <br><br>This data set contains  8 columns with  36 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH> CKREGWT </TH> <TH> CKREGVOL </TH> <TH> CKDIETWT </TH> <TH> CKDTVOL </TH> <TH> PPREGWT </TH> <TH> PPREGVOL </TH> <TH> PPDIETWT </TH> <TH> PPDTVOL </TH>  </TR>
+  <TR> <TD align="right"> 0.82 </TD> <TD align="right"> 12.30 </TD> <TD align="right"> 0.78 </TD> <TD align="right"> 12.10 </TD> <TD align="right"> 0.83 </TD> <TD align="right"> 12.40 </TD> <TD align="right"> 0.79 </TD> <TD align="right"> 12.30 </TD> </TR>
+  <TR> <TD align="right"> 0.81 </TD> <TD align="right"> 12.10 </TD> <TD align="right"> 0.78 </TD> <TD align="right"> 12.10 </TD> <TD align="right"> 0.82 </TD> <TD align="right"> 12.20 </TD> <TD align="right"> 0.79 </TD> <TD align="right"> 12.20 </TD> </TR>
+  <TR> <TD align="right"> 0.82 </TD> <TD align="right"> 12.20 </TD> <TD align="right"> 0.79 </TD> <TD align="right"> 12.30 </TD> <TD align="right"> 0.82 </TD> <TD align="right"> 12.20 </TD> <TD align="right"> 0.78 </TD> <TD align="right"> 12.20 </TD> </TR>
+  <TR> <TD align="right"> 0.82 </TD> <TD align="right"> 12.30 </TD> <TD align="right"> 0.79 </TD> <TD align="right"> 12.30 </TD> <TD align="right"> 0.82 </TD> <TD align="right"> 12.20 </TD> <TD align="right"> 0.79 </TD> <TD align="right"> 12.30 </TD> </TR>
+  <TR> <TD align="right"> 0.82 </TD> <TD align="right"> 12.20 </TD> <TD align="right"> 0.78 </TD> <TD align="right"> 12.20 </TD> <TD align="right"> 0.82 </TD> <TD align="right"> 12.20 </TD> <TD align="right"> 0.79 </TD> <TD align="right"> 12.20 </TD> </TR>
+  <TR> <TD align="right"> 0.82 </TD> <TD align="right"> 12.30 </TD> <TD align="right"> 0.79 </TD> <TD align="right"> 12.30 </TD> <TD align="right"> 0.83 </TD> <TD align="right"> 12.40 </TD> <TD align="right"> 0.78 </TD> <TD align="right"> 12.20 </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH>    CKREGWT </TH> <TH>    CKREGVOL </TH> <TH>    CKDIETWT </TH> <TH>    CKDTVOL </TH> <TH>    PPREGWT </TH> <TH>    PPREGVOL </TH> <TH>    PPDIETWT </TH> <TH>    PPDTVOL </TH>  </TR>
+  <TR> <TD> Min.   :0.7901   </TD> <TD> Min.   :11.80   </TD> <TD> Min.   :0.7758   </TD> <TD> Min.   :12.10   </TD> <TD> Min.   :0.8139   </TD> <TD> Min.   :12.20   </TD> <TD> Min.   :0.7742   </TD> <TD> Min.   :12.1   </TD> </TR>
+  <TR> <TD> 1st Qu.:0.8148   </TD> <TD> 1st Qu.:12.18   </TD> <TD> 1st Qu.:0.7822   </TD> <TD> 1st Qu.:12.20   </TD> <TD> 1st Qu.:0.8211   </TD> <TD> 1st Qu.:12.20   </TD> <TD> 1st Qu.:0.7816   </TD> <TD> 1st Qu.:12.2   </TD> </TR>
+  <TR> <TD> Median :0.8171   </TD> <TD> Median :12.20   </TD> <TD> Median :0.7852   </TD> <TD> Median :12.30   </TD> <TD> Median :0.8233   </TD> <TD> Median :12.30   </TD> <TD> Median :0.7842   </TD> <TD> Median :12.2   </TD> </TR>
+  <TR> <TD> Mean   :0.8168   </TD> <TD> Mean   :12.19   </TD> <TD> Mean   :0.7848   </TD> <TD> Mean   :12.24   </TD> <TD> Mean   :0.8241   </TD> <TD> Mean   :12.29   </TD> <TD> Mean   :0.7839   </TD> <TD> Mean   :12.2   </TD> </TR>
+  <TR> <TD> 3rd Qu.:0.8208   </TD> <TD> 3rd Qu.:12.30   </TD> <TD> 3rd Qu.:0.7879   </TD> <TD> 3rd Qu.:12.30   </TD> <TD> 3rd Qu.:0.8260   </TD> <TD> 3rd Qu.:12.32   </TD> <TD> 3rd Qu.:0.7862   </TD> <TD> 3rd Qu.:12.2   </TD> </TR>
+  <TR> <TD> Max.   :0.8295   </TD> <TD> Max.   :12.40   </TD> <TD> Max.   :0.7923   </TD> <TD> Max.   :12.40   </TD> <TD> Max.   :0.8401   </TD> <TD> Max.   :12.50   </TD> <TD> Max.   :0.7938   </TD> <TD> Max.   :12.3   </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="Cotinine"> Cotinine </h2>
+Access column data using:<code>Cotinine$COTININE</code>  |   <code>Cotinine$GROUP</code>  |   <br><br>This data set contains  2 columns with  120 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH> COTININE </TH> <TH> GROUP </TH>  </TR>
+  <TR> <TD align="right"> 1.00 </TD> <TD> Smoker </TD> </TR>
+  <TR> <TD align="right"> 0.00 </TD> <TD> Smoker </TD> </TR>
+  <TR> <TD align="right"> 131.00 </TD> <TD> Smoker </TD> </TR>
+  <TR> <TD align="right"> 173.00 </TD> <TD> Smoker </TD> </TR>
+  <TR> <TD align="right"> 265.00 </TD> <TD> Smoker </TD> </TR>
+  <TR> <TD align="right"> 210.00 </TD> <TD> Smoker </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:20 2008 -->
+<TABLE border=1>
+<TR> <TH>    COTININE </TH> <TH>    GROUP </TH>  </TR>
+  <TR> <TD> Min.   :  0.00   </TD> <TD> Smoker:40   </TD> </TR>
+  <TR> <TD> 1st Qu.:  0.00   </TD> <TD> ETS   :40   </TD> </TR>
+  <TR> <TD> Median :  2.00   </TD> <TD> NoETS :40   </TD> </TR>
+  <TR> <TD> Mean   : 83.13   </TD> <TD>  </TD> </TR>
+  <TR> <TD> 3rd Qu.:152.75   </TD> <TD>  </TD> </TR>
+  <TR> <TD> Max.   :551.00   </TD> <TD>  </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="ELECTRIC"> ELECTRIC </h2>
+Access column data using:<code>ELECTRIC$TIMEPERI</code>  |   <code>ELECTRIC$KWH</code>  |   <code>ELECTRIC$COST</code>  |   <code>ELECTRIC$HEATINGD</code>  |   <code>ELECTRIC$AVERAGED</code>  |   <br><br>This data set contains  5 columns with  15 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH> TIMEPERI </TH> <TH> KWH </TH> <TH> COST </TH> <TH> HEATINGD </TH> <TH> AVERAGED </TH>  </TR>
+  <TR> <TD> Year 1: Jan/Feb   </TD> <TD align="right"> 3375.00 </TD> <TD align="right"> 321.94 </TD> <TD align="right"> 2421.00 </TD> <TD align="right"> 26.00 </TD> </TR>
+  <TR> <TD> Year 1: March/Apr </TD> <TD align="right"> 2661.00 </TD> <TD align="right"> 221.11 </TD> <TD align="right"> 1841.00 </TD> <TD align="right"> 34.00 </TD> </TR>
+  <TR> <TD> Year 1: May/June  </TD> <TD align="right"> 2073.00 </TD> <TD align="right"> 205.16 </TD> <TD align="right"> 438.00 </TD> <TD align="right"> 58.00 </TD> </TR>
+  <TR> <TD> Year 1: July/Aug  </TD> <TD align="right"> 2579.00 </TD> <TD align="right"> 251.07 </TD> <TD align="right"> 15.00 </TD> <TD align="right"> 72.00 </TD> </TR>
+  <TR> <TD> Year 1: Sept/Oct  </TD> <TD align="right"> 2858.00 </TD> <TD align="right"> 279.80 </TD> <TD align="right"> 152.00 </TD> <TD align="right"> 67.00 </TD> </TR>
+  <TR> <TD> Year 1: Nov/Dec   </TD> <TD align="right"> 2296.00 </TD> <TD align="right"> 183.84 </TD> <TD align="right"> 1028.00 </TD> <TD align="right"> 48.00 </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH>              TIMEPERI </TH> <TH>      KWH </TH> <TH>      COST </TH> <TH>    HEATINGD </TH> <TH>    AVERAGED </TH>  </TR>
+  <TR> <TD> Year 1: Jan/Feb  :1   </TD> <TD> Min.   : 578   </TD> <TD> Min.   : 77.39   </TD> <TD> Min.   :  15.0   </TD> <TD> Min.   :26.00   </TD> </TR>
+  <TR> <TD> Year 1: July/Aug :1   </TD> <TD> 1st Qu.:2364   </TD> <TD> 1st Qu.:215.84   </TD> <TD> 1st Qu.: 202.5   </TD> <TD> 1st Qu.:35.25   </TD> </TR>
+  <TR> <TD> Year 1: March/Apr:1   </TD> <TD> Median :2749   </TD> <TD> Median :244.93   </TD> <TD> Median : 632.0   </TD> <TD> Median :53.00   </TD> </TR>
+  <TR> <TD> Year 1: May/June :1   </TD> <TD> Mean   :2688   </TD> <TD> Mean   :256.34   </TD> <TD> Mean   : 954.7   </TD> <TD> Mean   :51.40   </TD> </TR>
+  <TR> <TD> Year 1: Nov/Dec  :1   </TD> <TD> 3rd Qu.:3207   </TD> <TD> 3rd Qu.:319.06   </TD> <TD> 3rd Qu.:1719.0   </TD> <TD> 3rd Qu.:66.75   </TD> </TR>
+  <TR> <TD> Year 1: Sept/Oct :1   </TD> <TD> Max.   :3792   </TD> <TD> Max.   :385.44   </TD> <TD> Max.   :2421.0   </TD> <TD> Max.   :72.00   </TD> </TR>
+  <TR> <TD> (Other)          :9   </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> NA's   : 5.00   </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="Fhealth"> Fhealth </h2>
+Access column data using:<code>Fhealth$AGE</code>  |   <code>Fhealth$HT</code>  |   <code>Fhealth$WT</code>  |   <code>Fhealth$WAIST</code>  |   <code>Fhealth$PULSE</code>  |   <code>Fhealth$SYS</code>  |   <code>Fhealth$DIAS</code>  |   <code>Fhealth$CHOL</code>  |   <code>Fhealth$BMI</code>  |   <code>Fhealth$LEG</code>  |   <code>Fhealth$ELBOW</code>  |   <code>Fhealth$WRIST</code>  |   <code>Fhealth$ARM</code>  |   <br><br>This data set contains  13 columns with  40 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH> AGE </TH> <TH> HT </TH> <TH> WT </TH> <TH> WAIST </TH> <TH> PULSE </TH> <TH> SYS </TH> <TH> DIAS </TH> <TH> CHOL </TH> <TH> BMI </TH> <TH> LEG </TH> <TH> ELBOW </TH> <TH> WRIST </TH> <TH> ARM </TH>  </TR>
+  <TR> <TD align="right"> 17.00 </TD> <TD align="right"> 64.30 </TD> <TD align="right"> 114.80 </TD> <TD align="right"> 67.20 </TD> <TD align="right"> 76.00 </TD> <TD align="right"> 104.00 </TD> <TD align="right"> 61.00 </TD> <TD align="right"> 264.00 </TD> <TD align="right"> 19.60 </TD> <TD align="right"> 41.60 </TD> <TD align="right"> 6.00 </TD> <TD align="right"> 4.60 </TD> <TD align="right"> 23.60 </TD> </TR>
+  <TR> <TD align="right"> 32.00 </TD> <TD align="right"> 66.40 </TD> <TD align="right"> 149.30 </TD> <TD align="right"> 82.50 </TD> <TD align="right"> 72.00 </TD> <TD align="right"> 99.00 </TD> <TD align="right"> 64.00 </TD> <TD align="right"> 181.00 </TD> <TD align="right"> 23.80 </TD> <TD align="right"> 42.80 </TD> <TD align="right"> 6.70 </TD> <TD align="right"> 5.50 </TD> <TD align="right"> 26.30 </TD> </TR>
+  <TR> <TD align="right"> 25.00 </TD> <TD align="right"> 62.30 </TD> <TD align="right"> 107.80 </TD> <TD align="right"> 66.70 </TD> <TD align="right"> 88.00 </TD> <TD align="right"> 102.00 </TD> <TD align="right"> 65.00 </TD> <TD align="right"> 267.00 </TD> <TD align="right"> 19.60 </TD> <TD align="right"> 39.00 </TD> <TD align="right"> 5.70 </TD> <TD align="right"> 4.60 </TD> <TD align="right"> 26.30 </TD> </TR>
+  <TR> <TD align="right"> 55.00 </TD> <TD align="right"> 62.30 </TD> <TD align="right"> 160.10 </TD> <TD align="right"> 93.00 </TD> <TD align="right"> 60.00 </TD> <TD align="right"> 114.00 </TD> <TD align="right"> 76.00 </TD> <TD align="right"> 384.00 </TD> <TD align="right"> 29.10 </TD> <TD align="right"> 40.20 </TD> <TD align="right"> 6.20 </TD> <TD align="right"> 5.00 </TD> <TD align="right"> 32.60 </TD> </TR>
+  <TR> <TD align="right"> 27.00 </TD> <TD align="right"> 59.60 </TD> <TD align="right"> 127.10 </TD> <TD align="right"> 82.60 </TD> <TD align="right"> 72.00 </TD> <TD align="right"> 94.00 </TD> <TD align="right"> 58.00 </TD> <TD align="right"> 98.00 </TD> <TD align="right"> 25.20 </TD> <TD align="right"> 36.20 </TD> <TD align="right"> 5.50 </TD> <TD align="right"> 4.80 </TD> <TD align="right"> 29.20 </TD> </TR>
+  <TR> <TD align="right"> 29.00 </TD> <TD align="right"> 63.60 </TD> <TD align="right"> 123.10 </TD> <TD align="right"> 75.40 </TD> <TD align="right"> 68.00 </TD> <TD align="right"> 101.00 </TD> <TD align="right"> 66.00 </TD> <TD align="right"> 62.00 </TD> <TD align="right"> 21.40 </TD> <TD align="right"> 43.20 </TD> <TD align="right"> 6.00 </TD> <TD align="right"> 4.90 </TD> <TD align="right"> 26.40 </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH>      AGE </TH> <TH>       HT </TH> <TH>       WT </TH> <TH>     WAIST </TH> <TH>     PULSE </TH> <TH>      SYS </TH> <TH>      DIAS </TH> <TH>      CHOL </TH> <TH>      BMI </TH> <TH>      LEG </TH> <TH>     ELBOW </TH> <TH>     WRIST </TH> <TH>      ARM </TH>  </TR>
+  <TR> <TD> Min.   :12.00   </TD> <TD> Min.   :57.00   </TD> <TD> Min.   : 94.3   </TD> <TD> Min.   : 66.70   </TD> <TD> Min.   : 60.0   </TD> <TD> Min.   : 89.0   </TD> <TD> Min.   : 41.00   </TD> <TD> Min.   :  2.0   </TD> <TD> Min.   :17.70   </TD> <TD> Min.   :27.00   </TD> <TD> Min.   :5.400   </TD> <TD> Min.   :4.200   </TD> <TD> Min.   :23.00   </TD> </TR>
+  <TR> <TD> 1st Qu.:23.00   </TD> <TD> 1st Qu.:61.38   </TD> <TD> 1st Qu.:118.0   </TD> <TD> 1st Qu.: 73.42   </TD> <TD> 1st Qu.: 68.0   </TD> <TD> 1st Qu.:100.8   </TD> <TD> 1st Qu.: 61.00   </TD> <TD> 1st Qu.:120.2   </TD> <TD> 1st Qu.:21.07   </TD> <TD> 1st Qu.:37.88   </TD> <TD> 1st Qu.:5.900   </TD> <TD> 1st Qu.:4.875   </TD> <TD> 1st Qu.:26.40   </TD> </TR>
+  <TR> <TD> Median :31.50   </TD> <TD> Median :63.35   </TD> <TD> Median :135.8   </TD> <TD> Median : 81.95   </TD> <TD> Median : 74.0   </TD> <TD> Median :107.0   </TD> <TD> Median : 66.00   </TD> <TD> Median :194.0   </TD> <TD> Median :23.90   </TD> <TD> Median :39.05   </TD> <TD> Median :6.300   </TD> <TD> Median :5.050   </TD> <TD> Median :28.15   </TD> </TR>
+  <TR> <TD> Mean   :33.23   </TD> <TD> Mean   :63.20   </TD> <TD> Mean   :146.2   </TD> <TD> Mean   : 85.03   </TD> <TD> Mean   : 76.3   </TD> <TD> Mean   :110.8   </TD> <TD> Mean   : 67.42   </TD> <TD> Mean   :240.9   </TD> <TD> Mean   :25.74   </TD> <TD> Mean   :38.86   </TD> <TD> Mean   :6.375   </TD> <TD> Mean   :5.067   </TD> <TD> Mean   :30.16   </TD> </TR>
+  <TR> <TD> 3rd Qu.:41.00   </TD> <TD> 3rd Qu.:64.85   </TD> <TD> 3rd Qu.:162.9   </TD> <TD> 3rd Qu.: 94.38   </TD> <TD> 3rd Qu.: 80.0   </TD> <TD> 3rd Qu.:116.0   </TD> <TD> 3rd Qu.: 73.25   </TD> <TD> 3rd Qu.:303.0   </TD> <TD> 3rd Qu.:29.25   </TD> <TD> 3rd Qu.:41.00   </TD> <TD> 3rd Qu.:6.800   </TD> <TD> 3rd Qu.:5.300   </TD> <TD> 3rd Qu.:34.08   </TD> </TR>
+  <TR> <TD> Max.   :59.00   </TD> <TD> Max.   :68.00   </TD> <TD> Max.   :255.9   </TD> <TD> Max.   :126.50   </TD> <TD> Max.   :124.0   </TD> <TD> Max.   :181.0   </TD> <TD> Max.   :102.00   </TD> <TD> Max.   :920.0   </TD> <TD> Max.   :44.90   </TD> <TD> Max.   :48.60   </TD> <TD> Max.   :8.000   </TD> <TD> Max.   :5.800   </TD> <TD> Max.   :43.80   </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="Garbage"> Garbage </h2>
+Access column data using:<code>Garbage$HHSIZE</code>  |   <code>Garbage$METAL</code>  |   <code>Garbage$PAPER</code>  |   <code>Garbage$PLAS</code>  |   <code>Garbage$GLASS</code>  |   <code>Garbage$FOOD</code>  |   <code>Garbage$YARD</code>  |   <code>Garbage$TEXT</code>  |   <code>Garbage$OTHER</code>  |   <code>Garbage$TOTAL</code>  |   <br><br>This data set contains  10 columns with  62 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH> HHSIZE </TH> <TH> METAL </TH> <TH> PAPER </TH> <TH> PLAS </TH> <TH> GLASS </TH> <TH> FOOD </TH> <TH> YARD </TH> <TH> TEXT </TH> <TH> OTHER </TH> <TH> TOTAL </TH>  </TR>
+  <TR> <TD align="right"> 2.00 </TD> <TD align="right"> 1.09 </TD> <TD align="right"> 2.41 </TD> <TD align="right"> 0.27 </TD> <TD align="right"> 0.86 </TD> <TD align="right"> 1.04 </TD> <TD align="right"> 0.38 </TD> <TD align="right"> 0.05 </TD> <TD align="right"> 4.66 </TD> <TD align="right"> 10.76 </TD> </TR>
+  <TR> <TD align="right"> 3.00 </TD> <TD align="right"> 1.04 </TD> <TD align="right"> 7.57 </TD> <TD align="right"> 1.41 </TD> <TD align="right"> 3.46 </TD> <TD align="right"> 3.68 </TD> <TD align="right"> 0.00 </TD> <TD align="right"> 0.46 </TD> <TD align="right"> 2.34 </TD> <TD align="right"> 19.96 </TD> </TR>
+  <TR> <TD align="right"> 3.00 </TD> <TD align="right"> 2.57 </TD> <TD align="right"> 9.55 </TD> <TD align="right"> 2.19 </TD> <TD align="right"> 4.52 </TD> <TD align="right"> 4.43 </TD> <TD align="right"> 0.24 </TD> <TD align="right"> 0.50 </TD> <TD align="right"> 3.60 </TD> <TD align="right"> 27.60 </TD> </TR>
+  <TR> <TD align="right"> 6.00 </TD> <TD align="right"> 3.02 </TD> <TD align="right"> 8.82 </TD> <TD align="right"> 2.83 </TD> <TD align="right"> 4.92 </TD> <TD align="right"> 2.98 </TD> <TD align="right"> 0.63 </TD> <TD align="right"> 2.26 </TD> <TD align="right"> 12.65 </TD> <TD align="right"> 38.11 </TD> </TR>
+  <TR> <TD align="right"> 4.00 </TD> <TD align="right"> 1.50 </TD> <TD align="right"> 8.72 </TD> <TD align="right"> 2.19 </TD> <TD align="right"> 6.31 </TD> <TD align="right"> 6.30 </TD> <TD align="right"> 0.15 </TD> <TD align="right"> 0.55 </TD> <TD align="right"> 2.18 </TD> <TD align="right"> 27.90 </TD> </TR>
+  <TR> <TD align="right"> 2.00 </TD> <TD align="right"> 2.10 </TD> <TD align="right"> 6.96 </TD> <TD align="right"> 1.81 </TD> <TD align="right"> 2.49 </TD> <TD align="right"> 1.46 </TD> <TD align="right"> 4.58 </TD> <TD align="right"> 0.36 </TD> <TD align="right"> 2.14 </TD> <TD align="right"> 21.90 </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH>     HHSIZE </TH> <TH>     METAL </TH> <TH>     PAPER </TH> <TH>      PLAS </TH> <TH>     GLASS </TH> <TH>      FOOD </TH> <TH>      YARD </TH> <TH>      TEXT </TH> <TH>     OTHER </TH> <TH>     TOTAL </TH>  </TR>
+  <TR> <TD> Min.   : 1.00   </TD> <TD> Min.   :0.260   </TD> <TD> Min.   : 1.650   </TD> <TD> Min.   :0.150   </TD> <TD> Min.   : 0.090   </TD> <TD> Min.   : 0.160   </TD> <TD> Min.   : 0.0000   </TD> <TD> Min.   :0.0000   </TD> <TD> Min.   : 0.0000   </TD> <TD> Min.   : 4.08   </TD> </TR>
+  <TR> <TD> 1st Qu.: 2.00   </TD> <TD> 1st Qu.:1.363   </TD> <TD> 1st Qu.: 6.497   </TD> <TD> 1st Qu.:1.183   </TD> <TD> 1st Qu.: 1.837   </TD> <TD> 1st Qu.: 2.572   </TD> <TD> 1st Qu.: 0.0125   </TD> <TD> 1st Qu.:0.1125   </TD> <TD> 1st Qu.: 0.2875   </TD> <TD> 1st Qu.:19.05   </TD> </TR>
+  <TR> <TD> Median : 3.00   </TD> <TD> Median :1.975   </TD> <TD> Median : 9.300   </TD> <TD> Median :1.645   </TD> <TD> Median : 2.980   </TD> <TD> Median : 4.240   </TD> <TD> Median : 0.3700   </TD> <TD> Median :0.3900   </TD> <TD> Median : 1.1600   </TD> <TD> Median :25.30   </TD> </TR>
+  <TR> <TD> Mean   : 3.71   </TD> <TD> Mean   :2.218   </TD> <TD> Mean   : 9.428   </TD> <TD> Mean   :1.911   </TD> <TD> Mean   : 3.752   </TD> <TD> Mean   : 4.816   </TD> <TD> Mean   : 1.5621   </TD> <TD> Mean   :0.6955   </TD> <TD> Mean   : 3.0611   </TD> <TD> Mean   :27.44   </TD> </TR>
+  <TR> <TD> 3rd Qu.: 4.00   </TD> <TD> 3rd Qu.:3.007   </TD> <TD> 3rd Qu.:12.312   </TD> <TD> 3rd Qu.:2.605   </TD> <TD> 3rd Qu.: 4.820   </TD> <TD> 3rd Qu.: 6.202   </TD> <TD> 3rd Qu.: 1.2700   </TD> <TD> 3rd Qu.:0.6775   </TD> <TD> 3rd Qu.: 3.3350   </TD> <TD> 3rd Qu.:36.48   </TD> </TR>
+  <TR> <TD> Max.   :11.00   </TD> <TD> Max.   :4.950   </TD> <TD> Max.   :20.580   </TD> <TD> Max.   :5.280   </TD> <TD> Max.   :17.670   </TD> <TD> Max.   :16.810   </TD> <TD> Max.   :14.7000   </TD> <TD> Max.   :4.7300   </TD> <TD> Max.   :19.8900   </TD> <TD> Max.   :54.47   </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="Homeruns"> Homeruns </h2>
+Access column data using:<code>Homeruns$DISTANCE</code>  |   <code>Homeruns$PLAYER</code>  |   <br><br>This data set contains  2 columns with  209 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH> DISTANCE </TH> <TH> PLAYER </TH>  </TR>
+  <TR> <TD align="right"> 360.00 </TD> <TD> McGwire (1998) </TD> </TR>
+  <TR> <TD align="right"> 370.00 </TD> <TD> McGwire (1998) </TD> </TR>
+  <TR> <TD align="right"> 370.00 </TD> <TD> McGwire (1998) </TD> </TR>
+  <TR> <TD align="right"> 430.00 </TD> <TD> McGwire (1998) </TD> </TR>
+  <TR> <TD align="right"> 420.00 </TD> <TD> McGwire (1998) </TD> </TR>
+  <TR> <TD align="right"> 340.00 </TD> <TD> McGwire (1998) </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH>    DISTANCE </TH> <TH>            PLAYER </TH>  </TR>
+  <TR> <TD> Min.   :320   </TD> <TD> McGwire (1998):70   </TD> </TR>
+  <TR> <TD> 1st Qu.:380   </TD> <TD> Sosa (1998)   :66   </TD> </TR>
+  <TR> <TD> Median :410   </TD> <TD> Bonds (2001)  :73   </TD> </TR>
+  <TR> <TD> Mean   :409   </TD> <TD>  </TD> </TR>
+  <TR> <TD> 3rd Qu.:430   </TD> <TD>  </TD> </TR>
+  <TR> <TD> Max.   :550   </TD> <TD>  </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="Homes"> Homes </h2>
+Access column data using:<code>Homes$SELLINGP</code>  |   <code>Homes$LISTPRIC</code>  |   <code>Homes$AREA</code>  |   <code>Homes$ACRES</code>  |   <code>Homes$AGE</code>  |   <code>Homes$TAXES</code>  |   <code>Homes$ROOMS</code>  |   <code>Homes$BEDROOMS</code>  |   <code>Homes$BATHS</code>  |   <br><br>This data set contains  9 columns with  40 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH> SELLINGP </TH> <TH> LISTPRIC </TH> <TH> AREA </TH> <TH> ACRES </TH> <TH> AGE </TH> <TH> TAXES </TH> <TH> ROOMS </TH> <TH> BEDROOMS </TH> <TH> BATHS </TH>  </TR>
+  <TR> <TD align="right"> 400000.00 </TD> <TD align="right"> 414000.00 </TD> <TD align="right"> 2704.00 </TD> <TD align="right"> 2.27 </TD> <TD align="right"> 27.00 </TD> <TD align="right"> 4920.00 </TD> <TD align="right"> 9.00 </TD> <TD align="right"> 3.00 </TD> <TD align="right"> 3.00 </TD> </TR>
+  <TR> <TD align="right"> 370000.00 </TD> <TD align="right"> 379000.00 </TD> <TD align="right"> 2096.00 </TD> <TD align="right"> 0.75 </TD> <TD align="right"> 21.00 </TD> <TD align="right"> 4113.00 </TD> <TD align="right"> 8.00 </TD> <TD align="right"> 4.00 </TD> <TD align="right"> 2.00 </TD> </TR>
+  <TR> <TD align="right"> 382500.00 </TD> <TD align="right"> 389900.00 </TD> <TD align="right"> 2737.00 </TD> <TD align="right"> 1.00 </TD> <TD align="right"> 36.00 </TD> <TD align="right"> 6072.00 </TD> <TD align="right"> 9.00 </TD> <TD align="right"> 4.00 </TD> <TD align="right"> 2.00 </TD> </TR>
+  <TR> <TD align="right"> 300000.00 </TD> <TD align="right"> 299900.00 </TD> <TD align="right"> 1800.00 </TD> <TD align="right"> 0.43 </TD> <TD align="right"> 34.00 </TD> <TD align="right"> 4024.00 </TD> <TD align="right"> 8.00 </TD> <TD align="right"> 4.00 </TD> <TD align="right"> 2.00 </TD> </TR>
+  <TR> <TD align="right"> 305000.00 </TD> <TD align="right"> 319900.00 </TD> <TD align="right"> 1066.00 </TD> <TD align="right"> 3.60 </TD> <TD align="right"> 69.00 </TD> <TD align="right"> 3562.00 </TD> <TD align="right"> 6.00 </TD> <TD align="right"> 3.00 </TD> <TD align="right"> 2.00 </TD> </TR>
+  <TR> <TD align="right"> 320000.00 </TD> <TD align="right"> 319900.00 </TD> <TD align="right"> 1820.00 </TD> <TD align="right"> 1.70 </TD> <TD align="right"> 34.00 </TD> <TD align="right"> 4672.00 </TD> <TD align="right"> 7.00 </TD> <TD align="right"> 3.00 </TD> <TD align="right"> 2.00 </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH>    SELLINGP </TH> <TH>    LISTPRIC </TH> <TH>      AREA </TH> <TH>     ACRES </TH> <TH>      AGE </TH> <TH>     TAXES </TH> <TH>     ROOMS </TH> <TH>    BEDROOMS </TH> <TH>     BATHS </TH>  </TR>
+  <TR> <TD> Min.   :210000   </TD> <TD> Min.   :219900   </TD> <TD> Min.   :1066   </TD> <TD> Min.   : 0.2500   </TD> <TD> Min.   :  6.00   </TD> <TD> Min.   :1367   </TD> <TD> Min.   : 4.000   </TD> <TD> Min.   :2.0   </TD> <TD> Min.   :1.0   </TD> </TR>
+  <TR> <TD> 1st Qu.:292000   </TD> <TD> 1st Qu.:294975   </TD> <TD> 1st Qu.:1646   </TD> <TD> 1st Qu.: 0.6675   </TD> <TD> 1st Qu.: 24.75   </TD> <TD> 1st Qu.:3480   </TD> <TD> 1st Qu.: 6.000   </TD> <TD> 1st Qu.:3.0   </TD> <TD> 1st Qu.:1.0   </TD> </TR>
+  <TR> <TD> Median :309000   </TD> <TD> Median :319900   </TD> <TD> Median :1855   </TD> <TD> Median : 1.0000   </TD> <TD> Median : 35.50   </TD> <TD> Median :4130   </TD> <TD> Median : 8.000   </TD> <TD> Median :3.0   </TD> <TD> Median :2.0   </TD> </TR>
+  <TR> <TD> Mean   :342672   </TD> <TD> Mean   :349938   </TD> <TD> Mean   :2058   </TD> <TD> Mean   : 1.6903   </TD> <TD> Mean   : 38.12   </TD> <TD> Mean   :4627   </TD> <TD> Mean   : 7.675   </TD> <TD> Mean   :3.3   </TD> <TD> Mean   :1.9   </TD> </TR>
+  <TR> <TD> 3rd Qu.:388750   </TD> <TD> 3rd Qu.:395925   </TD> <TD> 3rd Qu.:2412   </TD> <TD> 3rd Qu.: 1.8800   </TD> <TD> 3rd Qu.: 46.25   </TD> <TD> 3rd Qu.:5530   </TD> <TD> 3rd Qu.: 9.000   </TD> <TD> 3rd Qu.:4.0   </TD> <TD> 3rd Qu.:2.0   </TD> </TR>
+  <TR> <TD> Max.   :520000   </TD> <TD> Max.   :529700   </TD> <TD> Max.   :3867   </TD> <TD> Max.   :11.5800   </TD> <TD> Max.   :144.00   </TD> <TD> Max.   :9809   </TD> <TD> Max.   :11.000   </TD> <TD> Max.   :5.0   </TD> <TD> Max.   :4.0   </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="MM"> MM </h2>
+Access column data using:<code>MM$WEIGHT</code>  |   <code>MM$COLOR</code>  |   <br><br>This data set contains  2 columns with  100 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH> WEIGHT </TH> <TH> COLOR </TH>  </TR>
+  <TR> <TD align="right"> 0.75 </TD> <TD> Red </TD> </TR>
+  <TR> <TD align="right"> 0.84 </TD> <TD> Red </TD> </TR>
+  <TR> <TD align="right"> 0.86 </TD> <TD> Red </TD> </TR>
+  <TR> <TD align="right"> 0.80 </TD> <TD> Red </TD> </TR>
+  <TR> <TD align="right"> 0.97 </TD> <TD> Red </TD> </TR>
+  <TR> <TD align="right"> 0.86 </TD> <TD> Red </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH>     WEIGHT </TH> <TH>    COLOR </TH>  </TR>
+  <TR> <TD> Min.   :0.6960   </TD> <TD> Red   :13   </TD> </TR>
+  <TR> <TD> 1st Qu.:0.8287   </TD> <TD> Orange:25   </TD> </TR>
+  <TR> <TD> Median :0.8580   </TD> <TD> Yellow: 8   </TD> </TR>
+  <TR> <TD> Mean   :0.8565   </TD> <TD> Brown : 8   </TD> </TR>
+  <TR> <TD> 3rd Qu.:0.8810   </TD> <TD> Blue  :27   </TD> </TR>
+  <TR> <TD> Max.   :1.0150   </TD> <TD> Green :19   </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="Mhealth"> Mhealth </h2>
+Access column data using:<code>Mhealth$AGE</code>  |   <code>Mhealth$HT</code>  |   <code>Mhealth$WT</code>  |   <code>Mhealth$WAIST</code>  |   <code>Mhealth$PULSE</code>  |   <code>Mhealth$SYS</code>  |   <code>Mhealth$DIAS</code>  |   <code>Mhealth$CHOL</code>  |   <code>Mhealth$BMI</code>  |   <code>Mhealth$LEG</code>  |   <code>Mhealth$ELBOW</code>  |   <code>Mhealth$WRIST</code>  |   <code>Mhealth$ARM</code>  |   <br><br>This data set contains  13 columns with  40 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH> AGE </TH> <TH> HT </TH> <TH> WT </TH> <TH> WAIST </TH> <TH> PULSE </TH> <TH> SYS </TH> <TH> DIAS </TH> <TH> CHOL </TH> <TH> BMI </TH> <TH> LEG </TH> <TH> ELBOW </TH> <TH> WRIST </TH> <TH> ARM </TH>  </TR>
+  <TR> <TD align="right"> 58.00 </TD> <TD align="right"> 70.80 </TD> <TD align="right"> 169.10 </TD> <TD align="right"> 90.60 </TD> <TD align="right"> 68.00 </TD> <TD align="right"> 125.00 </TD> <TD align="right"> 78.00 </TD> <TD align="right"> 522.00 </TD> <TD align="right"> 23.80 </TD> <TD align="right"> 42.50 </TD> <TD align="right"> 7.70 </TD> <TD align="right"> 6.40 </TD> <TD align="right"> 31.90 </TD> </TR>
+  <TR> <TD align="right"> 22.00 </TD> <TD align="right"> 66.20 </TD> <TD align="right"> 144.20 </TD> <TD align="right"> 78.10 </TD> <TD align="right"> 64.00 </TD> <TD align="right"> 107.00 </TD> <TD align="right"> 54.00 </TD> <TD align="right"> 127.00 </TD> <TD align="right"> 23.20 </TD> <TD align="right"> 40.20 </TD> <TD align="right"> 7.60 </TD> <TD align="right"> 6.20 </TD> <TD align="right"> 31.00 </TD> </TR>
+  <TR> <TD align="right"> 32.00 </TD> <TD align="right"> 71.70 </TD> <TD align="right"> 179.30 </TD> <TD align="right"> 96.50 </TD> <TD align="right"> 88.00 </TD> <TD align="right"> 126.00 </TD> <TD align="right"> 81.00 </TD> <TD align="right"> 740.00 </TD> <TD align="right"> 24.60 </TD> <TD align="right"> 44.40 </TD> <TD align="right"> 7.30 </TD> <TD align="right"> 5.80 </TD> <TD align="right"> 32.70 </TD> </TR>
+  <TR> <TD align="right"> 31.00 </TD> <TD align="right"> 68.70 </TD> <TD align="right"> 175.80 </TD> <TD align="right"> 87.70 </TD> <TD align="right"> 72.00 </TD> <TD align="right"> 110.00 </TD> <TD align="right"> 68.00 </TD> <TD align="right"> 49.00 </TD> <TD align="right"> 26.20 </TD> <TD align="right"> 42.80 </TD> <TD align="right"> 7.50 </TD> <TD align="right"> 5.90 </TD> <TD align="right"> 33.40 </TD> </TR>
+  <TR> <TD align="right"> 28.00 </TD> <TD align="right"> 67.60 </TD> <TD align="right"> 152.60 </TD> <TD align="right"> 87.10 </TD> <TD align="right"> 64.00 </TD> <TD align="right"> 110.00 </TD> <TD align="right"> 66.00 </TD> <TD align="right"> 230.00 </TD> <TD align="right"> 23.50 </TD> <TD align="right"> 40.00 </TD> <TD align="right"> 7.10 </TD> <TD align="right"> 6.00 </TD> <TD align="right"> 30.10 </TD> </TR>
+  <TR> <TD align="right"> 46.00 </TD> <TD align="right"> 69.20 </TD> <TD align="right"> 166.80 </TD> <TD align="right"> 92.40 </TD> <TD align="right"> 72.00 </TD> <TD align="right"> 107.00 </TD> <TD align="right"> 83.00 </TD> <TD align="right"> 316.00 </TD> <TD align="right"> 24.50 </TD> <TD align="right"> 47.30 </TD> <TD align="right"> 7.10 </TD> <TD align="right"> 5.80 </TD> <TD align="right"> 30.50 </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH>      AGE </TH> <TH>       HT </TH> <TH>       WT </TH> <TH>     WAIST </TH> <TH>     PULSE </TH> <TH>      SYS </TH> <TH>      DIAS </TH> <TH>      CHOL </TH> <TH>      BMI </TH> <TH>      LEG </TH> <TH>     ELBOW </TH> <TH>     WRIST </TH> <TH>      ARM </TH>  </TR>
+  <TR> <TD> Min.   :17.00   </TD> <TD> Min.   :61.30   </TD> <TD> Min.   :119.5   </TD> <TD> Min.   : 75.20   </TD> <TD> Min.   :56.0   </TD> <TD> Min.   : 95.0   </TD> <TD> Min.   :44.00   </TD> <TD> Min.   :  31.0   </TD> <TD> Min.   :19.60   </TD> <TD> Min.   :36.00   </TD> <TD> Min.   :6.500   </TD> <TD> Min.   :5.2   </TD> <TD> Min.   :25.90   </TD> </TR>
+  <TR> <TD> 1st Qu.:25.75   </TD> <TD> 1st Qu.:66.30   </TD> <TD> 1st Qu.:152.4   </TD> <TD> 1st Qu.: 84.38   </TD> <TD> 1st Qu.:60.0   </TD> <TD> 1st Qu.:111.5   </TD> <TD> 1st Qu.:67.50   </TD> <TD> 1st Qu.: 163.8   </TD> <TD> 1st Qu.:23.73   </TD> <TD> 1st Qu.:40.73   </TD> <TD> 1st Qu.:7.000   </TD> <TD> 1st Qu.:5.6   </TD> <TD> 1st Qu.:30.70   </TD> </TR>
+  <TR> <TD> Median :32.50   </TD> <TD> Median :68.30   </TD> <TD> Median :169.9   </TD> <TD> Median : 91.20   </TD> <TD> Median :66.0   </TD> <TD> Median :117.0   </TD> <TD> Median :75.00   </TD> <TD> Median : 282.5   </TD> <TD> Median :26.20   </TD> <TD> Median :42.65   </TD> <TD> Median :7.300   </TD> <TD> Median :5.8   </TD> <TD> Median :32.05   </TD> </TR>
+  <TR> <TD> Mean   :35.48   </TD> <TD> Mean   :68.33   </TD> <TD> Mean   :172.6   </TD> <TD> Mean   : 91.28   </TD> <TD> Mean   :69.4   </TD> <TD> Mean   :118.9   </TD> <TD> Mean   :73.22   </TD> <TD> Mean   : 395.2   </TD> <TD> Mean   :26.00   </TD> <TD> Mean   :42.57   </TD> <TD> Mean   :7.295   </TD> <TD> Mean   :5.8   </TD> <TD> Mean   :32.39   </TD> </TR>
+  <TR> <TD> 3rd Qu.:44.50   </TD> <TD> 3rd Qu.:70.08   </TD> <TD> 3rd Qu.:189.6   </TD> <TD> 3rd Qu.: 99.90   </TD> <TD> 3rd Qu.:76.0   </TD> <TD> 3rd Qu.:125.0   </TD> <TD> 3rd Qu.:81.00   </TD> <TD> 3rd Qu.: 619.2   </TD> <TD> 3rd Qu.:27.50   </TD> <TD> 3rd Qu.:44.42   </TD> <TD> 3rd Qu.:7.500   </TD> <TD> 3rd Qu.:6.0   </TD> <TD> 3rd Qu.:33.77   </TD> </TR>
+  <TR> <TD> Max.   :73.00   </TD> <TD> Max.   :76.20   </TD> <TD> Max.   :237.1   </TD> <TD> Max.   :108.70   </TD> <TD> Max.   :96.0   </TD> <TD> Max.   :153.0   </TD> <TD> Max.   :87.00   </TD> <TD> Max.   :1252.0   </TD> <TD> Max.   :33.20   </TD> <TD> Max.   :48.40   </TD> <TD> Max.   :8.300   </TD> <TD> Max.   :6.7   </TD> <TD> Max.   :41.10   </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="OldFAITH"> OldFAITH </h2>
+Access column data using:<code>OldFAITH$DURATION</code>  |   <code>OldFAITH$BEFORE</code>  |   <code>OldFAITH$AFTER</code>  |   <code>OldFAITH$HEIGHT</code>  |   <code>OldFAITH$ERROR</code>  |   <br><br>This data set contains  5 columns with  40 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH> DURATION </TH> <TH> BEFORE </TH> <TH> AFTER </TH> <TH> HEIGHT </TH> <TH> ERROR </TH>  </TR>
+  <TR> <TD align="right"> 240.00 </TD> <TD align="right"> 98.00 </TD> <TD align="right"> 92.00 </TD> <TD align="right"> 140.00 </TD> <TD align="right"> 4.00 </TD> </TR>
+  <TR> <TD align="right"> 237.00 </TD> <TD align="right"> 92.00 </TD> <TD align="right"> 95.00 </TD> <TD align="right"> 140.00 </TD> <TD align="right"> -2.00 </TD> </TR>
+  <TR> <TD align="right"> 250.00 </TD> <TD align="right"> 95.00 </TD> <TD align="right"> 92.00 </TD> <TD align="right"> 148.00 </TD> <TD align="right"> 1.00 </TD> </TR>
+  <TR> <TD align="right"> 243.00 </TD> <TD align="right"> 87.00 </TD> <TD align="right"> 100.00 </TD> <TD align="right"> 130.00 </TD> <TD align="right"> -7.00 </TD> </TR>
+  <TR> <TD align="right"> 255.00 </TD> <TD align="right"> 96.00 </TD> <TD align="right"> 90.00 </TD> <TD align="right"> 125.00 </TD> <TD align="right"> 2.00 </TD> </TR>
+  <TR> <TD align="right"> 120.00 </TD> <TD align="right"> 90.00 </TD> <TD align="right"> 65.00 </TD> <TD align="right"> 110.00 </TD> <TD align="right"> -4.00 </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH>    DURATION </TH> <TH>     BEFORE </TH> <TH>     AFTER </TH> <TH>     HEIGHT </TH> <TH>     ERROR </TH>  </TR>
+  <TR> <TD> Min.   :110.0   </TD> <TD> Min.   : 65.00   </TD> <TD> Min.   : 65.00   </TD> <TD> Min.   : 95.0   </TD> <TD> Min.   :-11.000   </TD> </TR>
+  <TR> <TD> 1st Qu.:240.8   </TD> <TD> 1st Qu.: 89.75   </TD> <TD> 1st Qu.: 88.75   </TD> <TD> 1st Qu.:120.0   </TD> <TD> 1st Qu.: -2.000   </TD> </TR>
+  <TR> <TD> Median :252.0   </TD> <TD> Median : 93.00   </TD> <TD> Median : 92.00   </TD> <TD> Median :130.0   </TD> <TD> Median :  1.000   </TD> </TR>
+  <TR> <TD> Mean   :245.0   </TD> <TD> Mean   : 92.62   </TD> <TD> Mean   : 91.42   </TD> <TD> Mean   :127.2   </TD> <TD> Mean   :  1.875   </TD> </TR>
+  <TR> <TD> 3rd Qu.:262.2   </TD> <TD> 3rd Qu.: 96.25   </TD> <TD> 3rd Qu.: 96.25   </TD> <TD> 3rd Qu.:136.0   </TD> <TD> 3rd Qu.:  4.000   </TD> </TR>
+  <TR> <TD> Max.   :294.0   </TD> <TD> Max.   :112.00   </TD> <TD> Max.   :112.00   </TD> <TD> Max.   :150.0   </TD> <TD> Max.   : 21.000   </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="POPLAR"> POPLAR </h2>
+Access column data using:<code>POPLAR$YEAR</code>  |   <code>POPLAR$SITE</code>  |   <code>POPLAR$NOTREATM</code>  |   <code>POPLAR$FERTILIZ</code>  |   <code>POPLAR$IRRIGATI</code>  |   <code>POPLAR$FERTIRRI</code>  |   <br><br>This data set contains  6 columns with  20 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH> YEAR </TH> <TH> SITE </TH> <TH> NOTREATM </TH> <TH> FERTILIZ </TH> <TH> IRRIGATI </TH> <TH> FERTIRRI </TH>  </TR>
+  <TR> <TD align="right"> 1.00 </TD> <TD align="right"> 1.00 </TD> <TD align="right"> 0.15 </TD> <TD align="right"> 1.34 </TD> <TD align="right"> 0.23 </TD> <TD align="right"> 2.03 </TD> </TR>
+  <TR> <TD align="right"> 1.00 </TD> <TD align="right"> 1.00 </TD> <TD align="right"> 0.02 </TD> <TD align="right"> 0.14 </TD> <TD align="right"> 0.04 </TD> <TD align="right"> 0.27 </TD> </TR>
+  <TR> <TD align="right"> 1.00 </TD> <TD align="right"> 1.00 </TD> <TD align="right"> 0.16 </TD> <TD align="right"> 0.02 </TD> <TD align="right"> 0.34 </TD> <TD align="right"> 0.92 </TD> </TR>
+  <TR> <TD align="right"> 1.00 </TD> <TD align="right"> 1.00 </TD> <TD align="right"> 0.37 </TD> <TD align="right"> 0.08 </TD> <TD align="right"> 0.16 </TD> <TD align="right"> 1.07 </TD> </TR>
+  <TR> <TD align="right"> 1.00 </TD> <TD align="right"> 1.00 </TD> <TD align="right"> 0.22 </TD> <TD align="right"> 0.08 </TD> <TD align="right"> 0.05 </TD> <TD align="right"> 2.38 </TD> </TR>
+  <TR> <TD align="right"> 1.00 </TD> <TD align="right"> 2.00 </TD> <TD align="right"> 0.60 </TD> <TD align="right"> 1.16 </TD> <TD align="right"> 0.65 </TD> <TD align="right"> 0.22 </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH>      YEAR </TH> <TH>      SITE </TH> <TH>    NOTREATM </TH> <TH>    FERTILIZ </TH> <TH>    IRRIGATI </TH> <TH>    FERTIRRI </TH>  </TR>
+  <TR> <TD> Min.   :1.0   </TD> <TD> Min.   :1.00   </TD> <TD> Min.   :0.0200   </TD> <TD> Min.   :0.0200   </TD> <TD> Min.   :0.0100   </TD> <TD> Min.   :0.1200   </TD> </TR>
+  <TR> <TD> 1st Qu.:1.0   </TD> <TD> 1st Qu.:1.00   </TD> <TD> 1st Qu.:0.1575   </TD> <TD> 1st Qu.:0.1625   </TD> <TD> 1st Qu.:0.0775   </TD> <TD> 1st Qu.:0.9025   </TD> </TR>
+  <TR> <TD> Median :1.5   </TD> <TD> Median :1.00   </TD> <TD> Median :0.5000   </TD> <TD> Median :0.5850   </TD> <TD> Median :0.4800   </TD> <TD> Median :1.4300   </TD> </TR>
+  <TR> <TD> Mean   :1.5   </TD> <TD> Mean   :1.25   </TD> <TD> Mean   :0.6465   </TD> <TD> Mean   :0.6555   </TD> <TD> Mean   :0.5370   </TD> <TD> Mean   :1.3365   </TD> </TR>
+  <TR> <TD> 3rd Qu.:2.0   </TD> <TD> 3rd Qu.:1.25   </TD> <TD> 3rd Qu.:1.1350   </TD> <TD> 3rd Qu.:0.9625   </TD> <TD> 3rd Qu.:0.8500   </TD> <TD> 3rd Qu.:1.8425   </TD> </TR>
+  <TR> <TD> Max.   :2.0   </TD> <TD> Max.   :2.00   </TD> <TD> Max.   :1.8000   </TD> <TD> Max.   :1.7400   </TD> <TD> Max.   :1.5700   </TD> <TD> Max.   :2.3800   </TD> </TR>
+   </TABLE>
+ 
+
+ <h2  id="WEATHER"> WEATHER </h2>
+Access column data using:<code>WEATHER$DATE</code>  |   <code>WEATHER$HIGH</code>  |   <code>WEATHER$LOW</code>  |   <code>WEATHER$PREDICTE</code>  |   <code>WEATHER$PREDIC_A</code>  |   <code>WEATHER$PREDIC_B</code>  |   <code>WEATHER$PREDIC_C</code>  |   <code>WEATHER$PREDIC_D</code>  |   <code>WEATHER$PREDIC_E</code>  |   <code>WEATHER$PRECIP</code>  |   <br><br>This data set contains  10 columns with  35 rows of data.<br><br> 
+
+ First few rows of data:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH> DATE </TH> <TH> HIGH </TH> <TH> LOW </TH> <TH> PREDICTE </TH> <TH> PREDIC_A </TH> <TH> PREDIC_B </TH> <TH> PREDIC_C </TH> <TH> PREDIC_D </TH> <TH> PREDIC_E </TH> <TH> PRECIP </TH>  </TR>
+  <TR> <TD> Sept. 1  </TD> <TD align="right"> 80.00 </TD> <TD align="right"> 54.00 </TD> <TD align="right"> 78.00 </TD> <TD align="right"> 52.00 </TD> <TD align="right"> 79.00 </TD> <TD align="right"> 52.00 </TD> <TD align="right"> 80.00 </TD> <TD align="right"> 56.00 </TD> <TD align="right"> 0.00 </TD> </TR>
+  <TR> <TD> Sept. 2  </TD> <TD align="right"> 77.00 </TD> <TD align="right"> 54.00 </TD> <TD align="right"> 75.00 </TD> <TD align="right"> 53.00 </TD> <TD align="right"> 86.00 </TD> <TD align="right"> 63.00 </TD> <TD align="right"> 80.00 </TD> <TD align="right"> 57.00 </TD> <TD align="right"> 0.00 </TD> </TR>
+  <TR> <TD> Sept. 3  </TD> <TD align="right"> 81.00 </TD> <TD align="right"> 55.00 </TD> <TD align="right"> 81.00 </TD> <TD align="right"> 55.00 </TD> <TD align="right"> 79.00 </TD> <TD align="right"> 59.00 </TD> <TD align="right"> 79.00 </TD> <TD align="right"> 59.00 </TD> <TD align="right"> 0.00 </TD> </TR>
+  <TR> <TD> Sept. 4  </TD> <TD align="right"> 85.00 </TD> <TD align="right"> 60.00 </TD> <TD align="right"> 85.00 </TD> <TD align="right"> 62.00 </TD> <TD align="right"> 83.00 </TD> <TD align="right"> 59.00 </TD> <TD align="right"> 80.00 </TD> <TD align="right"> 56.00 </TD> <TD align="right"> 0.00 </TD> </TR>
+  <TR> <TD> Sept. 5  </TD> <TD align="right"> 73.00 </TD> <TD align="right"> 64.00 </TD> <TD align="right"> 76.00 </TD> <TD align="right"> 53.00 </TD> <TD align="right"> 80.00 </TD> <TD align="right"> 63.00 </TD> <TD align="right"> 79.00 </TD> <TD align="right"> 64.00 </TD> <TD align="right"> 0.00 </TD> </TR>
+  <TR> <TD> Sept. 6  </TD> <TD align="right"> 73.00 </TD> <TD align="right"> 51.00 </TD> <TD align="right"> 75.00 </TD> <TD align="right"> 58.00 </TD> <TD align="right"> 76.00 </TD> <TD align="right"> 61.00 </TD> <TD align="right"> 82.00 </TD> <TD align="right"> 57.00 </TD> <TD align="right"> 0.00 </TD> </TR>
+   </TABLE>
+ 
+
+ <br>Column summary:<br> 
+
+ <!-- html table generated in R 2.7.0 by xtable 1.5-2 package -->
+<!-- Tue Sep  2 20:34:21 2008 -->
+<TABLE border=1>
+<TR> <TH>       DATE </TH> <TH>      HIGH </TH> <TH>      LOW </TH> <TH>    PREDICTE </TH> <TH>    PREDIC_A </TH> <TH>    PREDIC_B </TH> <TH>    PREDIC_C </TH> <TH>    PREDIC_D </TH> <TH>    PREDIC_E </TH> <TH>     PRECIP </TH>  </TR>
+  <TR> <TD> Oct. 1  : 1   </TD> <TD> Min.   :58.00   </TD> <TD> Min.   :39.00   </TD> <TD> Min.   :56.00   </TD> <TD> Min.   :29.00   </TD> <TD> Min.   :62.00   </TD> <TD> Min.   :38.00   </TD> <TD> Min.   :61.00   </TD> <TD> Min.   :40.00   </TD> <TD> Min.   :0.0000   </TD> </TR>
+  <TR> <TD> Oct. 2  : 1   </TD> <TD> 1st Qu.:70.50   </TD> <TD> 1st Qu.:50.00   </TD> <TD> 1st Qu.:70.00   </TD> <TD> 1st Qu.:48.00   </TD> <TD> 1st Qu.:73.00   </TD> <TD> 1st Qu.:50.50   </TD> <TD> 1st Qu.:71.50   </TD> <TD> 1st Qu.:49.00   </TD> <TD> 1st Qu.:0.0000   </TD> </TR>
+  <TR> <TD> Oct. 3  : 1   </TD> <TD> Median :75.00   </TD> <TD> Median :54.00   </TD> <TD> Median :75.00   </TD> <TD> Median :53.00   </TD> <TD> Median :75.00   </TD> <TD> Median :54.00   </TD> <TD> Median :75.00   </TD> <TD> Median :55.00   </TD> <TD> Median :0.0000   </TD> </TR>
+  <TR> <TD> Oct. 4  : 1   </TD> <TD> Mean   :73.77   </TD> <TD> Mean   :53.77   </TD> <TD> Mean   :74.37   </TD> <TD> Mean   :52.29   </TD> <TD> Mean   :75.11   </TD> <TD> Mean   :54.11   </TD> <TD> Mean   :74.49   </TD> <TD> Mean   :53.63   </TD> <TD> Mean   :0.2297   </TD> </TR>
+  <TR> <TD> Oct. 5  : 1   </TD> <TD> 3rd Qu.:79.00   </TD> <TD> 3rd Qu.:58.50   </TD> <TD> 3rd Qu.:79.00   </TD> <TD> 3rd Qu.:56.50   </TD> <TD> 3rd Qu.:78.50   </TD> <TD> 3rd Qu.:59.00   </TD> <TD> 3rd Qu.:78.50   </TD> <TD> 3rd Qu.:58.00   </TD> <TD> 3rd Qu.:0.0350   </TD> </TR>
+  <TR> <TD> Sept. 1 : 1   </TD> <TD> Max.   :85.00   </TD> <TD> Max.   :68.00   </TD> <TD> Max.   :85.00   </TD> <TD> Max.   :66.00   </TD> <TD> Max.   :86.00   </TD> <TD> Max.   :67.00   </TD> <TD> Max.   :83.00   </TD> <TD> Max.   :64.00   </TD> <TD> Max.   :2.8500   </TD> </TR>
+  <TR> <TD> (Other) :29   </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> </TR>
+   </TABLE>
+ 
+
+ 

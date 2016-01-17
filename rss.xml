@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Anthony Tanbakuchi</title><link>https://tanbakuchi.com/</link><description>Personal site of Anthony Tanbakuchi, PhD.</description><atom:link href="https://tanbakuchi.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sun, 17 Jan 2016 20:00:38 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Welcome to my updated site</title><link>https://tanbakuchi.com/posts/welcome-to-my-updated-site/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;p&gt;Since my long time hosting provider BlueHost kept increasing prices and I don't
+need any advanced features I decided to move my site to a github pages.
+My site has been statically generated for years which keeps things simple and
+makes migration easy. So moving to Github Pages was simple. I updated my static
+generator code to Python based &lt;a class="reference external" href="https://getnikola.com"&gt;Nikola&lt;/a&gt; from
+Ruby based &lt;a class="reference external" href="http://webgen.gettalong.org"&gt;WebGen&lt;/a&gt;. I changed the generator code
+because I prefer Python and like the option to be able to include iPython posts.
+By making these changes I was able to save about $160/year with BlueHosts newly
+announced major price increases. My only cost now
+is $12 domain registrations using &lt;a class="reference external" href="http://domains.google.com"&gt;Google Domains&lt;/a&gt;
+since Github Pages are free. Thanks Github!&lt;/p&gt;</description><guid>https://tanbakuchi.com/posts/welcome-to-my-updated-site/</guid><pubDate>Sun, 17 Jan 2016 19:46:34 GMT</pubDate></item></channel></rss>

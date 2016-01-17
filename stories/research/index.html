@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<head>
+<meta charset="utf-8">
+<base href="https://tanbakuchi.com/stories/research/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research | Anthony Tanbakuchi</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta content="#5670d4" name="theme-color">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://tanbakuchi.com/stories/research/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Anthony Tanbakuchi">
+<meta property="og:site_name" content="Anthony Tanbakuchi">
+<meta property="og:title" content="Research">
+<meta property="og:url" content="https://tanbakuchi.com/stories/research/">
+<meta property="og:description" content="My PhD research primarily involved the development of a confocal
+microendoscope for optical biopsies in surgery. My specific
+contributions to this project were:
+
+developing the surgical imaging cathet">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2016-01-17T09:19:26-07:00">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://tanbakuchi.com/">
+
+                <span id="blog-title">Anthony Tanbakuchi</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../../CV/TanbakuchiCV.pdf">CV</a>
+                </li>
+<li>
+<a href="../publications/">Publications</a>
+                </li>
+<li>
+<a href="../teaching/">Teaching</a>
+                </li>
+<li class="active">
+<a href=".">Research <span class="sr-only">(active)</span></a>
+
+                
+            </li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+    <a href="index.rst" id="sourcelink">Source</a>
+    </li>
+
+                
+            </ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Research</a></h1>
+
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p>My PhD research primarily involved the development of a confocal
+microendoscope for optical biopsies in surgery. My specific
+contributions to this project were:</p>
+<ol class="arabic simple">
+<li>developing the surgical imaging catheters</li>
+<li>developing the contrast agent delivery system</li>
+<li>developing the focus / depth scan mechanism</li>
+<li>making the overall instrument smaller for operating room use</li>
+<li>writing the instrument software interface</li>
+<li>developing a higher resolution and larger NA objective lens targeted
+for use in esophageal cancer</li>
+</ol>
+<p>We are currently in human trials using the device to image ovarian
+cancer in high risk women.</p>
+<p>I am still adding content to this page. Below are figures illustrating
+the device. More information will be added soon.</p>
+<div class="section" id="the-confocal-microendoscope">
+<h2>The Confocal Microendoscope</h2>
+<div class="figure">
+<img alt="System in use during surgery" src="endoscopes/ClinicalImagingWithCart.jpg"><p class="caption">System in use during surgery</p>
+</div>
+<p>The surgical microendoscope system imaging the epithelial surface of an
+ovary during surgery. In this image the surgeon has located the left
+ovary using a wide field endoscope (left most display) and is inspecting
+the epithelial cells using the microendoscope via the second display
+from the left. The mobile instrument is on the far right.</p>
+<iframe width="459" height="344" src="https://www.youtube.com/embed/ewLRWBptY3Q?feature=oembed" frameborder="0" allowfullscreen></iframe><p>In vivo confocal microlaparoscope video of the human ovary using topically applied
+fluorescein sodium as the contrast agent. The pathology report diagnosis was serous
+cystadenoma. (Circular field of view is 450μm.)</p>
+<div class="section" id="need-for-real-time-optical-biopsies-in-surgery">
+<h3>Need for real-time optical biopsies in surgery</h3>
+<p>Successful treatment of cancer is highly dependent on the stage at which
+diagnosis occurs. Early diagnosis, when the disease is still localized
+at its origin, results in very high cure rates—even for cancers that
+typical have poor prognosis. Unfortunately, many cancers are not found
+until later stages due to inadequate diagnostic techniques.
+Approximately 90% of cancers arise from the epithelial cells that cover
+organs <a class="footnote-reference" href="#id23" id="id1">[1]</a>. Development of surgical devices that can better interrogate
+epithelial surfaces for abnormalities would enable earlier detection of
+cancer and significant gains in overall patient survival.</p>
+<p>Diagnosis of cancer is often done by pathologists using thin sections of
+stained and processed biopsy tissue. Bright field microscopy has played
+a central role in the diagnosis of disease from carefully prepared
+biopsy slides. Confocal microscopy, a more recent innovation, is also
+being used with greater frequency because it can directly image bulk
+sections of tissue with high clarity. Bright field images of bulk tissue
+appear very blurry due to simultaneous collection of out of focus
+planes. However, confocal images of bulk tissue are sharp because the
+microscope only collects light from in focus planes; light from out of
+focus planes is rejected.</p>
+<p>Since the confocal microscope alleviates the need for cutting tissue
+into thin sections, it has significant potential as an in-vivo imaging
+device that could supplant biopsies. However, a standard confocal
+microscope is a large device that is not especially suited for accessing
+the epithelial surface of most organs where biopsies are acquired.
+Realizing the potential of confocal imaging to ultimately supplant
+biopsies via in-vivo imaging, we worked on the initial technologies to
+enable in-vivo confocal imaging via coherent fiber optic bundles <a class="footnote-reference" href="#id24" id="id2">[2]</a>.
+Since the initial work, our research group has continued developing
+technologies to allow live in-vivo human cellular imaging via confocal
+microendoscopy during surgery.</p>
+</div>
+<div class="section" id="case-study-patients-at-high-risk-of-ovarian-cancer">
+<h3>Case study: patients at high risk of ovarian cancer</h3>
+<p>The American Cancer Society estimates that over 230,000 new cases of
+ovarian cancer were diagnosed in 2007 while more than 141,000 women died
+from the disease worldwide. <a class="footnote-reference" href="#id25" id="id3">[3]</a> For those diagnosed with the disease,
+only 30 to 45 percent will survive five years. <a class="footnote-reference" href="#id26" id="id4">[4]</a>  <a class="footnote-reference" href="#id27" id="id5">[5]</a> The survival
+rate for ovarian cancer is poor because the disease frequently has no
+obvious signs until it has reached an advanced stage. Only 19 percent of
+all cases are diagnosed during the early localized stages of the
+disease; most of the population are diagnosed during the later stages
+when the treatment is expensive and generally unsuccessful.</p>
+<p>For the female population at large, most are at a low risk of acquiring
+ovarian cancer. It is estimated that approximately 1 in 58 newborn
+females (1.7 percent lifetime risk) will develop ovarian cancer in their
+lifetime. <a class="footnote-reference" href="#id28" id="id6">[6]</a> However, the lifetime risk for the disease increases by
+two fold if the individual has one first or second-degree relative with
+the disease. With two first-degree relatives the risk increases by 25x
+(a 40 percent lifetime risk). <a class="footnote-reference" href="#id29" id="id7">[7]</a>  <a class="footnote-reference" href="#id30" id="id8">[8]</a>  <a class="footnote-reference" href="#id31" id="id9">[9]</a>  <a class="footnote-reference" href="#id32" id="id10">[10]</a></p>
+<p>For the subgroups of women at increased risk, few options exist to allow
+early detection of the disease. The delicate epithelial surface of the
+ovary is not amenable for biopsy. The NIH 1994 consensus stated that
+there is no single acceptable screening test for ovarian cancer and no
+evidence that combining the available screening tests—CA125,
+transvaginal ultrasound, and pelvic exam—has an acceptable sensitivity
+and specificity. <a class="footnote-reference" href="#id33" id="id11">[11]</a> Ovarian cancer is thought to metastasize early in
+the course of the disease and many experts believe that a different
+biology occurs during Stage I cancer as compared to the later stages. In
+Stage I, it is thought that the cancer often metastasizes before a
+lesion in the ovary becomes grossly visible. Without a viable method for
+early detection of the disease, most women at high risk are provided the
+option of prophylactic oophorectomy. Preemptive oophorectomies have the
+negative side effects of sterility and loss of natural hormone
+production. Hormone replacement is typically not an option for this
+subgroup since they are also at an increased risk for breast cancer and
+hormone replacement can further increase this risk.</p>
+<p>In the following sections we discuss a confocal microendoscope system
+that is generally applicable to in-vivo imaging of epithelial cells. The
+technology is applied to the subgroup of women at high risk for ovarian
+cancer who have no suitable methods to detect cancer in its early
+stages. Our mobile device provides the surgeon with real-time in-vivo
+confocal images. The long term objective is to allow the physician to
+determine if the ovary is healthy and circumvent unnecessary
+prophylactic oophorectomy.</p>
+</div>
+<div class="section" id="surgical-system">
+<h3>Surgical System</h3>
+<div class="figure">
+<img alt="Surgical cart" src="endoscopes/ClinicalCart.png"><p class="caption">Mobile surgical system.</p>
+</div>
+<p>Our surgical confocal microendoscope system consists of an imaging
+catheter connected to a mobile cart. The mobile system can be easily
+moved into an operating room when live cellular imaging is needed. All
+the system components are housed on a mobile endoscopy cart. The above
+figure depicts the system’s components. The top shelf houses the sterile
+imaging catheter and other necessary surgical supplies. The second shelf
+contains the optical scanning system—discussed in the following
+paragraphs—which directly connects to the imaging catheter. The third
+and fourth shelves house the laser, function generator, and computer.
+The bottom shelf houses the medical grade isolation transformer and
+laser safety goggles. The operator display and the controls for
+collecting data during surgery are located on a platform at standing
+height.</p>
+<div class="figure">
+<img alt="Optical components" src="endoscopes/ClinicalOpticsLayout.png"><p class="caption">Optical components</p>
+</div>
+<p>Diagram of the optical scanning system. The left side illustrates the
+standard mode of operation. A 488 nm laser is anamorphically shaped into
+a line and scanned onto the coherent fiber bundle in the imaging
+catheter. The excited signal re-enters the system, is descanned and
+filtered through a confocal slit. Then the light is rescanned onto a two
+dimensional detector. In the spectral imaging mode, the image scan
+mirror is turned to its extreme position redirecting the light through a
+dispersing prism.</p>
+<p>At the core of the confocal microendoscope system is the optical
+scanning system. The components and layout are shown above. The left
+side of the figure shows how the system operates in the standard live
+imaging mode. In this mode a 488 nm solid state laser beam is expanded
+and anamorphically shaped into a line via a cylindrical lens. This laser
+line is then reflected into the image path by a dichroic filter and
+scanned across the coherent fiber bundle face at the proximal end of the
+imaging catheter’s connector.</p>
+<p>Tissue fluorescence is collected by the imaging catheter, collimated
+back into the optical scanning system, and de-scanned using the object
+scan mirror. The dichroic filter passes the fluorescence signal, which
+is focused down to a stationary line. A slit serves as the confocal
+aperture. The light exiting the slit is then re-collimated and rescanned
+using the image scan mirror. A final filter removes residual excitation.
+Finally the beam is refocused back into a line that sweeps across the
+camera to collect a two-dimensional image every 1∕30th of a second. In
+addition to live two-dimensional imaging, the system can also collect
+multi-spectral data. <a class="footnote-reference" href="#id34" id="id12">[12]</a>  <a class="footnote-reference" href="#id35" id="id13">[13]</a> This multi-spectral mode is instantly
+achieved via a software button that deflects the object scan mirror to
+its extreme position. In this configuration, the light passes through a
+prism and the dispersed signal is collected by the camera. Since one
+spatial dimension on the camera is used for spectral collection, the
+second image spatial dimension is collected over time. The complete
+spectral data collection procedure executes in a few seconds. Once
+spectral collection is complete the system reverts back to its grayscale
+operating mode.</p>
+<div class="figure">
+<img alt="Surgical software" src="endoscopes/ClinicalSoftware.png"><p class="caption">Surgical software</p>
+</div>
+<p>The mobile system has been designed to streamline all operations during
+surgery. Once the system is plugged in and the safety interlocks
+engaged, the system boots and all hardware is initialized. Hardware
+initialization includes the solid state laser, camera, dye delivery
+system, and function generator for scan mirror control. After the
+automatic initialization, the operator is presented with the software
+control system auto-initialized for live imaging.</p>
+<p>The above figure shows the software control system. It provides a simple
+interface for viewing and collecting live images during the surgical
+procedure. The software has controls to: (1) start live acquisition, (2)
+save the current frame, (3) record video, (4) delivery dye, (5) load
+dye, and (6) adjust histogram optimization. In addition to the basic
+controls, the system also records procedure and patient information,
+which is archived with the images. Basic diagnostic information such as
+image dynamic range and frame rate are also visible. During operation
+the surgeon can easily see real-time imagery in the main window along
+with data acquisition and dye delivery status.</p>
+</div>
+<div class="section" id="imaging-catheters">
+<h3>Imaging Catheters</h3>
+<div class="figure">
+<img alt="Endoscopes" src="endoscopes/Endoscopes.png"><p class="caption">Endoscopes</p>
+</div>
+<p>The confocal imaging catheters. A laparoscopic version is shown on top
+with an integrated dye delivery system that uses a piezo valve and
+pressurized syringe. The lower left of the figure shows the flexible
+endoscope version of the device. Both devices have the same handle that
+uses a depth/focus knob to translate the coherent fiber bundle routed
+through the center of the device (handle detail shown to the right).</p>
+<p>The imaging catheter comes in two varieties, a rigid laparoscope 5 mm in
+diameter and a flexible endoscope 4.2 mm in diameter; both provide the
+same functionality. This compact instrument contains the
+micro-objective, coherent fiber optic bundle, dye delivery system, and
+depth/focus mechanism. In use, the imaging catheter feels like a wide
+field endoscope except that imaging is done with the probe in contact
+with the tissue.</p>
+<p>Figure 4 depicts the two varieties of the imaging catheter. A twenty
+foot flexible housing connects to the optical scanning system and
+protects the coherent fiber optic bundle and electrical connections. The
+distal tip of the instrument contains a micro-objective <a class="footnote-reference" href="#id36" id="id14">[14]</a> lens that
+images tissue onto the coherent fiber bundle. The micro-objective
+connects to a housing that contains the fiber bundle. Running parallel
+to the housing is a 21.5 gauge channel that delivers controlled volumes
+of fluorescent dyes onto the tissue in the imaging catheter’s field of
+view. The outer surface of the lens and the fiber housing (excluding the
+face of the lens) are sealed inside a medical grade teflon sheath. The
+imaging catheter is designed for reuse; it can be quickly disconnected
+from the optical scanning system and sterilized using Ethylene Oxide.</p>
+<p>We have investigated a variety of depth/focus mechanisms <a class="footnote-reference" href="#id37" id="id15">[15]</a>  <a class="footnote-reference" href="#id38" id="id16">[16]</a>
+<a class="footnote-reference" href="#id39" id="id17">[17]</a> and now present a new method that has proven to be more reliable
+and easier to use during surgery. Rotation of the depth/focus knob on
+the handle causes the fiber optic bundle to translate along the optical
+axis. Translation of the fiber via the depth/focus knob allows the
+surgeon to select the desired imaging plane in the tissue. Since the
+system is designed for contact imaging on the epithelial surface of
+organs, once optimal focus has been obtained refocus is not necessary.
+The surgeon can simply move across the tissue and change sites while
+maintaining focus since contacting the tissue will bring the epithelial
+cells into focus. The surgeon can use the depth/focus knob to image
+planes below the surface for further interrogation of abnormalities.</p>
+<div class="figure">
+<img alt="Dye delivery" src="endoscopes/DyeDelivery.png"><p class="caption">Dye delivery</p>
+</div>
+<p>Demonstration of the imaging catheter's ability to locally deliver small
+volumes of dye to the field of view. In this sequence of images (at
+1/30th second intervals) the operator presses the dye delivery button
+and the dye is delivered to the distal tip via actuation of the piezo
+valve near the imaging catheters's handle. The delivered volume in this
+example is approximately 1 uL.</p>
+<p>We have developed a localized dye delivery system that minimizes patient
+exposure to fluorescent contrast agents and provides a method to mark
+imaged tissue sites. At the tip of the imaging catheter, a 21.5 gauge
+channel conforms around the face of the micro-objective to deliver dye
+directly to the field of view. The system is capable of delivering very
+small dye quantities on demand, down to 0.1 μL. Once the operator pushes
+the dye delivery button, a piezo valve located behind the imaging
+catheter handle opens for a few milliseconds. A pressurized syringe
+behind the valve containing a fluorescent contrast agent supplies dye
+through the dye channel to the field of view. The above figure shows the
+dye delivery process in 1∕30th second intervals; full delivery occurs in
+approximately 1∕6th of a second.</p>
+</div>
+<div class="section" id="human-results">
+<h3>Human results</h3>
+<p>The confocal microendoscope system is currently being evaluated in
+clinical trials to image the epithelial surface of the ovary at the
+University Medical Center in Tucson, Arizona. The device was granted
+“non significant risk” status by the University of Arizona’s
+Institutional Review Board and has been approved for use in humans using
+a protocol that includes topical application of sodium fluorescein as
+the contrast agent. <a class="footnote-reference" href="#id40" id="id18">[18]</a></p>
+<div class="figure">
+<img alt="Ovarian tissue with Acridine Orange" src="endoscopes/OvaryAO.png"><p class="caption">Images of human ovary epithelium obtained ex-vivo using acridine orange.
+Sub-captions contain pathology diagnosis.</p>
+</div>
+<iframe width="459" height="344" src="https://www.youtube.com/embed/3c9ws2dsuwc?feature=oembed" frameborder="0" allowfullscreen></iframe><p>Ex vivo video of normal appearing ovary epithelium tissue stained with acridine
+orange. (Circular field of view is 450 μm.)</p>
+<iframe width="459" height="344" src="https://www.youtube.com/embed/HbQFZHAFMhY?feature=oembed" frameborder="0" allowfullscreen></iframe><p>Ex vivo video of abnormal appearing ovary epithelium tissue stained with acridine orange.
+The pathology report diagnosis was serous cystadenoma. (Circular field of view is 450 μm.)</p>
+<p>The images with acridine orange, shown above, demonstrate the excellent
+diagnostic ability of the instrument. The epithelial surface of a
+healthy ovary is characterized by a homogeneous distribution of bright
+nuclei seen in (a). The epithelial surface of the ovary is delicate and
+partial denuding can occur, exposing the underlying stroma (b). Below
+the epithelial surface, healthy stroma also exhibits a
+characteristically homogenous structure albeit with a different nuclear
+size distribution and shape (c).</p>
+<p>In the case of carcinoma, the tissue structure is visibly differentiable
+(d) from healthy epithelial cells (a). The epithelial surface is
+irregular and the high degree of heterogeneity indicative of ovarian
+cancer.</p>
+<p>We have perviously shown <a class="footnote-reference" href="#id41" id="id19">[19]</a> that the confocal microendoscope system
+can easily differentiate normal epithelium from ovarian cancer—providing
+a diagnostic advantage when the neoplasia is small and not visible at
+the gross anatomic level. It also appears that the confocal
+microendoscope system may also be able to visualize cellular changes
+that happen prior to the onset of cancer. Less distinct tissue changes
+such as tissue sclerosis and endometriosis may also be detectable</p>
+<div class="figure">
+<img alt="Ovarian tissue with Fluorescein" src="endoscopes/OvaryFluorescein.png"><p class="caption">Images of ovary epithelium obtained in-vivo during clinical trials using
+fluorescein. The suboptimal cellular detail is a result of the minimal
+preferential binding exhibited by fluorescein.</p>
+</div>
+<p>For initial in-vivo clinical studies fluorescein was selected because of
+its pre-existing approval for human use. The diagnostic utility of
+fluorescein when used as a topical contrast agent on the ovary is not
+very good as it provides little contrast and lacks preferential binding
+to cellular level structures of interest. However, it has served its
+purpose as a safe, pre-approved contrast agent allowing us to test the
+safety and feasibility of the confocal microendoscope system.</p>
+<p>The above figure shows three examples of in-vivo images obtained with
+the confocal microendoscope system. The images demonstrate that the
+device functions as designed. The imaging catheter can deliver
+controlled volumes of dye to the image site and then display real-time
+image data to the surgeon. The focus mechanism works well; after an
+initial adjustment of the focus, the instrument can be moved to various
+sites on the ovary while maintaining good focus on the epithelial
+surface.</p>
+<div class="figure">
+<img alt="Esophagus tissue with Acridine Orange" src="endoscopes/EsophagusAO.png"><p class="caption">Images of human esophagus epithelium obtained ex-vivo using acridine orange.</p>
+</div>
+<p>As previously discussed, any lumen or organ that is endoscopically or
+laparoscopically accessible is a suitable candidate for microendoscope
+imaging of the epithelium. Applications of the device to detect the
+transformation of normal esophagus to adenocarcinoma are also being
+investigated. Barrett’s Esophagus is the premalignant lesion for
+adenocarcinoma of the esophagus. Due to a severe chronic
+gastroesophageal reflux disease, these patient experience a
+transformation of the normal squamous epithelium (a) into tissue that
+closely resembles the intestine with columnar appearing mucosa and
+intestinal metaplasia (b). Once this transformation has taken place, the
+individual is at higher risk for adenocarcinoma of the esophagus. <a class="footnote-reference" href="#id42" id="id20">[20]</a>
+Moreover, the 5-year survival rate for this cancer is only between
+10-15%. <a class="footnote-reference" href="#id43" id="id21">[21]</a> The American Cancer Society estimates that approximately
+529,000 new cases of adenocarcinoma of the esophagus were diagnosed in
+2007 while more than 442,000 people died worldwide from the
+disease. <a class="footnote-reference" href="#id44" id="id22">[22]</a> Yet again, one of the predominant factors causing low
+survival rates is the late detection of this disease. Patients with
+Barrett’s Esophagus identified with an increased risk for adenocarcinoma
+typically undergo endoscopic surveillance and biopsy every one or two
+years. Again, the confocal microendoscope system’s ability to resolve
+cellular detail indicates that it would be a useful tool to improve the
+detection of dysplasia and adenocarcinoma in-vivo. In the above figure
+(c) illustrates the distinct difference when esophagus tissue has made
+the transformation to tumorous tissue.</p>
+</div>
+<div class="section" id="modeling-system-performance">
+<h3>Modeling System Performance</h3>
+<p>To better understand the axial and lateral performance of the surgical confocal system,
+a Monte Carlo model was developed to study the effects of tissue scattering.
+Confocal microscopes use a small aperture to reject out of focus light, allowing
+imaging of thin sections within thick samples. Standard confocal microscopes
+employ a single pinhole aperture that must be spatially scanned to collect a two
+or three dimensional image. To reduce im- age acquisition times, parallelized
+confocal systems use an array of pinholes or a slit aperture to simultaneously
+collect multiple image points, reducing acquisition times in proportion to the
+number of simultaneous detection points used. The drawback of parallelized
+systems is cross-talk between the individual apertures. In highly scattering
+media, such as tissue, the cross- talk can be large resulting in a significant
+reduction in system performance.</p>
+<p>A Monte Carlo model was implemented that simulates the confocal system.
+The system consists of a laser source and optical elements that uniformly illuminate
+the confocal aperture. The aperture can be either a pinhole, slit, Nipkow disk, or
+linear array. The aperture and illumination beam are imaged into the tissue via
+the objective lens. Fluorescence signal is collected by the objective lens and
+imaged back onto the confocal aperture. Light passing through the aperture is
+brought back to focus. A dichroic beam splitter directs the emitted fluorescence
+signal to a detector. In the case of a pinhole aperture, a single detector is used;
+in the case of a parallelized aperture, an array of detectors are used.</p>
+<iframe width="480" height="270" src="https://www.youtube.com/embed/2zoCtMp-z4Y?feature=oembed" frameborder="0" allowfullscreen></iframe><p>Monte-Carlo simulation of confocal photon signal positions in tissue. Simulation
+results of the three-dimensional distribution of collected photon signal positions
+r_s for each aperture configuration (pinhole, slit, Nipkow disk, and linear array)
+in simulated tissue. Tissue surface is at z = −62.5 μm (grid plane), focus
+is at z = 0.</p>
+<iframe width="480" height="270" src="https://www.youtube.com/embed/lX5hpmnh2_Q?feature=oembed" frameborder="0" allowfullscreen></iframe><p>Monte-Carlo simulation of confocal photon error signal positions.
+Simulation results shown in terms of error in collected position ε for each
+aperture configuration  (pinhole, slit, Nipkow disk, and linear array) in esophagus tissue.</p>
+</div>
+</div>
+<div class="section" id="further-information">
+<h2>Further information</h2>
+<p>To find out more about the research I am involved with visit <a class="reference external" href="http://bil.arizona.edu">the
+Biomedical Imaging Laboratory</a>.</p>
+<table class="docutils footnote" frame="void" id="id23" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id1">[1]</a></td>
+<td>L. J. Kleinsmith, Principles of cancer biology, Pearson Benjamin
+Cummings, San Francisco, 2006.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id24" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id2">[2]</a></td>
+<td>A. F. Gmitro and D. Aziz, “Confocal microscopy through a fiber-optic
+imaging bundle,” Optics Letters 18, November 1993.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id25" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id3">[3]</a></td>
+<td>M. Garcia, A. Jemal, E. M. Ward, M. M. Center, Y. Hao, R. L. Siegel,
+and M. J. Thun, Global Cancer Facts &amp; Figures, American Cancer
+Society, Atlanta, GA, 2007.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id26" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id4">[4]</a></td>
+<td>National Cancer Institute, “NCI issues clinical announcement for
+preferred method of treatment for advanced ovarian cancer.”
+<a class="reference external" href="http://www.cancer.gov/newscenter/pressreleases/IPchemotherapyrelease">http://www.cancer.gov/newscenter/pressreleases/IPchemotherapyrelease</a>,
+January 2006.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id27" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id5">[5]</a></td>
+<td>P. A. Wingo, “Cancer statistics,” Cancer journal for clinicians
+45(1), pp. 8–30, 1995.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id28" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id6">[6]</a></td>
+<td>K. Kerlikowske, J. S. Brown, and D. G. Grady, “Should women with
+familial ovarian cancer undergo prophylactic oophorectomy,”
+Obstetrics and Gynecology 80(4), pp. 700–707, 1992.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id29" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id7">[7]</a></td>
+<td>K. Kerlikowske, J. S. Brown, and D. G. Grady, “Should women with
+familial ovarian cancer undergo prophylactic oophorectomy,”
+Obstetrics and Gynecology 80(4), pp. 700–707, 1992.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id30" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id8">[8]</a></td>
+<td>J. F. Stratton, P. Pharoah, S. K. Smith, D. Easton, and B. Ponder, “A
+systematic review and meta-analysis of family history and risk of
+ovarian cancer,” British Journal of Obstetrics and Gynecology 105(5),
+pp. 493–499, 1998.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id31" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id9">[9]</a></td>
+<td>I. Jacobs, “Genetic, biochemical, and multimodal approaches to
+screening for ovarian cancer,” Gynecologic Oncology 55(3), pp. 22–27,
+1994.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id32" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id10">[10]</a></td>
+<td>Y. Miki, “A strong candidate for the breast and ovarian cancer
+susceptibility gene braca1,” Science 266(5182), pp. 66–71, 1994.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id33" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id11">[11]</a></td>
+<td>B. S. Kramer, J. Gohagan, and P. C. Prorok, “NIH consensus 1994:
+screening,” Gynecologic Oncology 55(3), pp. 20–21, 1994.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id34" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id12">[12]</a></td>
+<td>A. R. Rouse and A. F. Gmitro, “Multispectral imaging with a confocal
+microendoscope,” Optics Letters 25(23), 2000.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id35" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id13">[13]</a></td>
+<td>H. Makhlouf, A. A. Tanbakuchi, A. R. Rouse, and A. F. Gmitro, “Design
+of a multi-spectral channel for in-vivo confocal microscopy,”
+Endoscopic Microscopy II 6432(1), p. 643206, SPIE, 2007.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id36" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id14">[14]</a></td>
+<td>A. R. Rouse, A. Kano, J. A. Udovich, S. M. Kroto, and A. F. Gmitro,
+“Design and demonstration of a miniature catheter for a confocal
+microendoscope,” Applied Optics 43, pp. 5763–5771, November 2004.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id37" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id15">[15]</a></td>
+<td>A. R. Rouse and A. F. Gmitro, “Multispectral imaging with a confocal
+microendoscope,” Optics Letters 25(23), 2000.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id38" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id16">[16]</a></td>
+<td>A. R. Rouse, A. Kano, J. A. Udovich, S. M. Kroto, and A. F. Gmitro,
+“Design and demonstration of a miniature catheter for a confocal
+microendoscope,” Applied Optics 43, pp. 5763–5771, November 2004.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id39" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id17">[17]</a></td>
+<td>A. A. Tanbakuchi, A. R. Rouse, J. A. Udovich, and A. F. Gmitro,
+“Surgical imaging catheter for confocal microendoscopy with advanced
+contrast delivery and focus systems,” Endoscopic Microscopy 6082(1),
+p. 608202, SPIE, 2006.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id40" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id18">[18]</a></td>
+<td>J. A. Udovich, A. R. Rouse, A. Tanbakuchi, M. A. Brewer, R.
+Sampliner, and A. F. Gmitro, “Confocal micro-endoscope for use in a
+clinical setting,” Endoscopic Microscopy II 6432(1), p. 64320H, SPIE,
+2007.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id41" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id19">[19]</a></td>
+<td>S. Srivastava, J. J. Rodriguez, A. R. Rouse, M. A. Brewer, and A. F.
+Gmitro, “Computer-aided identification of ovarian cancer in confocal
+microendoscope images.” in press, Journal of Biomedical Optics.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id42" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id20">[20]</a></td>
+<td>P. Sharma and R. E. Sampliner, Barrett’s esophagus and esophageal
+adenocarcinoma, Blackwell Science, Malden, Mass., 2001.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id43" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id21">[21]</a></td>
+<td>M. Garcia, A. Jemal, E. M. Ward, M. M. Center, Y. Hao, R. L. Siegel,
+and M. J. Thun, Global Cancer Facts &amp; Figures, American Cancer
+Society, Atlanta, GA, 2007.</td>
+</tr></tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id44" rules="none">
+<colgroup>
+<col class="label">
+<col>
+</colgroup>
+<tbody valign="top"><tr>
+<td class="label"><a class="fn-backref" href="#id22">[22]</a></td>
+<td>M. Garcia, A. Jemal, E. M. Ward, M. M. Center, Y. Hao, R. L. Siegel,
+and M. J. Thun, Global Cancer Facts &amp; Figures, American Cancer
+Society, Atlanta, GA, 2007.</td>
+</tr></tbody>
+</table>
+</div>
+</div>
+    </div>
+    
+
+</article>
+</div>
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2016         <a href="mailto:webmaster@tanbakuchi.com">Anthony Tanbakuchi</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+</div>
+</div>
+
+
+            <script src="../../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates -->
+</body>
+</html>
