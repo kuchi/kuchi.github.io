@@ -1,4 +1,4 @@
-Sitemap: https://tanbakuchi.com/sitemapindex.xml
+Sitemap: http://kuchi.github.io/sitemapindex.xml
 
 User-Agent: *
-Host: tanbakuchi.com
+Host: kuchi.github.io

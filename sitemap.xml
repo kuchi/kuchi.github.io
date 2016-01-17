@@ -6,95 +6,95 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://tanbakuchi.com/</loc>
+  <loc>http://kuchi.github.io/</loc>
   <lastmod>2016-01-17T20:15:00Z</lastmod>
  </url>
  <url>
-  <loc>https://tanbakuchi.com/2016/</loc>
+  <loc>http://kuchi.github.io/2016/</loc>
   <lastmod>2016-01-17T19:46:00Z</lastmod>
  </url>
  <url>
-  <loc>https://tanbakuchi.com/archive.html</loc>
+  <loc>http://kuchi.github.io/archive.html</loc>
+  <lastmod>2016-01-17T20:17:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://kuchi.github.io/categories/</loc>
+  <lastmod>2016-01-17T20:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://kuchi.github.io/galleries/</loc>
+  <lastmod>2016-01-17T20:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://kuchi.github.io/listings/</loc>
+  <lastmod>2016-01-17T20:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://kuchi.github.io/listings/__pycache__/</loc>
+  <lastmod>2016-01-17T19:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://kuchi.github.io/listings/hello.py.html</loc>
+  <lastmod>2016-01-17T20:17:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://kuchi.github.io/permanent/dissertation/Ch3V1.mov/</loc>
+  <lastmod>2016-01-17T19:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://kuchi.github.io/permanent/dissertation/Ch3V2.mov/</loc>
+  <lastmod>2016-01-17T19:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://kuchi.github.io/permanent/dissertation/Ch3V3.mov/</loc>
+  <lastmod>2016-01-17T19:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://kuchi.github.io/permanent/dissertation/Ch4V1.mov/</loc>
+  <lastmod>2016-01-17T19:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://kuchi.github.io/permanent/dissertation/Ch4V2.mov/</loc>
+  <lastmod>2016-01-17T19:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://kuchi.github.io/permanent/dissertation/Ch6V1.mov/</loc>
+  <lastmod>2016-01-17T19:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://kuchi.github.io/posts/welcome-to-my-updated-site/</loc>
   <lastmod>2016-01-17T19:46:00Z</lastmod>
  </url>
  <url>
-  <loc>https://tanbakuchi.com/categories/</loc>
-  <lastmod>2016-01-17T20:04:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/galleries/</loc>
-  <lastmod>2016-01-17T20:04:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/listings/</loc>
-  <lastmod>2016-01-17T20:04:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/listings/__pycache__/</loc>
-  <lastmod>2016-01-17T19:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/listings/hello.py.html</loc>
-  <lastmod>2016-01-17T19:43:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/permanent/dissertation/Ch3V1.mov/</loc>
-  <lastmod>2016-01-17T19:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/permanent/dissertation/Ch3V2.mov/</loc>
-  <lastmod>2016-01-17T19:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/permanent/dissertation/Ch3V3.mov/</loc>
-  <lastmod>2016-01-17T19:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/permanent/dissertation/Ch4V1.mov/</loc>
-  <lastmod>2016-01-17T19:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/permanent/dissertation/Ch4V2.mov/</loc>
-  <lastmod>2016-01-17T19:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/permanent/dissertation/Ch6V1.mov/</loc>
-  <lastmod>2016-01-17T19:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/posts/welcome-to-my-updated-site/</loc>
-  <lastmod>2016-01-17T19:46:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/stories/cv/</loc>
+  <loc>http://kuchi.github.io/stories/cv/</loc>
   <lastmod>2016-01-17T19:42:00Z</lastmod>
  </url>
  <url>
-  <loc>https://tanbakuchi.com/stories/publications/</loc>
+  <loc>http://kuchi.github.io/stories/publications/</loc>
   <lastmod>2016-01-17T19:42:00Z</lastmod>
  </url>
  <url>
-  <loc>https://tanbakuchi.com/stories/research/</loc>
+  <loc>http://kuchi.github.io/stories/research/</loc>
   <lastmod>2016-01-17T19:42:00Z</lastmod>
  </url>
  <url>
-  <loc>https://tanbakuchi.com/stories/teaching/</loc>
+  <loc>http://kuchi.github.io/stories/teaching/</loc>
   <lastmod>2016-01-17T19:42:00Z</lastmod>
  </url>
  <url>
-  <loc>https://tanbakuchi.com/stories/teaching/mat167/</loc>
+  <loc>http://kuchi.github.io/stories/teaching/mat167/</loc>
   <lastmod>2016-01-17T19:42:00Z</lastmod>
  </url>
  <url>
-  <loc>https://tanbakuchi.com/stories/teaching/mat182/</loc>
+  <loc>http://kuchi.github.io/stories/teaching/mat182/</loc>
   <lastmod>2016-01-17T19:42:00Z</lastmod>
  </url>
  <url>
-  <loc>https://tanbakuchi.com/stories/teaching/sdgp/</loc>
+  <loc>http://kuchi.github.io/stories/teaching/sdgp/</loc>
   <lastmod>2016-01-17T19:42:00Z</lastmod>
  </url>
  <url>
-  <loc>https://tanbakuchi.com/stories/teaching/tec042/</loc>
+  <loc>http://kuchi.github.io/stories/teaching/tec042/</loc>
   <lastmod>2016-01-17T19:42:00Z</lastmod>
  </url>
 </urlset>
