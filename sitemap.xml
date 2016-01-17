@@ -7,11 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://tanbakuchi.com/</loc>
-  <lastmod>2016-01-17T19:46:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/2012/</loc>
-  <lastmod>2016-01-17T19:41:00Z</lastmod>
+  <lastmod>2016-01-17T20:15:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanbakuchi.com/2016/</loc>
@@ -23,43 +19,15 @@
  </url>
  <url>
   <loc>https://tanbakuchi.com/categories/</loc>
-  <lastmod>2016-01-17T19:42:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/categories/blog/</loc>
-  <lastmod>2016-01-17T19:42:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/categories/cat_nikola/</loc>
-  <lastmod>2016-01-17T19:42:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/categories/demo/</loc>
-  <lastmod>2016-01-17T19:42:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/categories/mathjax/</loc>
-  <lastmod>2016-01-17T19:42:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/categories/nikola/</loc>
-  <lastmod>2016-01-17T19:42:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/categories/python/</loc>
-  <lastmod>2016-01-17T19:42:00Z</lastmod>
+  <lastmod>2016-01-17T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanbakuchi.com/galleries/</loc>
-  <lastmod>2016-01-17T19:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/galleries/demo/</loc>
-  <lastmod>2016-01-17T19:10:00Z</lastmod>
+  <lastmod>2016-01-17T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanbakuchi.com/listings/</loc>
-  <lastmod>2016-01-17T19:41:00Z</lastmod>
+  <lastmod>2016-01-17T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanbakuchi.com/listings/__pycache__/</loc>
@@ -94,84 +62,20 @@
   <lastmod>2016-01-17T19:41:00Z</lastmod>
  </url>
  <url>
-  <loc>https://tanbakuchi.com/posts/welcome-new-site/</loc>
-  <lastmod>2016-01-17T19:45:00Z</lastmod>
- </url>
- <url>
   <loc>https://tanbakuchi.com/posts/welcome-to-my-updated-site/</loc>
   <lastmod>2016-01-17T19:46:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/posts/welcome-to-nikola/</loc>
-  <lastmod>2016-01-17T19:42:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/stories/about-nikola/</loc>
-  <lastmod>2016-01-17T19:10:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/stories/bootstrap-demo/</loc>
-  <lastmod>2016-01-17T19:10:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/stories/charts/</loc>
-  <lastmod>2016-01-17T19:10:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/stories/creating-a-theme/</loc>
-  <lastmod>2016-01-17T19:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanbakuchi.com/stories/cv/</loc>
   <lastmod>2016-01-17T19:42:00Z</lastmod>
  </url>
  <url>
-  <loc>https://tanbakuchi.com/stories/dr-nikolas-vendetta/</loc>
-  <lastmod>2016-01-17T19:10:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/stories/extending/</loc>
-  <lastmod>2016-01-17T19:10:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/stories/handbook/</loc>
-  <lastmod>2016-01-17T19:10:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/stories/internals/</loc>
-  <lastmod>2016-01-17T19:10:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/stories/listings-demo/</loc>
-  <lastmod>2016-01-17T19:10:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/stories/path-handlers/</loc>
-  <lastmod>2016-01-17T19:10:00Z</lastmod>
- </url>
- <url>
   <loc>https://tanbakuchi.com/stories/publications/</loc>
   <lastmod>2016-01-17T19:42:00Z</lastmod>
  </url>
  <url>
-  <loc>https://tanbakuchi.com/stories/quickref/</loc>
-  <lastmod>2016-01-17T19:10:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/stories/quickstart/</loc>
-  <lastmod>2016-01-17T19:10:00Z</lastmod>
- </url>
- <url>
   <loc>https://tanbakuchi.com/stories/research/</loc>
   <lastmod>2016-01-17T19:42:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/stories/slides-demo/</loc>
-  <lastmod>2016-01-17T19:10:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/stories/social_buttons/</loc>
-  <lastmod>2016-01-17T19:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanbakuchi.com/stories/teaching/</loc>
@@ -192,9 +96,5 @@
  <url>
   <loc>https://tanbakuchi.com/stories/teaching/tec042/</loc>
   <lastmod>2016-01-17T19:42:00Z</lastmod>
- </url>
- <url>
-  <loc>https://tanbakuchi.com/stories/theming/</loc>
-  <lastmod>2016-01-17T19:10:00Z</lastmod>
  </url>
 </urlset>
