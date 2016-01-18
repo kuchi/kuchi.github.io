@@ -30,14 +30,14 @@ Journal Papers
 3. Anthony A Tanbakuchi, Andrew R Rouse, and Arthur F Gmitro. Monte
    carlo characterization of parallelized fluorescence confocal systems
    imaging in turbid media. J Biomed Opt, 14(4):044024,
-4. `PDF </Papers/2009_JBO_Monte_Carlo_Tanbakuchi.pdf>`__
+   `PDF </Papers/2009_JBO_Monte_Carlo_Tanbakuchi.pdf>`__
 
-5. Joshua Anthony Udovich, Nathaniel D Kirkpatrick, Angelique Kano,
+4. Joshua Anthony Udovich, Nathaniel D Kirkpatrick, Angelique Kano,
    Anthony Tanbakuchi, Urs Utzinger, and Arthur F Gmitro. Spectral
    background and transmission characteristics of fiber optic imaging
    bundles. Appl Opt, 47(25):4560–8, Sep 2008.
 
-6. Houssine Makhlouf, Arthur F. Gmitro, Anthony A. Tanbakuchi, Joshua A.
+5. Houssine Makhlouf, Arthur F. Gmitro, Anthony A. Tanbakuchi, Joshua A.
    Udovich, Andrew R. Rouse. *"Multispectral confocal microendoscope for
    in vivo and in situ imaging,"* University of Arizona, Departments of
    Radiology, Department of Obstetrics and Gynecology, and College of
