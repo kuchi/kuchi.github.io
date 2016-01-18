@@ -23,7 +23,7 @@ Mathematics Courses
     distributions, assessing normality, confidence intervals, hypothesis
     testing, ANOVA, and regression. Use of the statistics software R is
     taught throughout the course.
-`Trigonometry MAT182 (Pima CC) <./MAT182>`__
+`Trigonometry MAT182 (Pima CC) <mat182>`__
     Course covers trigonometric functions, identities, graphs, vectors,
     polar coordinates, complex numbers, coordinate system rotation,
     change of basis, and conic sections.
