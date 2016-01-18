@@ -18,7 +18,7 @@ Ruby based `WebGen <http://webgen.gettalong.org>`__. I made this change
 because I prefer Python and I like the option to be able to include iPython posts.
 By making these changes I was able to save about $160/year due to BlueHost's newly
 announced major price increases. My only cost now
-is $12 domain registrations using `Google Domains <http://domains.google.com>`__
+is my domain registration
 since Github Pages are free. Much thanks to the great community services at Github!
 
 
