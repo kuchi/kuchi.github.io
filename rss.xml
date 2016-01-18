@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Anthony Tanbakuchi</title><link>http://kuchi.github.io/</link><description>Personal site of Anthony Tanbakuchi, PhD.</description><atom:link href="http://kuchi.github.io/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sun, 17 Jan 2016 20:17:26 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Welcome to my updated site</title><link>http://kuchi.github.io/posts/welcome-to-my-updated-site/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;p&gt;Since my long time hosting provider BlueHost kept increasing prices and I don't
-need any advanced features I decided to move my site to a github pages.
-My site has been statically generated for years which keeps things simple and
-makes migration easy. So moving to Github Pages was simple. I updated my static
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Anthony Tanbakuchi</title><link>http://tanbakuchi.com/</link><description>Personal site of Anthony Tanbakuchi, PhD.</description><atom:link type="application/rss+xml" href="http://tanbakuchi.com/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 18 Jan 2016 01:58:05 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Welcome to my updated site</title><link>http://tanbakuchi.com/posts/welcome-to-my-updated-site/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;p&gt;Since my long time hosting provider BlueHost kept increasing prices and I don't
+need any advanced features that they offer, I decided to move my site to Github Pages
+since I'm already a Github user.
+My site has been statically generated for years. The advantages of a static site are
+(1) it makes hosting simple,  (2) it is very secure compared to dynamic sites,
+and (3) I am not locked into any platform. I updated my static
 generator code to Python based &lt;a class="reference external" href="https://getnikola.com"&gt;Nikola&lt;/a&gt; from
-Ruby based &lt;a class="reference external" href="http://webgen.gettalong.org"&gt;WebGen&lt;/a&gt;. I changed the generator code
-because I prefer Python and like the option to be able to include iPython posts.
-By making these changes I was able to save about $160/year with BlueHosts newly
+Ruby based &lt;a class="reference external" href="http://webgen.gettalong.org"&gt;WebGen&lt;/a&gt;. I made this change
+because I prefer Python and I like the option to be able to include iPython posts.
+By making these changes I was able to save about $160/year due to BlueHost's newly
 announced major price increases. My only cost now
 is $12 domain registrations using &lt;a class="reference external" href="http://domains.google.com"&gt;Google Domains&lt;/a&gt;
-since Github Pages are free. Thanks Github!&lt;/p&gt;</description><guid>http://kuchi.github.io/posts/welcome-to-my-updated-site/</guid><pubDate>Sun, 17 Jan 2016 19:46:34 GMT</pubDate></item></channel></rss>
+since Github Pages are free. Much thanks to the great community services at Github!&lt;/p&gt;
+&lt;p&gt;All of the content that was available on the previous site is still here. Just
+use the menu at the top to access everything.&lt;/p&gt;&lt;/div&gt;</description><guid>http://tanbakuchi.com/posts/welcome-to-my-updated-site/</guid><pubDate>Sun, 17 Jan 2016 19:46:34 GMT</pubDate></item></channel></rss>

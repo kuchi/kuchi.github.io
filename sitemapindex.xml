@@ -6,15 +6,15 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>http://kuchi.github.io/galleries/rss.xml</loc>
-  <lastmod>2016-01-17T20:17:00Z</lastmod>
+  <loc>http://tanbakuchi.com/galleries/rss.xml</loc>
+  <lastmod>2016-01-18T01:58:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://kuchi.github.io/rss.xml</loc>
-  <lastmod>2016-01-17T20:17:00Z</lastmod>
+  <loc>http://tanbakuchi.com/rss.xml</loc>
+  <lastmod>2016-01-18T01:58:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://kuchi.github.io/sitemap.xml</loc>
-  <lastmod>2016-01-17T20:17:00Z</lastmod>
+  <loc>http://tanbakuchi.com/sitemap.xml</loc>
+  <lastmod>2016-01-18T01:58:00Z</lastmod>
  </sitemap>
 </sitemapindex>
