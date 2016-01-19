@@ -18,5 +18,5 @@ Radiology <http://bil.arizona.edu>`__. The long term goal of this
 instrument is to replace biopsies with live video images of the cells so
 surgeons can precisely isolate cancerous tumors for resection. You can
 read more about it in my
-`dissertation <./Publications/Papers/2009_TanbakuchiDissertation.pdf>`__.
+`dissertation </Papers/2009_TanbakuchiDissertation.pdf>`__.
 
