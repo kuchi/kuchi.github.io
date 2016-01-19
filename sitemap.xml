@@ -7,7 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://tanbakuchi.com/</loc>
-  <lastmod>2016-01-18T01:58:00Z</lastmod>
+  <lastmod>2016-01-19T03:07:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://tanbakuchi.com/2008/</loc>
+  <lastmod>2016-01-19T03:07:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/2016/</loc>
@@ -15,7 +19,7 @@
  </url>
  <url>
   <loc>http://tanbakuchi.com/archive.html</loc>
-  <lastmod>2016-01-18T01:58:00Z</lastmod>
+  <lastmod>2016-01-19T03:07:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/categories/</loc>
@@ -60,6 +64,10 @@
  <url>
   <loc>http://tanbakuchi.com/permanent/dissertation/Ch6V1.mov/</loc>
   <lastmod>2016-01-17T19:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://tanbakuchi.com/posts/real-time-confocal-microendoscope-poster/</loc>
+  <lastmod>2016-01-19T03:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/welcome-to-my-updated-site/</loc>
