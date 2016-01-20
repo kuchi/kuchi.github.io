@@ -1,7 +1,7 @@
 .. title: Real-Time Confocal Microendoscope Poster
 .. slug: real-time-confocal-microendoscope-poster
 .. date: 2008-01-01 20:01:24 UTC-07:00
-.. tags: 
+.. tags: publications
 .. category: 
 .. link: 
 .. description: 

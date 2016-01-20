@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Anthony Tanbakuchi</title><link>http://tanbakuchi.com/</link><description>Personal site of Anthony Tanbakuchi, PhD.</description><atom:link type="application/rss+xml" rel="self" href="http://tanbakuchi.com/rss.xml"></atom:link><language>en</language><lastBuildDate>Wed, 20 Jan 2016 01:42:33 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Welcome to my updated site</title><link>http://tanbakuchi.com/posts/welcome-to-my-updated-site/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;p&gt;Since my long time hosting provider BlueHost kept increasing prices and I don't
-need any advanced features that they offer, I decided to move my site to Github Pages
-since I'm already a Github user.
-My site has been statically generated for years. The advantages of a static site are
-(1) it makes hosting simple,  (2) it is very secure compared to dynamic sites,
-and (3) I am not locked into any platform. I updated my static
-generator code to Python based &lt;a class="reference external" href="https://getnikola.com"&gt;Nikola&lt;/a&gt; from
-Ruby based &lt;a class="reference external" href="http://webgen.gettalong.org"&gt;WebGen&lt;/a&gt;. I made this change
-because I prefer Python and I like the option to be able to include iPython posts.
-By making these changes I was able to save about $160/year due to BlueHost's newly
-announced major price increases. My only cost now
-is my domain registration
-since Github Pages are free. Much thanks to the great community services at Github!&lt;/p&gt;
-&lt;p&gt;All of the content that was available on the previous site is still here. Just
-use the menu at the top to access everything.&lt;/p&gt;&lt;/div&gt;</description><guid>http://tanbakuchi.com/posts/welcome-to-my-updated-site/</guid><pubDate>Sun, 17 Jan 2016 19:46:34 GMT</pubDate></item><item><title>A polarization system for persistent chemical detection</title><link>http://tanbakuchi.com/posts/a-polarization-system-for-persistent-chemical-detection/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Anthony Tanbakuchi (publications)</title><link>http://tanbakuchi.com/</link><description></description><atom:link href="http://tanbakuchi.com/categories/publications.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 20 Jan 2016 01:42:38 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A polarization system for persistent chemical detection</title><link>http://tanbakuchi.com/posts/a-polarization-system-for-persistent-chemical-detection/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
 &lt;img alt="/Papers/2015PolarizationSystem.png" src="http://tanbakuchi.com/Papers/2015PolarizationSystem.png"&gt;
 &lt;/div&gt;
 &lt;p&gt;This was a conference paper that I was a co-author on where we developed a infrared
@@ -96,4 +82,4 @@ instrument is to replace biopsies with live video images of the cells so
 surgeons can precisely isolate cancerous tumors for resection. You can
 read more about it in my
 &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_TanbakuchiDissertation.pdf"&gt;dissertation&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;</description><guid>http://tanbakuchi.com/posts/real-time-confocal-microendoscope-poster/</guid><pubDate>Wed, 02 Jan 2008 03:01:24 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/real-time-confocal-microendoscope-poster/</guid><pubDate>Wed, 02 Jan 2008 03:01:24 GMT</pubDate></item></channel></rss>
