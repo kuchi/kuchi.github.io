@@ -7,11 +7,15 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://tanbakuchi.com/categories/patents.xml</loc>
-  <lastmod>2016-01-20T03:04:00Z</lastmod>
+  <lastmod>2016-01-20T12:13:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://tanbakuchi.com/categories/publication.xml</loc>
+  <lastmod>2016-01-20T12:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://tanbakuchi.com/categories/publications.xml</loc>
-  <lastmod>2016-01-20T02:02:00Z</lastmod>
+  <lastmod>2016-01-20T13:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://tanbakuchi.com/galleries/rss.xml</loc>
@@ -19,10 +23,10 @@
  </sitemap>
  <sitemap>
   <loc>http://tanbakuchi.com/rss.xml</loc>
-  <lastmod>2016-01-20T03:04:00Z</lastmod>
+  <lastmod>2016-01-20T13:08:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://tanbakuchi.com/sitemap.xml</loc>
-  <lastmod>2016-01-20T03:04:00Z</lastmod>
+  <lastmod>2016-01-20T13:09:00Z</lastmod>
  </sitemap>
 </sitemapindex>

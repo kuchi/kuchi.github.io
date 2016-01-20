@@ -21,7 +21,7 @@ the high frame rate of a slit-scanning system while providing optical performanc
 close to that of a single point scanning system. You can read the details in
 the `paper </Papers/2010Confocal.pdf>`__. This paper arose from my
 `dissertation </Papers/2009_TanbakuchiDissertation.pdf>`__
-and `journal publication <2009_JBO_Monte_Carlo_Tanbakuchi>`__ where I was able
+and `journal publication </Papers/2009_JBO_Monte_Carlo_Tanbakuchi.pdf>`__ where I was able
 to demonstrate through monte-carlo modeling that
 a slit scan system could be improved by making a small modification so that it
 becomes a multi-point scan system. My contribution was mainly the suggestion

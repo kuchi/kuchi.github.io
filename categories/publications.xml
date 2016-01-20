@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Anthony Tanbakuchi (publications)</title><link>http://tanbakuchi.com/</link><description></description><atom:link rel="self" href="http://tanbakuchi.com/categories/publications.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 20 Jan 2016 02:02:50 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A polarization system for persistent chemical detection</title><link>http://tanbakuchi.com/posts/a-polarization-system-for-persistent-chemical-detection/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Anthony Tanbakuchi (publications)</title><link>http://tanbakuchi.com/</link><description></description><atom:link href="http://tanbakuchi.com/categories/publications.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 20 Jan 2016 13:14:44 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A polarization system for persistent chemical detection</title><link>http://tanbakuchi.com/posts/a-polarization-system-for-persistent-chemical-detection/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
 &lt;img alt="/Papers/2015PolarizationSystem.jpg" src="http://tanbakuchi.com/Papers/2015PolarizationSystem.jpg"&gt;
 &lt;/div&gt;
 &lt;p&gt;This was a conference paper that I was a co-author on where we developed a infrared
@@ -65,7 +65,7 @@ the high frame rate of a slit-scanning system while providing optical performanc
 close to that of a single point scanning system. You can read the details in
 the &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2010Confocal.pdf"&gt;paper&lt;/a&gt;. This paper arose from my
 &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_TanbakuchiDissertation.pdf"&gt;dissertation&lt;/a&gt;
-and &lt;a class="reference external" href="http://tanbakuchi.com/posts/a-multi-point-scanner-for-high-frame-rate-confocal-microendoscopy/2009_JBO_Monte_Carlo_Tanbakuchi"&gt;journal publication&lt;/a&gt; where I was able
+and &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_JBO_Monte_Carlo_Tanbakuchi.pdf"&gt;journal publication&lt;/a&gt; where I was able
 to demonstrate through monte-carlo modeling that
 a slit scan system could be improved by making a small modification so that it
 becomes a multi-point scan system. My contribution was mainly the suggestion
@@ -73,7 +73,52 @@ of the multi-point concept, Andy and Houssine did all the hard work.&lt;/p&gt;
 &lt;p&gt;Citation: Andrew R. Rouse; Houssine Makhlouf; Anthony A. Tanbakuchi; Arthur F. Gmitro,
 &lt;em&gt;"A multi-point scanner for high frame rate confocal microendoscopy"&lt;/em&gt;
 Proc. SPIE. 7558, Endoscopic Microscopy V, 755809. February 11, 2010 doi: 10.1117/12.842782
-&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2010Confocal.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/a-multi-point-scanner-for-high-frame-rate-confocal-microendoscopy/</guid><pubDate>Wed, 20 Jan 2010 01:22:33 GMT</pubDate></item><item><title>Real-Time Confocal Microendoscope Poster</title><link>http://tanbakuchi.com/posts/real-time-confocal-microendoscope-poster/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div class="figure"&gt;
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2010Confocal.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/a-multi-point-scanner-for-high-frame-rate-confocal-microendoscopy/</guid><pubDate>Wed, 20 Jan 2010 01:22:33 GMT</pubDate></item><item><title>Monte Carlo characterization of parallelized fluorescence confocal systems imaging in turbid media</title><link>http://tanbakuchi.com/posts/monte-carlo-characterization-of-parallelized-fluorescence-confocal-systems-imaging-in-turbid-media/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;iframe width="480" height="270" src="https://www.youtube.com/embed/2zoCtMp-z4Y?feature=oembed" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;p&gt;This publication represented 1 of 3 journal articles that comprimised my
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_TanbakuchiDissertation.pdf"&gt;dissertation&lt;/a&gt;. For this paper I
+developed and coded a Monte Carlo model to simulate a confocal system
+imaging in tissue to model performance characteristics of the system. The results
+showed that a new type of confocal design, a multi-point scanner, would significantly
+improve the current design. This resulted in
+&lt;a class="reference external" href="http://tanbakuchi.com/posts/a-multi-point-scanner-for-high-frame-rate-confocal-microendoscopy"&gt;a new system&lt;/a&gt;, as well
+as a &lt;a class="reference external" href="http://tanbakuchi.com/posts/novel-multi-point-scan-architecture-patent-application"&gt;a patent application&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Citation: Anthony A Tanbakuchi, Andrew R Rouse, and Arthur F Gmitro. Monte
+carlo characterization of parallelized fluorescence confocal systems
+imaging in turbid media. J Biomed Opt, 14(4):044024, 2009
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_JBO_Monte_Carlo_Tanbakuchi.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/monte-carlo-characterization-of-parallelized-fluorescence-confocal-systems-imaging-in-turbid-media/</guid><pubDate>Wed, 01 Jul 2009 12:46:21 GMT</pubDate></item><item><title>Dissertation complete!</title><link>http://tanbakuchi.com/posts/dissertation-complete/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
+&lt;img alt="/Papers/2009_TanbakuchiDissertation.jpg" src="http://tanbakuchi.com/Papers/2009_TanbakuchiDissertation.jpg"&gt;
+&lt;/div&gt;
+&lt;p&gt;After many years of hard work, I completed my PhD in Optical Sciences
+at the University of Arizona. You can read my &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_TanbakuchiDissertation.pdf"&gt;dissertation&lt;/a&gt;
+which focused on the development of a novel confocal microlaparoscope for surgical
+use. I was lucky enough to have a project where I could design, develop, and test
+a new optical instrument in human clinical trials. It was hard work,
+an exceptional opportunity, and a great experience.&lt;/p&gt;
+&lt;p&gt;This work would not have been possible without the collaborative efforts of
+Dr. Arthur Gmitro, Dr. Andrew Rouse, Dr. Molly Brewer, Dr. Kenneth Hatch, and
+Dr. Richard Sampliner. All of these individuals contributed insight and
+expertise that made this project a success. Dr. Gmitro provided the
+initial vision and direction for in vivo confocal imaging systems and obtained
+the funding to support the work. Dr. Rouse had significant participation in the
+project and provided important guidance. Dr. Brewer helped motivate the development
+of the instrument and gave guidance on how such an instrument would be used in a
+clinical setting. Dr. Hatch served as the primary clinician to test the device in
+vivo. Dr. Sampliner provided human esophagus biopsies for the ex vivo imaging studies.
+I would also like to thank Kathy Schmidt and the surgical staff at umc who provided
+critical assistance during the clinical trials and Dr. Katerina Dvorak and Angelique
+Kano for providing mice to image with the bare fiber probes.&lt;/p&gt;
+&lt;p&gt;Funding for this work was provided by the Arizona Disease Control Research
+Commission grant number 971, nih grants ca 94287 and ca 115780,
+the BMIS Fellowship, and the Imaging Fellowship.&lt;/p&gt;
+&lt;p&gt;I would like to thank my dissertation committee, Dr. Arthur Gmitro, Dr. Andrew
+Rouse, Dr. Urs Utzinger, and Dr. Jim Schwiegerling, for providing guidance and
+constructive criticism.&lt;/p&gt;
+&lt;p&gt;Finally, I would never have accomplished this work without the inspiration I
+received from the handful of great teachers. I feel lucky to have been their student.
+I hope that I will be able to give back to society as much as they gave to their students.
+Thank you Dr. Russell Kraus, Priscilla Morton, Fred Marinello, and Robert Petitmermet.&lt;/p&gt;
+&lt;p&gt;Citation: Anthony A Tanbakuchi. A surgical confocal microlaparoscope for real-time
+optical biopsies, University of Arizona, Tucson, Az, 2009.
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_TanbakuchiDissertation.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/dissertation-complete/</guid><pubDate>Thu, 02 Apr 2009 12:30:51 GMT</pubDate></item><item><title>Real-Time Confocal Microendoscope Poster</title><link>http://tanbakuchi.com/posts/real-time-confocal-microendoscope-poster/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div class="figure"&gt;
 &lt;a class="reference external image-reference" href="http://tanbakuchi.com/Papers/2008ClinicalImagingSystem-75dpi.pdf"&gt;&lt;img alt="/Papers/2008ClinicalImagingSystem-750px.jpg" class="islink" src="http://tanbakuchi.com/Papers/2008ClinicalImagingSystem-750px.jpg"&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;While at the University of Arizona, my colleagues and I were developing
 this instrument in the &lt;a class="reference external" href="http://bil.arizona.edu"&gt;Biomedical Imaging Laboratory, Department of

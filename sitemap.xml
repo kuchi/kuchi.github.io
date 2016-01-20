@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://tanbakuchi.com/</loc>
-  <lastmod>2016-01-20T02:51:00Z</lastmod>
+  <lastmod>2016-01-20T12:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/2008/</loc>
@@ -39,15 +39,19 @@
  </url>
  <url>
   <loc>http://tanbakuchi.com/archive.html</loc>
-  <lastmod>2016-01-20T03:04:00Z</lastmod>
+  <lastmod>2016-01-20T13:06:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/categories/</loc>
-  <lastmod>2016-01-20T02:50:00Z</lastmod>
+  <lastmod>2016-01-20T12:17:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/categories/patents/</loc>
   <lastmod>2016-01-20T02:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://tanbakuchi.com/categories/publication/</loc>
+  <lastmod>2016-01-20T12:17:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/categories/publications/</loc>
@@ -56,6 +60,10 @@
  <url>
   <loc>http://tanbakuchi.com/galleries/</loc>
   <lastmod>2016-01-17T20:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://tanbakuchi.com/index-1.html</loc>
+  <lastmod>2016-01-20T13:09:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/listings/</loc>
@@ -102,12 +110,32 @@
   <lastmod>2016-01-20T00:54:00Z</lastmod>
  </url>
  <url>
+  <loc>http://tanbakuchi.com/posts/clinical-confocal-microlaparoscope-for-real-time-in-vivo-optical-biopsies/</loc>
+  <lastmod>2016-01-20T13:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://tanbakuchi.com/posts/clinical-confocal-microlaparoscope-for-real-time-in-vivo/</loc>
+  <lastmod>2016-01-20T13:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://tanbakuchi.com/posts/dissertation-complete/</loc>
+  <lastmod>2016-01-20T12:30:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://tanbakuchi.com/posts/in-vivo-imaging-of-ovarian-tissue-using-a-novel-confocal-microlaparoscope/</loc>
+  <lastmod>2016-01-20T12:17:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://tanbakuchi.com/posts/method-and-apparatus-for-adaptive-pixel-correction-of-multi-color-matrix-patent/</loc>
   <lastmod>2016-01-20T02:50:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/method-for-reconstruction-of-pixel-color-values-patent-application/</loc>
   <lastmod>2016-01-20T03:00:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://tanbakuchi.com/posts/monte-carlo-characterization-of-parallelized-fluorescence-confocal-systems-imaging-in-turbid-media/</loc>
+  <lastmod>2016-01-20T12:46:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/novel-multi-point-scan-architecture-patent-application/</loc>

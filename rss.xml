@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Anthony Tanbakuchi</title><link>http://tanbakuchi.com/</link><description>Personal site of Anthony Tanbakuchi, PhD.</description><atom:link rel="self" type="application/rss+xml" href="http://tanbakuchi.com/rss.xml"></atom:link><language>en</language><lastBuildDate>Wed, 20 Jan 2016 03:04:21 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Welcome to my updated site</title><link>http://tanbakuchi.com/posts/welcome-to-my-updated-site/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;p&gt;Since my long time hosting provider BlueHost kept increasing prices and I don't
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Anthony Tanbakuchi</title><link>http://tanbakuchi.com/</link><description>Personal site of Anthony Tanbakuchi, PhD.</description><atom:link type="application/rss+xml" rel="self" href="http://tanbakuchi.com/rss.xml"></atom:link><language>en</language><lastBuildDate>Wed, 20 Jan 2016 13:14:58 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Welcome to my updated site</title><link>http://tanbakuchi.com/posts/welcome-to-my-updated-site/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;p&gt;Since my long time hosting provider BlueHost kept increasing prices and I don't
 need any advanced features that they offer, I decided to move my site to Github Pages
 since I'm already a Github user.
 My site has been statically generated for years. The advantages of a static site are
@@ -69,7 +69,7 @@ Proc. SPIE. 8491, Optical System Alignment, Tolerancing, and Verification VI,
 &lt;/div&gt;
 &lt;p&gt;This is a patent application that arose from my
 &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_TanbakuchiDissertation.pdf"&gt;dissertation&lt;/a&gt;
-and &lt;a class="reference external" href="http://tanbakuchi.com/posts/novel-multi-point-scan-architecture-patent-application/2009_JBO_Monte_Carlo_Tanbakuchi"&gt;journal publication&lt;/a&gt; where I was able
+and &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_JBO_Monte_Carlo_Tanbakuchi.pdf"&gt;journal publication&lt;/a&gt; where I was able
 to demonstrate through monte-carlo modeling that
 a slit scan system could be improved by making a small modification so that it
 becomes a multi-point scan system.&lt;/p&gt;
@@ -90,7 +90,7 @@ the high frame rate of a slit-scanning system while providing optical performanc
 close to that of a single point scanning system. You can read the details in
 the &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2010Confocal.pdf"&gt;paper&lt;/a&gt;. This paper arose from my
 &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_TanbakuchiDissertation.pdf"&gt;dissertation&lt;/a&gt;
-and &lt;a class="reference external" href="http://tanbakuchi.com/posts/a-multi-point-scanner-for-high-frame-rate-confocal-microendoscopy/2009_JBO_Monte_Carlo_Tanbakuchi"&gt;journal publication&lt;/a&gt; where I was able
+and &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_JBO_Monte_Carlo_Tanbakuchi.pdf"&gt;journal publication&lt;/a&gt; where I was able
 to demonstrate through monte-carlo modeling that
 a slit scan system could be improved by making a small modification so that it
 becomes a multi-point scan system. My contribution was mainly the suggestion
@@ -98,7 +98,34 @@ of the multi-point concept, Andy and Houssine did all the hard work.&lt;/p&gt;
 &lt;p&gt;Citation: Andrew R. Rouse; Houssine Makhlouf; Anthony A. Tanbakuchi; Arthur F. Gmitro,
 &lt;em&gt;"A multi-point scanner for high frame rate confocal microendoscopy"&lt;/em&gt;
 Proc. SPIE. 7558, Endoscopic Microscopy V, 755809. February 11, 2010 doi: 10.1117/12.842782
-&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2010Confocal.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/a-multi-point-scanner-for-high-frame-rate-confocal-microendoscopy/</guid><pubDate>Wed, 20 Jan 2010 01:22:33 GMT</pubDate></item><item><title>Method for reconstruction of pixel color values patent application</title><link>http://tanbakuchi.com/posts/method-for-reconstruction-of-pixel-color-values-patent-application/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2010Confocal.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/a-multi-point-scanner-for-high-frame-rate-confocal-microendoscopy/</guid><pubDate>Wed, 20 Jan 2010 01:22:33 GMT</pubDate></item><item><title>In vivo imaging of ovarian tissue using a novel confocal microlaparoscope</title><link>http://tanbakuchi.com/posts/in-vivo-imaging-of-ovarian-tissue-using-a-novel-confocal-microlaparoscope/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
+&lt;img alt="/Papers/2010AJOG_Clinical_Tanbakuchi.jpg" src="http://tanbakuchi.com/Papers/2010AJOG_Clinical_Tanbakuchi.jpg"&gt;
+&lt;/div&gt;
+&lt;p&gt;The objective of the study was to develop a clinical confo- cal microlaparoscope
+for imaging ovary epithelium in vivo with the long- term objective of diagnosing
+cancer in vivo. A confocal microlaparoscope was developed and used to image the
+ovaries of 21 patients in vivo using fluorescein sodium and acridine orange as
+the fluorescent contrast agents. The device was tested in vivo and demonstrated
+to be safe and function as designed. Real-time cellular visualization of ovary
+epithelium was demonstrated. The confocal microlaparoscope represents a new type
+of in vivo imaging device. With its ability to image cellular details in real
+time, it has the potential to aid in the early diagnosis of cancer. Initially
+the device may be used to locate unusual regions for guided biopsies. In the
+long term, the device may be able to supplant traditional biopsies and allow
+the surgeon to identify early-stage ovarian cancer.
+You can read the full &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2010AJOG_Clinical_Tanbakuchi.pdf"&gt;journal article&lt;/a&gt;.
+Below is a video from the instrument in use.&lt;/p&gt;
+&lt;iframe width="459" height="344" src="https://www.youtube.com/embed/HbQFZHAFMhY?feature=oembed" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;p&gt;This publication represented 1 of 3 journal articles that comprimised my
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_TanbakuchiDissertation.pdf"&gt;dissertation&lt;/a&gt;. My contribution
+was the design and development of the next generation confocal microlaparascope,
+software development, lens design, and clinical testing of the device with
+Kenneth Hatch, Andy Rouse, and Art Gimitro. Both Art (my advisor) and
+Andy were exceptional mentors and collaborators for this work. I couldn't have
+done it without them.&lt;/p&gt;
+&lt;p&gt;Citation: Anthony A Tanbakuchi, Joshua A Udovich, Andrew R Rouse, Kenneth D
+Hatch, and Arthur F Gmitro. In vivo imaging of ovarian tissue using a
+novel confocal microlaparoscope. Am J Obstet Gynecol, Oct 2010.
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2010AJOG_Clinical_Tanbakuchi.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publication</category><guid>http://tanbakuchi.com/posts/in-vivo-imaging-of-ovarian-tissue-using-a-novel-confocal-microlaparoscope/</guid><pubDate>Fri, 01 Jan 2010 12:17:07 GMT</pubDate></item><item><title>Method for reconstruction of pixel color values patent application</title><link>http://tanbakuchi.com/posts/method-for-reconstruction-of-pixel-color-values-patent-application/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
 &lt;img alt="/Papers/2009PatentAppColor.jpg" src="http://tanbakuchi.com/Papers/2009PatentAppColor.jpg"&gt;
 &lt;/div&gt;
 &lt;p&gt;This is a patent that resulted from my work at Philips Research Labs in Endhoven,
@@ -108,23 +135,25 @@ read the full &lt;a class="reference external" href="http://tanbakuchi.com/Paper
 &lt;p&gt;Citation: A. Tanbakuchi,
 &lt;em&gt;"Method for reconstruction of pixel color values,"&lt;/em&gt;
 US 20090263017 A1, 2009.
-&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009PatentAppColor.pdf"&gt;PDF&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>patents</category><guid>http://tanbakuchi.com/posts/method-for-reconstruction-of-pixel-color-values-patent-application/</guid><pubDate>Fri, 23 Oct 2009 03:00:43 GMT</pubDate></item><item><title>Method and apparatus for adaptive pixel correction of multi-color matrix patent</title><link>http://tanbakuchi.com/posts/method-and-apparatus-for-adaptive-pixel-correction-of-multi-color-matrix-patent/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
-&lt;img alt="/Papers/2009PatentDefectPixel.jpg" src="http://tanbakuchi.com/Papers/2009PatentDefectPixel.jpg"&gt;
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009PatentAppColor.pdf"&gt;PDF&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>patents</category><guid>http://tanbakuchi.com/posts/method-for-reconstruction-of-pixel-color-values-patent-application/</guid><pubDate>Fri, 23 Oct 2009 03:00:43 GMT</pubDate></item><item><title>Clinical confocal microlaparoscope for real-time in vivo optical biopsies</title><link>http://tanbakuchi.com/posts/clinical-confocal-microlaparoscope-for-real-time-in-vivo-optical-biopsies/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
+&lt;img alt="/Papers/2009_JBO_Clinical_Tanbakuchi.jpg" src="http://tanbakuchi.com/Papers/2009_JBO_Clinical_Tanbakuchi.jpg"&gt;
 &lt;/div&gt;
-&lt;p&gt;This is a patent that resulted from my work at Philips Research Labs in Endhoven,
-The Netherlands. I was working in the Image Sensors division (later sold to
-DALSA) when I developed this pixel defect correction algorithm. You can
-read the full &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009PatentDefectPixel.pdf"&gt;patent&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Citation: A. Tanbakuchi,
-&lt;em&gt;"Method and apparatus for adaptive pixel correction of multi-color matrix,"&lt;/em&gt;
-US 7477781 B1, Jan 13, 2009.
-&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009PatentDefectPixel.pdf"&gt;PDF&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>patents</category><guid>http://tanbakuchi.com/posts/method-and-apparatus-for-adaptive-pixel-correction-of-multi-color-matrix-patent/</guid><pubDate>Wed, 14 Jan 2009 02:50:29 GMT</pubDate></item><item><title>Real-Time Confocal Microendoscope Poster</title><link>http://tanbakuchi.com/posts/real-time-confocal-microendoscope-poster/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="http://tanbakuchi.com/Papers/2008ClinicalImagingSystem-75dpi.pdf"&gt;&lt;img alt="/Papers/2008ClinicalImagingSystem-750px.jpg" class="islink" src="http://tanbakuchi.com/Papers/2008ClinicalImagingSystem-750px.jpg"&gt;&lt;/a&gt;
-&lt;p class="caption"&gt;While at the University of Arizona, my colleagues and I were developing
-this instrument in the &lt;a class="reference external" href="http://bil.arizona.edu"&gt;Biomedical Imaging Laboratory, Department of
-Radiology&lt;/a&gt;. The long term goal of this
-instrument is to replace biopsies with live video images of the cells so
-surgeons can precisely isolate cancerous tumors for resection. You can
-read more about it in my
-&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_TanbakuchiDissertation.pdf"&gt;dissertation&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/real-time-confocal-microendoscope-poster/</guid><pubDate>Wed, 02 Jan 2008 03:01:24 GMT</pubDate></item></channel></rss>
+&lt;p&gt;This publication represented 1 of 3 journal articles that comprimised my
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_TanbakuchiDissertation.pdf"&gt;dissertation&lt;/a&gt;. This paper discusses
+the design of the confocal microlaparoscope. Full details are in the
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_JBO_Clinical_Tanbakuchi.pdf"&gt;Paper&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Citation: Anthony A Tanbakuchi, Andrew R Rouse, Joshua A Udovich, Kenneth D
+Hatch, and Arthur F Gmitro. Clinical confocal microlaparoscope for
+real-time in vivo optical biopsies. J Biomed Opt, 14(4):044030, 2009.
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_JBO_Clinical_Tanbakuchi.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>http://tanbakuchi.com/posts/clinical-confocal-microlaparoscope-for-real-time-in-vivo-optical-biopsies/</guid><pubDate>Wed, 01 Jul 2009 13:04:52 GMT</pubDate></item><item><title>Monte Carlo characterization of parallelized fluorescence confocal systems imaging in turbid media</title><link>http://tanbakuchi.com/posts/monte-carlo-characterization-of-parallelized-fluorescence-confocal-systems-imaging-in-turbid-media/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;iframe width="480" height="270" src="https://www.youtube.com/embed/2zoCtMp-z4Y?feature=oembed" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;p&gt;This publication represented 1 of 3 journal articles that comprimised my
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_TanbakuchiDissertation.pdf"&gt;dissertation&lt;/a&gt;. For this paper I
+developed and coded a Monte Carlo model to simulate a confocal system
+imaging in tissue to model performance characteristics of the system. The results
+showed that a new type of confocal design, a multi-point scanner, would significantly
+improve the current design. This resulted in
+&lt;a class="reference external" href="http://tanbakuchi.com/posts/a-multi-point-scanner-for-high-frame-rate-confocal-microendoscopy"&gt;a new system&lt;/a&gt;, as well
+as a &lt;a class="reference external" href="http://tanbakuchi.com/posts/novel-multi-point-scan-architecture-patent-application"&gt;a patent application&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Citation: Anthony A Tanbakuchi, Andrew R Rouse, and Arthur F Gmitro. Monte
+carlo characterization of parallelized fluorescence confocal systems
+imaging in turbid media. J Biomed Opt, 14(4):044024, 2009
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_JBO_Monte_Carlo_Tanbakuchi.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/monte-carlo-characterization-of-parallelized-fluorescence-confocal-systems-imaging-in-turbid-media/</guid><pubDate>Wed, 01 Jul 2009 12:46:21 GMT</pubDate></item></channel></rss>

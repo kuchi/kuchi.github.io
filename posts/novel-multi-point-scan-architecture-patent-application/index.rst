@@ -11,7 +11,7 @@
 
 This is a patent application that arose from my
 `dissertation </Papers/2009_TanbakuchiDissertation.pdf>`__
-and `journal publication <2009_JBO_Monte_Carlo_Tanbakuchi>`__ where I was able
+and `journal publication </Papers/2009_JBO_Monte_Carlo_Tanbakuchi.pdf>`__ where I was able
 to demonstrate through monte-carlo modeling that
 a slit scan system could be improved by making a small modification so that it
 becomes a multi-point scan system.
