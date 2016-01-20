@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Anthony Tanbakuchi</title><link>http://tanbakuchi.com/</link><description>Personal site of Anthony Tanbakuchi, PhD.</description><atom:link type="application/rss+xml" rel="self" href="http://tanbakuchi.com/rss.xml"></atom:link><language>en</language><lastBuildDate>Wed, 20 Jan 2016 01:42:33 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Welcome to my updated site</title><link>http://tanbakuchi.com/posts/welcome-to-my-updated-site/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;p&gt;Since my long time hosting provider BlueHost kept increasing prices and I don't
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Anthony Tanbakuchi</title><link>http://tanbakuchi.com/</link><description>Personal site of Anthony Tanbakuchi, PhD.</description><atom:link rel="self" href="http://tanbakuchi.com/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 20 Jan 2016 02:02:49 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Welcome to my updated site</title><link>http://tanbakuchi.com/posts/welcome-to-my-updated-site/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;p&gt;Since my long time hosting provider BlueHost kept increasing prices and I don't
 need any advanced features that they offer, I decided to move my site to Github Pages
 since I'm already a Github user.
 My site has been statically generated for years. The advantages of a static site are
@@ -14,7 +14,7 @@ is my domain registration
 since Github Pages are free. Much thanks to the great community services at Github!&lt;/p&gt;
 &lt;p&gt;All of the content that was available on the previous site is still here. Just
 use the menu at the top to access everything.&lt;/p&gt;&lt;/div&gt;</description><guid>http://tanbakuchi.com/posts/welcome-to-my-updated-site/</guid><pubDate>Sun, 17 Jan 2016 19:46:34 GMT</pubDate></item><item><title>A polarization system for persistent chemical detection</title><link>http://tanbakuchi.com/posts/a-polarization-system-for-persistent-chemical-detection/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
-&lt;img alt="/Papers/2015PolarizationSystem.png" src="http://tanbakuchi.com/Papers/2015PolarizationSystem.png"&gt;
+&lt;img alt="/Papers/2015PolarizationSystem.jpg" src="http://tanbakuchi.com/Papers/2015PolarizationSystem.jpg"&gt;
 &lt;/div&gt;
 &lt;p&gt;This was a conference paper that I was a co-author on where we developed a infrared
 polarization system for chemical detection.
@@ -37,7 +37,7 @@ Adoum Mahamat, Lee Massey, Anthony Tanbakuchi, Cody Washburn, Steven Vigil,
 Proc. SPIE. 9613, Polarization Science and Remote Sensing VII, 96130B.
 September 01, 2015 doi: 10.1117/12.2188718
 &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2015PolarizationSystem.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/a-polarization-system-for-persistent-chemical-detection/</guid><pubDate>Wed, 02 Sep 2015 00:54:51 GMT</pubDate></item><item><title>Practical implementation of broadband diffractive optical elements</title><link>http://tanbakuchi.com/posts/practical-implementation-of-broadband-diffractive-optical-elements/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
-&lt;img alt="/Papers/2013DiffractiveOptics.png" src="http://tanbakuchi.com/Papers/2013DiffractiveOptics.png"&gt;
+&lt;img alt="/Papers/2013DiffractiveOptics.jpg" src="http://tanbakuchi.com/Papers/2013DiffractiveOptics.jpg"&gt;
 &lt;/div&gt;
 &lt;p&gt;In this paper we discuss the practical modeling, design, and testing of a hybrid
 diffractive optical system. My contribution to this project was proposing the idea
@@ -49,7 +49,7 @@ Sandia National Laboratories &lt;a class="reference external" href="http://tanba
 Proc. SPIE. 8612, Micromachining and Microfabrication Process Technology XVIII, 86120G.
 March 09, 2013 doi: 10.1117/12.2013204
 &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2013DiffractiveOptics.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/practical-implementation-of-broadband-diffractive-optical-elements/</guid><pubDate>Sun, 10 Mar 2013 01:07:11 GMT</pubDate></item><item><title>Optical design and performance testing of an athermal SWIR gas correlation imager</title><link>http://tanbakuchi.com/posts/optical-design-and-performance-testing-of-an-athermal-swir-gas-correlation-imager/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
-&lt;img alt="/Papers/2012Athermal.png" src="http://tanbakuchi.com/Papers/2012Athermal.png"&gt;
+&lt;img alt="/Papers/2012Athermal.jpg" src="http://tanbakuchi.com/Papers/2012Athermal.jpg"&gt;
 &lt;/div&gt;
 &lt;p&gt;In this paper I present a dual channel 7 degree full field of view f/2.5 athermal
 optical design athermalized from 0 to 50 degrees C that operates in the wavelength range of 2.0 to 2.5
@@ -65,7 +65,7 @@ requirements and preformed well in the field.&lt;/p&gt;
 Proc. SPIE. 8491, Optical System Alignment, Tolerancing, and Verification VI,
 84910B. October 15, 2012 doi: 10.1117/12.928001
 &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2012Athermal.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/optical-design-and-performance-testing-of-an-athermal-swir-gas-correlation-imager/</guid><pubDate>Tue, 16 Oct 2012 01:14:51 GMT</pubDate></item><item><title>A multi-point scanner for high frame rate confocal microendoscopy</title><link>http://tanbakuchi.com/posts/a-multi-point-scanner-for-high-frame-rate-confocal-microendoscopy/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
-&lt;img alt="/Papers/2010Confocal.png" src="http://tanbakuchi.com/Papers/2010Confocal.png"&gt;
+&lt;img alt="/Papers/2010Confocal.jpg" src="http://tanbakuchi.com/Papers/2010Confocal.jpg"&gt;
 &lt;/div&gt;
 &lt;p&gt;Slit-scanning geometries for confocal microendoscopy represent a compromise
 between acquisition rate and optical performance.
@@ -88,7 +88,7 @@ of the multi-point concept, Andy and Houssine did all the hard work.&lt;/p&gt;
 &lt;em&gt;"A multi-point scanner for high frame rate confocal microendoscopy"&lt;/em&gt;
 Proc. SPIE. 7558, Endoscopic Microscopy V, 755809. February 11, 2010 doi: 10.1117/12.842782
 &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2010Confocal.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/a-multi-point-scanner-for-high-frame-rate-confocal-microendoscopy/</guid><pubDate>Wed, 20 Jan 2010 01:22:33 GMT</pubDate></item><item><title>Real-Time Confocal Microendoscope Poster</title><link>http://tanbakuchi.com/posts/real-time-confocal-microendoscope-poster/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="http://tanbakuchi.com/Papers/2008ClinicalImagingSystem-75dpi.pdf"&gt;&lt;img alt="/Papers/2008ClinicalImagingSystem-750px.png" class="islink" src="http://tanbakuchi.com/Papers/2008ClinicalImagingSystem-750px.png"&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="http://tanbakuchi.com/Papers/2008ClinicalImagingSystem-75dpi.pdf"&gt;&lt;img alt="/Papers/2008ClinicalImagingSystem-750px.jpg" class="islink" src="http://tanbakuchi.com/Papers/2008ClinicalImagingSystem-750px.jpg"&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;While at the University of Arizona, my colleagues and I were developing
 this instrument in the &lt;a class="reference external" href="http://bil.arizona.edu"&gt;Biomedical Imaging Laboratory, Department of
 Radiology&lt;/a&gt;. The long term goal of this
@@ -96,4 +96,4 @@ instrument is to replace biopsies with live video images of the cells so
 surgeons can precisely isolate cancerous tumors for resection. You can
 read more about it in my
 &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_TanbakuchiDissertation.pdf"&gt;dissertation&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;</description><guid>http://tanbakuchi.com/posts/real-time-confocal-microendoscope-poster/</guid><pubDate>Wed, 02 Jan 2008 03:01:24 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/real-time-confocal-microendoscope-poster/</guid><pubDate>Wed, 02 Jan 2008 03:01:24 GMT</pubDate></item></channel></rss>

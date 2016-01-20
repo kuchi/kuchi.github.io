@@ -7,7 +7,7 @@
 .. description: 
 .. type: text
 
-..  figure:: /Papers/2013DiffractiveOptics.png
+..  figure:: /Papers/2013DiffractiveOptics.jpg
 
 In this paper we discuss the practical modeling, design, and testing of a hybrid
 diffractive optical system. My contribution to this project was proposing the idea

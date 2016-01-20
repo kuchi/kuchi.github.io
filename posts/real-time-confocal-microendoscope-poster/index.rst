@@ -8,7 +8,7 @@
 .. type: text
 
 
-..  figure:: /Papers/2008ClinicalImagingSystem-750px.png
+..  figure:: /Papers/2008ClinicalImagingSystem-750px.jpg
     :class: islink
     :target: /Papers/2008ClinicalImagingSystem-75dpi.pdf
 

@@ -7,7 +7,7 @@
 .. description: 
 .. type: text
 
-.. figure:: /Papers/2010Confocal.png
+.. figure:: /Papers/2010Confocal.jpg
 
 Slit-scanning geometries for confocal microendoscopy represent a compromise
 between acquisition rate and optical performance.
