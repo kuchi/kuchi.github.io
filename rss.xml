@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Anthony Tanbakuchi</title><link>http://tanbakuchi.com/</link><description>Personal site of Anthony Tanbakuchi, PhD.</description><atom:link rel="self" href="http://tanbakuchi.com/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 20 Jan 2016 02:02:49 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Welcome to my updated site</title><link>http://tanbakuchi.com/posts/welcome-to-my-updated-site/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;p&gt;Since my long time hosting provider BlueHost kept increasing prices and I don't
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Anthony Tanbakuchi</title><link>http://tanbakuchi.com/</link><description>Personal site of Anthony Tanbakuchi, PhD.</description><atom:link rel="self" type="application/rss+xml" href="http://tanbakuchi.com/rss.xml"></atom:link><language>en</language><lastBuildDate>Wed, 20 Jan 2016 03:04:21 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Welcome to my updated site</title><link>http://tanbakuchi.com/posts/welcome-to-my-updated-site/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;p&gt;Since my long time hosting provider BlueHost kept increasing prices and I don't
 need any advanced features that they offer, I decided to move my site to Github Pages
 since I'm already a Github user.
 My site has been statically generated for years. The advantages of a static site are
@@ -64,7 +64,18 @@ requirements and preformed well in the field.&lt;/p&gt;
 &lt;em&gt;"Optical design and performance testing of an athermal SWIR gas correlation imager,"&lt;/em&gt;
 Proc. SPIE. 8491, Optical System Alignment, Tolerancing, and Verification VI,
 84910B. October 15, 2012 doi: 10.1117/12.928001
-&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2012Athermal.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/optical-design-and-performance-testing-of-an-athermal-swir-gas-correlation-imager/</guid><pubDate>Tue, 16 Oct 2012 01:14:51 GMT</pubDate></item><item><title>A multi-point scanner for high frame rate confocal microendoscopy</title><link>http://tanbakuchi.com/posts/a-multi-point-scanner-for-high-frame-rate-confocal-microendoscopy/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2012Athermal.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/optical-design-and-performance-testing-of-an-athermal-swir-gas-correlation-imager/</guid><pubDate>Tue, 16 Oct 2012 01:14:51 GMT</pubDate></item><item><title>Novel Multi-Point Scan Architecture Patent Application</title><link>http://tanbakuchi.com/posts/novel-multi-point-scan-architecture-patent-application/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
+&lt;img alt="/Papers/2012PatentAppMultiPoint.jpg" src="http://tanbakuchi.com/Papers/2012PatentAppMultiPoint.jpg"&gt;
+&lt;/div&gt;
+&lt;p&gt;This is a patent application that arose from my
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009_TanbakuchiDissertation.pdf"&gt;dissertation&lt;/a&gt;
+and &lt;a class="reference external" href="http://tanbakuchi.com/posts/novel-multi-point-scan-architecture-patent-application/2009_JBO_Monte_Carlo_Tanbakuchi"&gt;journal publication&lt;/a&gt; where I was able
+to demonstrate through monte-carlo modeling that
+a slit scan system could be improved by making a small modification so that it
+becomes a multi-point scan system.&lt;/p&gt;
+&lt;p&gt;Citation: A. Gimitro, A. Rouse, A. Tanbakuchi,
+&lt;em&gt;"Novel Multi-Point Scan Architecture,"&lt;/em&gt; Application number US13266165, 2012.
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2012PatentAppMultiPoint.pdf"&gt;PDF&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>patents</category><guid>http://tanbakuchi.com/posts/novel-multi-point-scan-architecture-patent-application/</guid><pubDate>Fri, 11 May 2012 02:34:58 GMT</pubDate></item><item><title>A multi-point scanner for high frame rate confocal microendoscopy</title><link>http://tanbakuchi.com/posts/a-multi-point-scanner-for-high-frame-rate-confocal-microendoscopy/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
 &lt;img alt="/Papers/2010Confocal.jpg" src="http://tanbakuchi.com/Papers/2010Confocal.jpg"&gt;
 &lt;/div&gt;
 &lt;p&gt;Slit-scanning geometries for confocal microendoscopy represent a compromise
@@ -87,7 +98,27 @@ of the multi-point concept, Andy and Houssine did all the hard work.&lt;/p&gt;
 &lt;p&gt;Citation: Andrew R. Rouse; Houssine Makhlouf; Anthony A. Tanbakuchi; Arthur F. Gmitro,
 &lt;em&gt;"A multi-point scanner for high frame rate confocal microendoscopy"&lt;/em&gt;
 Proc. SPIE. 7558, Endoscopic Microscopy V, 755809. February 11, 2010 doi: 10.1117/12.842782
-&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2010Confocal.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/a-multi-point-scanner-for-high-frame-rate-confocal-microendoscopy/</guid><pubDate>Wed, 20 Jan 2010 01:22:33 GMT</pubDate></item><item><title>Real-Time Confocal Microendoscope Poster</title><link>http://tanbakuchi.com/posts/real-time-confocal-microendoscope-poster/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div class="figure"&gt;
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2010Confocal.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/a-multi-point-scanner-for-high-frame-rate-confocal-microendoscopy/</guid><pubDate>Wed, 20 Jan 2010 01:22:33 GMT</pubDate></item><item><title>Method for reconstruction of pixel color values patent application</title><link>http://tanbakuchi.com/posts/method-for-reconstruction-of-pixel-color-values-patent-application/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
+&lt;img alt="/Papers/2009PatentAppColor.jpg" src="http://tanbakuchi.com/Papers/2009PatentAppColor.jpg"&gt;
+&lt;/div&gt;
+&lt;p&gt;This is a patent that resulted from my work at Philips Research Labs in Endhoven,
+The Netherlands. I was working in the Image Sensors division (later sold to
+DALSA) when color reconstruction algorithm for Bayer color filter array data. You can
+read the full &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009PatentAppColor.pdf"&gt;patent&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Citation: A. Tanbakuchi,
+&lt;em&gt;"Method for reconstruction of pixel color values,"&lt;/em&gt;
+US 20090263017 A1, 2009.
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009PatentAppColor.pdf"&gt;PDF&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>patents</category><guid>http://tanbakuchi.com/posts/method-for-reconstruction-of-pixel-color-values-patent-application/</guid><pubDate>Fri, 23 Oct 2009 03:00:43 GMT</pubDate></item><item><title>Method and apparatus for adaptive pixel correction of multi-color matrix patent</title><link>http://tanbakuchi.com/posts/method-and-apparatus-for-adaptive-pixel-correction-of-multi-color-matrix-patent/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
+&lt;img alt="/Papers/2009PatentDefectPixel.jpg" src="http://tanbakuchi.com/Papers/2009PatentDefectPixel.jpg"&gt;
+&lt;/div&gt;
+&lt;p&gt;This is a patent that resulted from my work at Philips Research Labs in Endhoven,
+The Netherlands. I was working in the Image Sensors division (later sold to
+DALSA) when I developed this pixel defect correction algorithm. You can
+read the full &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009PatentDefectPixel.pdf"&gt;patent&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Citation: A. Tanbakuchi,
+&lt;em&gt;"Method and apparatus for adaptive pixel correction of multi-color matrix,"&lt;/em&gt;
+US 7477781 B1, Jan 13, 2009.
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2009PatentDefectPixel.pdf"&gt;PDF&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>patents</category><guid>http://tanbakuchi.com/posts/method-and-apparatus-for-adaptive-pixel-correction-of-multi-color-matrix-patent/</guid><pubDate>Wed, 14 Jan 2009 02:50:29 GMT</pubDate></item><item><title>Real-Time Confocal Microendoscope Poster</title><link>http://tanbakuchi.com/posts/real-time-confocal-microendoscope-poster/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div class="figure"&gt;
 &lt;a class="reference external image-reference" href="http://tanbakuchi.com/Papers/2008ClinicalImagingSystem-75dpi.pdf"&gt;&lt;img alt="/Papers/2008ClinicalImagingSystem-750px.jpg" class="islink" src="http://tanbakuchi.com/Papers/2008ClinicalImagingSystem-750px.jpg"&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;While at the University of Arizona, my colleagues and I were developing
 this instrument in the &lt;a class="reference external" href="http://bil.arizona.edu"&gt;Biomedical Imaging Laboratory, Department of
