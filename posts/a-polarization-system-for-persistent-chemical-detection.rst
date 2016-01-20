@@ -7,7 +7,7 @@
 .. description: 
 .. type: text
 
-..  figure:: /Papers/2015PolarizationSystem.png
+..  figure:: /Papers/2015PolarizationSystem.jpg
 
 This was a conference paper that I was a co-author on where we developed a infrared
 polarization system for chemical detection.

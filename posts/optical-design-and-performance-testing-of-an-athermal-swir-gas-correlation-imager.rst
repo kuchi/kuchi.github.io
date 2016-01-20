@@ -8,7 +8,7 @@
 .. type: text
 
 
-.. figure:: /Papers/2012Athermal.png
+.. figure:: /Papers/2012Athermal.jpg
 
 In this paper I present a dual channel 7 degree full field of view f/2.5 athermal
 optical design athermalized from 0 to 50 degrees C that operates in the wavelength range of 2.0 to 2.5
