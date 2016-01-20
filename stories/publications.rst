@@ -14,6 +14,27 @@ Anthony A Tanbakuchi. A surgical confocal microlaparoscope for real-time
 optical biopsies, University of Arizona, Tucson, Az, 2009.
 `PDF </Papers/2009_TanbakuchiDissertation.pdf>`__
 
+Patents
+=======
+
+* A. Tanbakuchi,
+  *"Method and apparatus for adaptive pixel correction of multi-color matrix,"*
+  US 7477781 B1, Jan 13, 2009.
+  `PDF </Papers/2009PatentDefectPixel.pdf>`__.
+
+Patent Applications
+-------------------
+
+* A. Gimitro, A. Rouse, A. Tanbakuchi,
+  *"Novel Multi-Point Scan Architecture,"* US13266165, 2012.
+  `PDF </Papers/2012PatentAppMultiPoint.pdf>`__.
+
+* A. Tanbakuchi,
+  *"Method for reconstruction of pixel color values,"*
+  US 20090263017 A1, 2009.
+  `PDF </Papers/2009PatentAppColor.pdf>`__.
+
+
 Journal Papers
 ==============
 
