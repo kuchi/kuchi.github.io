@@ -41,7 +41,7 @@ Journal Papers
 
 *  Anthony A Tanbakuchi, Joshua A Udovich, Andrew R Rouse, Kenneth D
    Hatch, and Arthur F Gmitro. In vivo imaging of ovarian tissue using a
-   novel confocal microlaparoscope. Am J Obstet Gynecol, Oct 2009.
+   novel confocal microlaparoscope. Am J Obstet Gynecol, Oct 2010.
    `PDF </Papers/2010AJOG_Clinical_Tanbakuchi.pdf>`__
 
 *  Anthony A Tanbakuchi, Andrew R Rouse, Joshua A Udovich, Kenneth D
@@ -51,7 +51,7 @@ Journal Papers
 
 *  Anthony A Tanbakuchi, Andrew R Rouse, and Arthur F Gmitro. Monte
    carlo characterization of parallelized fluorescence confocal systems
-   imaging in turbid media. J Biomed Opt, 14(4):044024,
+   imaging in turbid media. J Biomed Opt, 14(4):044024, 2009
    `PDF </Papers/2009_JBO_Monte_Carlo_Tanbakuchi.pdf>`__
 
 *  Joshua Anthony Udovich, Nathaniel D Kirkpatrick, Angelique Kano,
