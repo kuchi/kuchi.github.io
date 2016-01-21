@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Anthony Tanbakuchi (publications)</title><link>http://tanbakuchi.com/</link><description></description><atom:link href="http://tanbakuchi.com/categories/publications.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 20 Jan 2016 13:21:07 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A polarization system for persistent chemical detection</title><link>http://tanbakuchi.com/posts/a-polarization-system-for-persistent-chemical-detection/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Anthony Tanbakuchi (publications)</title><link>http://tanbakuchi.com/</link><description></description><atom:link rel="self" type="application/rss+xml" href="http://tanbakuchi.com/categories/publications.xml"></atom:link><language>en</language><lastBuildDate>Thu, 21 Jan 2016 00:50:19 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A polarization system for persistent chemical detection</title><link>http://tanbakuchi.com/posts/a-polarization-system-for-persistent-chemical-detection/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
 &lt;img alt="/Papers/2015PolarizationSystem.jpg" src="http://tanbakuchi.com/Papers/2015PolarizationSystem.jpg"&gt;
 &lt;/div&gt;
 &lt;p&gt;This was a conference paper that I was a co-author on where we developed a infrared
@@ -34,7 +34,23 @@ Sandia National Laboratories &lt;a class="reference external" href="http://tanba
 &lt;em&gt;"Practical implementation of broadband diffractive optical elements"&lt;/em&gt;,
 Proc. SPIE. 8612, Micromachining and Microfabrication Process Technology XVIII, 86120G.
 March 09, 2013 doi: 10.1117/12.2013204
-&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2013DiffractiveOptics.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/practical-implementation-of-broadband-diffractive-optical-elements/</guid><pubDate>Sun, 10 Mar 2013 01:07:11 GMT</pubDate></item><item><title>Optical design and performance testing of an athermal SWIR gas correlation imager</title><link>http://tanbakuchi.com/posts/optical-design-and-performance-testing-of-an-athermal-swir-gas-correlation-imager/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2013DiffractiveOptics.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/practical-implementation-of-broadband-diffractive-optical-elements/</guid><pubDate>Sun, 10 Mar 2013 01:07:11 GMT</pubDate></item><item><title>Simulation and experimental characterization of a mercury cadmium telluride focal plane array</title><link>http://tanbakuchi.com/posts/simulation-and-experimental-characterization-of-a-mercury-cadmium-telluride-focal-plane-array/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
+&lt;img alt="/Papers/2012FocalPlane.jpg" src="http://tanbakuchi.com/Papers/2012FocalPlane.jpg"&gt;
+&lt;/div&gt;
+&lt;p&gt;A custom IR spot scanning experiment was constructed to project subpixel spots
+on a mercury cadmium telluride focal plane array (FPA). The hardware consists
+of an FPA in a liquid nitrogen cooled Dewar, high precision motorized stages,
+a custom aspheric lens, and a 1.55 and 3.39 μm laser source. By controlling the
+position and intensity of the spot, characterizations of cross talk, saturation,
+blooming, and (indirectly) the minority carrier lifetime were performed. My
+contribution was the design of the custom aspherical optics that enabled
+a diffraction limited spot while still being easy to fabricate. You can read
+the full details in the &lt;a class="reference external" href="http://tanbakuchi.com/Papers/2012FocalPlane.pdf"&gt;paper&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Citation: Soehnel, Grant; Tanbakuchi, Anthony,
+&lt;em&gt;"Simulation and experimental characterization of the point spread function,
+pixel saturation, and blooming of a mercury cadmium telluride focal plane array,”&lt;/em&gt;
+Applied Optics 51(33) 7987-7993, Nov 2012.
+&lt;a class="reference external" href="http://tanbakuchi.com/Papers/2012FocalPlane.pdf"&gt;PDF&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>publications</category><guid>http://tanbakuchi.com/posts/simulation-and-experimental-characterization-of-a-mercury-cadmium-telluride-focal-plane-array/</guid><pubDate>Wed, 21 Nov 2012 00:46:05 GMT</pubDate></item><item><title>Optical design and performance testing of an athermal SWIR gas correlation imager</title><link>http://tanbakuchi.com/posts/optical-design-and-performance-testing-of-an-athermal-swir-gas-correlation-imager/</link><dc:creator>Anthony Tanbakuchi</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
 &lt;img alt="/Papers/2012Athermal.jpg" src="http://tanbakuchi.com/Papers/2012Athermal.jpg"&gt;
 &lt;/div&gt;
 &lt;p&gt;In this paper I present a dual channel 7 degree full field of view f/2.5 athermal
