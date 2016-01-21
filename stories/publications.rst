@@ -38,6 +38,11 @@ Patent Applications
 Journal Papers
 ==============
 
+* Soehnel, Grant; Tanbakuchi, Anthony,
+  *"Simulation and experimental characterization of the point spread function,
+  pixel saturation, and blooming of a mercury cadmium telluride focal plane array,”*
+  Applied Optics 51(33) 7987-7993, Nov 2012.
+  `PDF </Papers/2012FocalPlane.pdf>`__
 
 *  Anthony A Tanbakuchi, Joshua A Udovich, Andrew R Rouse, Kenneth D
    Hatch, and Arthur F Gmitro. In vivo imaging of ovarian tissue using a
