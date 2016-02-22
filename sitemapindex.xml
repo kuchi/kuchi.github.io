@@ -6,27 +6,35 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>http://tanbakuchi.com/categories/opencv.xml</loc>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://tanbakuchi.com/categories/patents.xml</loc>
-  <lastmod>2016-01-20T13:14:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://tanbakuchi.com/categories/publication.xml</loc>
-  <lastmod>2016-01-20T13:11:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://tanbakuchi.com/categories/publications.xml</loc>
-  <lastmod>2016-01-21T00:50:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://tanbakuchi.com/categories/python.xml</loc>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://tanbakuchi.com/galleries/rss.xml</loc>
-  <lastmod>2016-01-18T01:58:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://tanbakuchi.com/rss.xml</loc>
-  <lastmod>2016-01-21T00:50:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://tanbakuchi.com/sitemap.xml</loc>
-  <lastmod>2016-01-21T00:50:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </sitemap>
 </sitemapindex>

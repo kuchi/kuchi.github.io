@@ -2,18 +2,25 @@
 <html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
 <head>
 <meta charset="utf-8">
-<base href="http://tanbakuchi.com/">
-<meta name="description" content="Personal site of Anthony Tanbakuchi, PhD.">
+<base href="http://tanbakuchi.com/posts/comparison-of-openv-interpolation-algorithms/">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Anthony Tanbakuchi</title>
-<link href="assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
-<link href="assets/css/ipython.min.css" rel="stylesheet" type="text/css">
-<link href="assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
+<title>Comparison of OpenCV Interpolation Algorithms | Anthony Tanbakuchi</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
 <meta content="#5670d4" name="theme-color">
-<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
-<link rel="canonical" href="http://tanbakuchi.com/">
-<link rel="next" href="index-1.html" type="text/html">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/comparison-of-openv-interpolation-algorithms/" type="text/html">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="http://tanbakuchi.com/posts/comparison-of-openv-interpolation-algorithms/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Anthony Tanbakuchi">
+<link rel="prev" href="../welcome-to-my-updated-site/" title="Welcome to my updated site" type="text/html">
+<meta property="og:site_name" content="Anthony Tanbakuchi">
+<meta property="og:title" content="Comparison of OpenCV Interpolation Algorithms">
+<meta property="og:url" content="http://tanbakuchi.com/posts/comparison-of-openv-interpolation-algorithms/">
+<meta property="og:description" content="The following are comparisons of the different image interpolation algorithms available in OpenCV. The exampes are shown for both upsizing and downsizing images. Also shown is a comparison of the spee">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2016-02-21T19:52:05Z">
+<meta property="article:tag" content="opencv">
+<meta property="article:tag" content="python">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -38,21 +45,27 @@
         <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
             <ul class="nav navbar-nav">
 <li>
-<a href="CV/TanbakuchiCV.pdf">CV</a>
+<a href="../../CV/TanbakuchiCV.pdf">CV</a>
                 </li>
 <li>
-<a href="stories/publications/">Publications</a>
+<a href="../../stories/publications/">Publications</a>
                 </li>
 <li>
-<a href="stories/teaching/">Teaching</a>
+<a href="../../stories/teaching/">Teaching</a>
                 </li>
 <li>
-<a href="stories/research/">Research</a>
+<a href="../../stories/research/">Research</a>
 
                 
             </li>
 </ul>
-<ul class="nav navbar-nav navbar-right"></ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+    <a href="index.ipynb" id="sourcelink">Source</a>
+    </li>
+
+                
+            </ul>
 </div>
 <!-- /.navbar-collapse -->
     </div>
@@ -63,16 +76,20 @@
         <div class="row">
             
             
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Comparison of OpenCV Interpolation Algorithms</a></h1>
 
-<div class="postindex">
-    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/comparison-of-openv-interpolation-algorithms/" class="u-url">Comparison of OpenCV Interpolation Algorithms</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">
-                Anthony Tanbakuchi
+                    Anthony Tanbakuchi
             </span></p>
-            <p class="dateline"><a href="posts/comparison-of-openv-interpolation-algorithms/" rel="bookmark"><time class="published dt-published" datetime="2016-02-21T19:52:05Z" title="2016-02-21 19:52">2016-02-21 19:52</time></a></p>
+            <p class="dateline"><a href="." rel="bookmark"><time class="published dt-published" datetime="2016-02-21T19:52:05Z" itemprop="datePublished" title="2016-02-21 19:52">2016-02-21 19:52</time></a></p>
+            
+        <p class="sourceline"><a href="index.ipynb" id="sourcelink">Source</a></p>
+
         </div>
-    </header><div class="e-content entry-content">
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
     <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
@@ -182,7 +199,7 @@ opencv version 2.4.12
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Upsampling-comparison">Upsampling comparison<a class="anchor-link" href="posts/comparison-of-openv-interpolation-algorithms/#Upsampling-comparison">¶</a>
+<h3 id="Upsampling-comparison">Upsampling comparison<a class="anchor-link" href="#Upsampling-comparison">¶</a>
 </h3>
 <p>Take a 50x50 image and rescale it to 400x400 pixels. For ease of comparison, the original and the rescaled are shown at the same size so the algorithm image quality can be compared. For updampling, area &amp; nearest algorithms create jagged edges while the linear makes smoother edges. The cubic and Lanczos make the sharpest edges.</p>
 
@@ -15324,7 +15341,7 @@ YII=">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Downsampling-comparison">Downsampling comparison<a class="anchor-link" href="posts/comparison-of-openv-interpolation-algorithms/#Downsampling-comparison">¶</a>
+<h3 id="Downsampling-comparison">Downsampling comparison<a class="anchor-link" href="#Downsampling-comparison">¶</a>
 </h3>
 <p>Take a 400x400 image and rescale it to 50x50 pixels. For ease of comparison, the original and the rescaled are shown at the same size so the algorithm image quality can be compared. For downsampling, the area algorithm avoids aliasing while the other algorithms are not really designed for decimation and aliasing results.</p>
 
@@ -15370,7 +15387,7 @@ YII=">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Speed-comparison">Speed comparison<a class="anchor-link" href="posts/comparison-of-openv-interpolation-algorithms/#Speed-comparison">¶</a>
+<h3 id="Speed-comparison">Speed comparison<a class="anchor-link" href="#Speed-comparison">¶</a>
 </h3>
 <p>The below plot shows that the linear algorithm is very well optimized and gives nearly the same speed as the nearest algorithm. The more complex algorithms have much more overhead.</p>
 
@@ -15448,276 +15465,17 @@ YII=">
   </div>
 
     </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/welcome-to-my-updated-site/" class="u-url">Welcome to my updated site</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">
-                Anthony Tanbakuchi
-            </span></p>
-            <p class="dateline"><a href="posts/welcome-to-my-updated-site/" rel="bookmark"><time class="published dt-published" datetime="2016-01-17T12:46:34-07:00" title="2016-01-17 12:46">2016-01-17 12:46</time></a></p>
-        </div>
-    </header><div class="e-content entry-content">
-    <div>
-<p>Since my long time hosting provider BlueHost kept increasing prices and I don't
-need any advanced features that they offer, I decided to move my site to Github Pages
-since I'm already a Github user.
-My site has been statically generated for years. The advantages of a static site are
-(1) it makes hosting simple,  (2) it is very secure compared to dynamic sites,
-and (3) I am not locked into any platform. I updated my static
-generator code to Python based <a class="reference external" href="https://getnikola.com">Nikola</a> from
-Ruby based <a class="reference external" href="http://webgen.gettalong.org">WebGen</a>. I made this change
-because I prefer Python and I like the option to be able to include iPython posts.
-By making these changes I was able to save about $160/year due to BlueHost's newly
-announced major price increases. My only cost now
-is my domain registration
-since Github Pages are free. Much thanks to the great community services at Github!</p>
-<p>All of the content that was available on the previous site is still here. Just
-use the menu at the top to access everything.</p>
-</div>
-    </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/a-polarization-system-for-persistent-chemical-detection/" class="u-url">A polarization system for persistent chemical detection</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">
-                Anthony Tanbakuchi
-            </span></p>
-            <p class="dateline"><a href="posts/a-polarization-system-for-persistent-chemical-detection/" rel="bookmark"><time class="published dt-published" datetime="2015-09-01T17:54:51-07:00" title="2015-09-01 17:54">2015-09-01 17:54</time></a></p>
-        </div>
-    </header><div class="e-content entry-content">
-    <div>
-<div class="figure">
-<img alt="/Papers/2015PolarizationSystem.jpg" src="Papers/2015PolarizationSystem.jpg">
-</div>
-<p>This was a conference paper that I was a co-author on where we developed a infrared
-polarization system for chemical detection.
-My contribution was the
-design, tolerancing, building, and testing of the optical system. The goal was to
-make a low cost short wave thermal imager (SWIR) to test polarization detection
-for certain chemicals. You can read the details in the
-<a class="reference external" href="Papers/2015PolarizationSystem.pdf">paper</a>. The design was very successful for
-the intended application as a first generation prototype. It was optimized
-for loose tolerances, easy fabrication of the optical elements, and passive
-assembly. By making the optics fit into a commercial telescope focuser and
-building some simple custom adaptors we turned something that could have cost many
-tens of thousands of dollars into an instrument that was only a few thousand dollars.
-Moreover, we were able to utilize rapid prototype parts for the filter holder enabling
-us to have more complex parts in that component without driving fabrication costs.</p>
-<p>Citation: Julia Craven-Jones, Leah Appelhans, Eric Couphos, Todd Embree, Patrick Finnegan,
-Dennis Goldstein, David Karelitz, Charles LaCasse, Ting S. Luk,
-Adoum Mahamat, Lee Massey, Anthony Tanbakuchi, Cody Washburn, Steven Vigil,
-<em>"A polarization system for persistent chemical detection,"</em>
-Proc. SPIE. 9613, Polarization Science and Remote Sensing VII, 96130B.
-September 01, 2015 doi: 10.1117/12.2188718
-<a class="reference external" href="Papers/2015PolarizationSystem.pdf">PDF</a></p>
-</div>
-    </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/practical-implementation-of-broadband-diffractive-optical-elements/" class="u-url">Practical implementation of broadband diffractive optical elements</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">
-                Anthony Tanbakuchi
-            </span></p>
-            <p class="dateline"><a href="posts/practical-implementation-of-broadband-diffractive-optical-elements/" rel="bookmark"><time class="published dt-published" datetime="2013-03-09T18:07:11-07:00" title="2013-03-09 18:07">2013-03-09 18:07</time></a></p>
-        </div>
-    </header><div class="e-content entry-content">
-    <div>
-<div class="figure">
-<img alt="/Papers/2013DiffractiveOptics.jpg" src="Papers/2013DiffractiveOptics.jpg">
-</div>
-<p>In this paper we discuss the practical modeling, design, and testing of a hybrid
-diffractive optical system. My contribution to this project was proposing the idea
-and helping with the implementation. You can read more in the
-<a class="reference external" href="Papers/2013DiffractiveOptics.pdf">paper</a>. You can also read the public
-Sandia National Laboratories <a class="reference external" href="Papers/2013DiffractiveSand.pdf">SAND report</a></p>
-<p>Citation: Junoh Choi; Alvaro A. Cruz-Cabrera; Anthony Tanbakuchi,
-<em>"Practical implementation of broadband diffractive optical elements"</em>,
-Proc. SPIE. 8612, Micromachining and Microfabrication Process Technology XVIII, 86120G.
-March 09, 2013 doi: 10.1117/12.2013204
-<a class="reference external" href="Papers/2013DiffractiveOptics.pdf">PDF</a></p>
-</div>
-    </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/simulation-and-experimental-characterization-of-a-mercury-cadmium-telluride-focal-plane-array/" class="u-url">Simulation and experimental characterization of a mercury cadmium telluride focal plane array</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">
-                Anthony Tanbakuchi
-            </span></p>
-            <p class="dateline"><a href="posts/simulation-and-experimental-characterization-of-a-mercury-cadmium-telluride-focal-plane-array/" rel="bookmark"><time class="published dt-published" datetime="2012-11-20T17:46:05-07:00" title="2012-11-20 17:46">2012-11-20 17:46</time></a></p>
-        </div>
-    </header><div class="e-content entry-content">
-    <div>
-<div class="figure">
-<img alt="/Papers/2012FocalPlane.jpg" src="Papers/2012FocalPlane.jpg">
-</div>
-<p>A custom IR spot scanning experiment was constructed to project subpixel spots
-on a mercury cadmium telluride focal plane array (FPA). The hardware consists
-of an FPA in a liquid nitrogen cooled Dewar, high precision motorized stages,
-a custom aspheric lens, and a 1.55 and 3.39 μm laser source. By controlling the
-position and intensity of the spot, characterizations of cross talk, saturation,
-blooming, and (indirectly) the minority carrier lifetime were performed. My
-contribution was the design of the custom aspherical optics that enabled
-a diffraction limited spot while still being easy to fabricate. You can read
-the full details in the <a class="reference external" href="Papers/2012FocalPlane.pdf">paper</a>.</p>
-<p>Citation: Soehnel, Grant; Tanbakuchi, Anthony,
-<em>"Simulation and experimental characterization of the point spread function,
-pixel saturation, and blooming of a mercury cadmium telluride focal plane array,”</em>
-Applied Optics 51(33) 7987-7993, Nov 2012.
-<a class="reference external" href="Papers/2012FocalPlane.pdf">PDF</a></p>
-</div>
-    </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/optical-design-and-performance-testing-of-an-athermal-swir-gas-correlation-imager/" class="u-url">Optical design and performance testing of an athermal SWIR gas correlation imager</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">
-                Anthony Tanbakuchi
-            </span></p>
-            <p class="dateline"><a href="posts/optical-design-and-performance-testing-of-an-athermal-swir-gas-correlation-imager/" rel="bookmark"><time class="published dt-published" datetime="2012-10-15T18:14:51-07:00" title="2012-10-15 18:14">2012-10-15 18:14</time></a></p>
-        </div>
-    </header><div class="e-content entry-content">
-    <div>
-<div class="figure">
-<img alt="/Papers/2012Athermal.jpg" src="Papers/2012Athermal.jpg">
-</div>
-<p>In this paper I present a dual channel 7 degree full field of view f/2.5 athermal
-optical design athermalized from 0 to 50 degrees C that operates in the wavelength range of 2.0 to 2.5
-microns suitable for methane imaging. The system was designed to image in the field.
-I was responsible for the optical design,
-tolerance budget, alignment plan, and peformance testing of the system.
-Predicted and as-built performance data including interferometric and
-ensquared energy measurements for both imaging channels are also shown in the
-<a class="reference external" href="Papers/2012Athermal.pdf">paper</a>. The as-built optical system meet the design
-requirements and preformed well in the field.</p>
-<p>Citation: A. Tanbakuchi; M. Smith; J. Mercier; S. Vigil; T. Embree; A. Ison,
-<em>"Optical design and performance testing of an athermal SWIR gas correlation imager,"</em>
-Proc. SPIE. 8491, Optical System Alignment, Tolerancing, and Verification VI,
-84910B. October 15, 2012 doi: 10.1117/12.928001
-<a class="reference external" href="Papers/2012Athermal.pdf">PDF</a></p>
-</div>
-    </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/novel-multi-point-scan-architecture-patent-application/" class="u-url">Novel Multi-Point Scan Architecture Patent Application</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">
-                Anthony Tanbakuchi
-            </span></p>
-            <p class="dateline"><a href="posts/novel-multi-point-scan-architecture-patent-application/" rel="bookmark"><time class="published dt-published" datetime="2012-05-10T19:34:58-07:00" title="2012-05-10 19:34">2012-05-10 19:34</time></a></p>
-        </div>
-    </header><div class="e-content entry-content">
-    <div>
-<div class="figure">
-<img alt="/Papers/2012PatentAppMultiPoint.jpg" src="Papers/2012PatentAppMultiPoint.jpg">
-</div>
-<p>This is a patent application that arose from my
-<a class="reference external" href="Papers/2009_TanbakuchiDissertation.pdf">dissertation</a>
-and <a class="reference external" href="Papers/2009_JBO_Monte_Carlo_Tanbakuchi.pdf">journal publication</a> where I was able
-to demonstrate through monte-carlo modeling that
-a slit scan system could be improved by making a small modification so that it
-becomes a multi-point scan system.</p>
-<p>Citation: A. Gimitro, A. Rouse, A. Tanbakuchi,
-<em>"Novel Multi-Point Scan Architecture,"</em> Application number US13266165, 2012.
-<a class="reference external" href="Papers/2012PatentAppMultiPoint.pdf">PDF</a>.</p>
-</div>
-    </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/a-multi-point-scanner-for-high-frame-rate-confocal-microendoscopy/" class="u-url">A multi-point scanner for high frame rate confocal microendoscopy</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">
-                Anthony Tanbakuchi
-            </span></p>
-            <p class="dateline"><a href="posts/a-multi-point-scanner-for-high-frame-rate-confocal-microendoscopy/" rel="bookmark"><time class="published dt-published" datetime="2010-01-19T18:22:33-07:00" title="2010-01-19 18:22">2010-01-19 18:22</time></a></p>
-        </div>
-    </header><div class="e-content entry-content">
-    <div>
-<div class="figure">
-<img alt="/Papers/2010Confocal.jpg" src="Papers/2010Confocal.jpg">
-</div>
-<p>Slit-scanning geometries for confocal microendoscopy represent a compromise
-between acquisition rate and optical performance.
-Such systems provide high frame rates that freeze motion but recent
-Monte Carlo simulations show that scattered light severely limits the
-practical imaging depth for in vivo applications. A new multi-point scanning
-architecture for confocal microendoscopy has been developed. The new scanner
-is based on a relatively simple modification to the slit-scanning geometry that
-results in a parallelized point-scanning confocal microendoscope that maintains
-the high frame rate of a slit-scanning system while providing optical performance
-close to that of a single point scanning system. You can read the details in
-the <a class="reference external" href="Papers/2010Confocal.pdf">paper</a>. This paper arose from my
-<a class="reference external" href="Papers/2009_TanbakuchiDissertation.pdf">dissertation</a>
-and <a class="reference external" href="Papers/2009_JBO_Monte_Carlo_Tanbakuchi.pdf">journal publication</a> where I was able
-to demonstrate through monte-carlo modeling that
-a slit scan system could be improved by making a small modification so that it
-becomes a multi-point scan system. My contribution was mainly the suggestion
-of the multi-point concept, Andy and Houssine did all the hard work.</p>
-<p>Citation: Andrew R. Rouse; Houssine Makhlouf; Anthony A. Tanbakuchi; Arthur F. Gmitro,
-<em>"A multi-point scanner for high frame rate confocal microendoscopy"</em>
-Proc. SPIE. 7558, Endoscopic Microscopy V, 755809. February 11, 2010 doi: 10.1117/12.842782
-<a class="reference external" href="Papers/2010Confocal.pdf">PDF</a></p>
-</div>
-    </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/in-vivo-imaging-of-ovarian-tissue-using-a-novel-confocal-microlaparoscope/" class="u-url">In vivo imaging of ovarian tissue using a novel confocal microlaparoscope</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">
-                Anthony Tanbakuchi
-            </span></p>
-            <p class="dateline"><a href="posts/in-vivo-imaging-of-ovarian-tissue-using-a-novel-confocal-microlaparoscope/" rel="bookmark"><time class="published dt-published" datetime="2010-01-01T05:17:07-07:00" title="2010-01-01 05:17">2010-01-01 05:17</time></a></p>
-        </div>
-    </header><div class="e-content entry-content">
-    <div>
-<div class="figure">
-<img alt="/Papers/2010AJOG_Clinical_Tanbakuchi.jpg" src="Papers/2010AJOG_Clinical_Tanbakuchi.jpg">
-</div>
-<p>The objective of the study was to develop a clinical confo- cal microlaparoscope
-for imaging ovary epithelium in vivo with the long- term objective of diagnosing
-cancer in vivo. A confocal microlaparoscope was developed and used to image the
-ovaries of 21 patients in vivo using fluorescein sodium and acridine orange as
-the fluorescent contrast agents. The device was tested in vivo and demonstrated
-to be safe and function as designed. Real-time cellular visualization of ovary
-epithelium was demonstrated. The confocal microlaparoscope represents a new type
-of in vivo imaging device. With its ability to image cellular details in real
-time, it has the potential to aid in the early diagnosis of cancer. Initially
-the device may be used to locate unusual regions for guided biopsies. In the
-long term, the device may be able to supplant traditional biopsies and allow
-the surgeon to identify early-stage ovarian cancer.
-You can read the full <a class="reference external" href="Papers/2010AJOG_Clinical_Tanbakuchi.pdf">journal article</a>.
-Below is a video from the instrument in use.</p>
-<iframe width="459" height="344" src="https://www.youtube.com/embed/HbQFZHAFMhY?feature=oembed" frameborder="0" allowfullscreen></iframe><p>This publication represented 1 of 3 journal articles that comprimised my
-<a class="reference external" href="Papers/2009_TanbakuchiDissertation.pdf">dissertation</a>. My contribution
-was the design and development of the next generation confocal microlaparascope,
-software development, lens design, and clinical testing of the device with
-Kenneth Hatch, Andy Rouse, and Art Gimitro. Both Art (my advisor) and
-Andy were exceptional mentors and collaborators for this work. I couldn't have
-done it without them.</p>
-<p>Citation: Anthony A Tanbakuchi, Joshua A Udovich, Andrew R Rouse, Kenneth D
-Hatch, and Arthur F Gmitro. In vivo imaging of ovarian tissue using a
-novel confocal microlaparoscope. Am J Obstet Gynecol, Oct 2010.
-<a class="reference external" href="Papers/2010AJOG_Clinical_Tanbakuchi.pdf">PDF</a></p>
-</div>
-    </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/method-for-reconstruction-of-pixel-color-values-patent-application/" class="u-url">Method for reconstruction of pixel color values patent application</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">
-                Anthony Tanbakuchi
-            </span></p>
-            <p class="dateline"><a href="posts/method-for-reconstruction-of-pixel-color-values-patent-application/" rel="bookmark"><time class="published dt-published" datetime="2009-10-22T20:00:43-07:00" title="2009-10-22 20:00">2009-10-22 20:00</time></a></p>
-        </div>
-    </header><div class="e-content entry-content">
-    <div>
-<div class="figure">
-<img alt="/Papers/2009PatentAppColor.jpg" src="Papers/2009PatentAppColor.jpg">
-</div>
-<p>This is a patent that resulted from my work at Philips Research Labs in Endhoven,
-The Netherlands. I was working in the Image Sensors division (later sold to
-DALSA) when color reconstruction algorithm for Bayer color filter array data. You can
-read the full <a class="reference external" href="Papers/2009PatentAppColor.pdf">patent</a>.</p>
-<p>Citation: A. Tanbakuchi,
-<em>"Method for reconstruction of pixel color values,"</em>
-US 20090263017 A1, 2009.
-<a class="reference external" href="Papers/2009PatentAppColor.pdf">PDF</a>.</p>
-</div>
-    </div>
-    </article>
-</div>
-
-        <nav class="postindexpager"><ul class="pager">
-<li class="next">
-                <a href="index-1.html" rel="next">Older posts</a>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../categories/opencv/" rel="tag">opencv</a></li>
+            <li><a class="tag p-category" href="../../categories/python/" rel="tag">python</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="../welcome-to-my-updated-site/" rel="prev" title="Welcome to my updated site">Previous post</a>
             </li>
-        </ul></nav><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script><script type="text/x-mathjax-config">
+        </ul></nav></aside><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script><script type="text/x-mathjax-config">
             MathJax.Hub.Config({tex2jax: {inlineMath: [['$latex ','$'], ['\\(','\\)']]}});
-            </script>
+            </script></article>
 </div>
         <!--End of body content-->
 
@@ -15729,7 +15487,7 @@ US 20090263017 A1, 2009.
 </div>
 
 
-            <script src="assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+            <script src="../../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
     moment.locale("en");
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates -->

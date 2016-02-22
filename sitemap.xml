@@ -7,186 +7,210 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://tanbakuchi.com/</loc>
-  <lastmod>2016-01-20T12:30:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/2008/</loc>
-  <lastmod>2016-01-19T03:07:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/2009/</loc>
-  <lastmod>2016-01-20T02:51:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/2010/</loc>
-  <lastmod>2016-01-20T01:24:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/2012/</loc>
-  <lastmod>2016-01-20T01:15:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/2013/</loc>
-  <lastmod>2016-01-20T01:08:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/2015/</loc>
-  <lastmod>2016-01-20T00:55:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/2016/</loc>
-  <lastmod>2016-01-17T19:46:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/archive.html</loc>
-  <lastmod>2016-01-21T00:50:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/categories/</loc>
-  <lastmod>2016-01-20T12:17:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://tanbakuchi.com/categories/opencv/</loc>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/categories/patents/</loc>
-  <lastmod>2016-01-20T02:50:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/categories/publication/</loc>
-  <lastmod>2016-01-20T12:17:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/categories/publications/</loc>
-  <lastmod>2016-01-20T01:42:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://tanbakuchi.com/categories/python/</loc>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/galleries/</loc>
-  <lastmod>2016-01-17T20:15:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/index-1.html</loc>
-  <lastmod>2016-01-21T00:46:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/listings/</loc>
-  <lastmod>2016-01-17T20:15:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/listings/__pycache__/</loc>
-  <lastmod>2016-01-17T19:41:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/listings/hello.py.html</loc>
-  <lastmod>2016-01-18T01:58:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/permanent/dissertation/Ch3V1.mov/</loc>
-  <lastmod>2016-01-17T19:41:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/permanent/dissertation/Ch3V2.mov/</loc>
-  <lastmod>2016-01-17T19:41:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/permanent/dissertation/Ch3V3.mov/</loc>
-  <lastmod>2016-01-17T19:41:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/permanent/dissertation/Ch4V1.mov/</loc>
-  <lastmod>2016-01-17T19:41:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/permanent/dissertation/Ch4V2.mov/</loc>
-  <lastmod>2016-01-17T19:41:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/permanent/dissertation/Ch6V1.mov/</loc>
-  <lastmod>2016-01-17T19:41:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/a-multi-point-scanner-for-high-frame-rate-confocal-microendoscopy/</loc>
-  <lastmod>2016-01-20T01:22:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/a-polarization-system-for-persistent-chemical-detection/</loc>
-  <lastmod>2016-01-20T00:54:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/clinical-confocal-microlaparoscope-for-real-time-in-vivo-optical-biopsies/</loc>
-  <lastmod>2016-01-20T13:04:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://tanbakuchi.com/posts/comparison-of-opencv-interpolation-algorithms/</loc>
+  <lastmod>2016-02-22T03:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://tanbakuchi.com/posts/comparison-of-openv-interpolation-algorithms/</loc>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://tanbakuchi.com/posts/comparison-opencv-interpolation-algorithms/</loc>
+  <lastmod>2016-02-22T03:43:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/dissertation-complete/</loc>
-  <lastmod>2016-01-20T12:30:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/in-vivo-imaging-of-ovarian-tissue-using-a-novel-confocal-microlaparoscope/</loc>
-  <lastmod>2016-01-20T12:17:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/method-and-apparatus-for-adaptive-pixel-correction-of-multi-color-matrix-patent/</loc>
-  <lastmod>2016-01-20T02:50:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/method-for-reconstruction-of-pixel-color-values-patent-application/</loc>
-  <lastmod>2016-01-20T03:00:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/monte-carlo-characterization-of-parallelized-fluorescence-confocal-systems-imaging-in-turbid-media/</loc>
-  <lastmod>2016-01-20T12:46:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/novel-multi-point-scan-architecture-patent-application/</loc>
-  <lastmod>2016-01-20T02:36:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/optical-design-and-performance-testing-of-an-athermal-swir-gas-correlation-imager/</loc>
-  <lastmod>2016-01-20T01:14:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/practical-implementation-of-broadband-diffractive-optical-elements/</loc>
-  <lastmod>2016-01-20T01:07:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/real-time-confocal-microendoscope-poster/</loc>
-  <lastmod>2016-01-19T03:08:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/simulation-and-experimental-characterization-of-a-mercury-cadmium-telluride-focal-plane-array/</loc>
-  <lastmod>2016-01-21T00:46:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://tanbakuchi.com/posts/test-ipynb/</loc>
+  <lastmod>2016-02-22T03:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/welcome-to-my-updated-site/</loc>
-  <lastmod>2016-01-17T19:46:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/stories/cv/</loc>
-  <lastmod>2016-01-17T19:42:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/stories/publications/</loc>
-  <lastmod>2016-01-17T19:42:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/stories/research/</loc>
-  <lastmod>2016-01-17T19:42:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/stories/teaching/</loc>
-  <lastmod>2016-01-17T19:42:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/stories/teaching/mat167/</loc>
-  <lastmod>2016-01-17T19:42:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/stories/teaching/mat182/</loc>
-  <lastmod>2016-01-17T19:42:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/stories/teaching/sdgp/</loc>
-  <lastmod>2016-01-17T19:42:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/stories/teaching/tec042/</loc>
-  <lastmod>2016-01-17T19:42:00Z</lastmod>
+  <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
 </urlset>
