@@ -141,6 +141,7 @@ NAVIGATION_LINKS = {
 # Name of the theme to use.
 THEME = "bootstrap3"
 
+
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
 THEME_COLOR = '#5670d4'
@@ -173,10 +174,12 @@ THEME_COLOR = '#5670d4'
 POSTS = (
     ("posts/*.rst", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
+    ("posts/*.ipynb", "posts", "post.tmpl"),
 )
 PAGES = (
     ("stories/*.rst", "stories", "story.tmpl"),
     ("stories/*.txt", "stories", "story.tmpl"),
+    ("stories/*.ipynb", "stories", "story.tmpl"),
 )
 
 
