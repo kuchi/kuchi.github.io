@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://tanbakuchi.com/categories/opencv.xml</loc>
-  <lastmod>2016-02-22T04:30:00Z</lastmod>
+  <lastmod>2016-02-22T04:38:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://tanbakuchi.com/categories/patents.xml</loc>
@@ -23,7 +23,7 @@
  </sitemap>
  <sitemap>
   <loc>http://tanbakuchi.com/categories/python.xml</loc>
-  <lastmod>2016-02-22T04:30:00Z</lastmod>
+  <lastmod>2016-02-22T04:38:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://tanbakuchi.com/galleries/rss.xml</loc>
@@ -31,10 +31,10 @@
  </sitemap>
  <sitemap>
   <loc>http://tanbakuchi.com/rss.xml</loc>
-  <lastmod>2016-02-22T04:30:00Z</lastmod>
+  <lastmod>2016-02-22T04:38:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://tanbakuchi.com/sitemap.xml</loc>
-  <lastmod>2016-02-22T04:30:00Z</lastmod>
+  <lastmod>2016-02-22T04:38:00Z</lastmod>
  </sitemap>
 </sitemapindex>

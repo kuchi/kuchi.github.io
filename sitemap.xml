@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://tanbakuchi.com/</loc>
-  <lastmod>2016-02-22T04:30:00Z</lastmod>
+  <lastmod>2016-02-22T04:31:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/2008/</loc>
@@ -122,16 +122,8 @@
   <lastmod>2016-02-22T04:30:00Z</lastmod>
  </url>
  <url>
-  <loc>http://tanbakuchi.com/posts/comparison-of-opencv-interpolation-algorithms/</loc>
-  <lastmod>2016-02-22T03:50:00Z</lastmod>
- </url>
- <url>
   <loc>http://tanbakuchi.com/posts/comparison-of-openv-interpolation-algorithms/</loc>
   <lastmod>2016-02-22T04:30:00Z</lastmod>
- </url>
- <url>
-  <loc>http://tanbakuchi.com/posts/comparison-opencv-interpolation-algorithms/</loc>
-  <lastmod>2016-02-22T03:43:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/dissertation-complete/</loc>
@@ -172,10 +164,6 @@
  <url>
   <loc>http://tanbakuchi.com/posts/simulation-and-experimental-characterization-of-a-mercury-cadmium-telluride-focal-plane-array/</loc>
   <lastmod>2016-02-22T04:30:00Z</lastmod>
- </url>
- <url>
-  <loc>http://tanbakuchi.com/posts/test-ipynb/</loc>
-  <lastmod>2016-02-22T03:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://tanbakuchi.com/posts/welcome-to-my-updated-site/</loc>
